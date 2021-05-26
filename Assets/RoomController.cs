@@ -5,7 +5,6 @@ using UnityEngine.UI;
 using Photon.Pun;
 using UnityEngine.SceneManagement;
 using Photon.Realtime;
-using ExitGames.Client.Photon;
 
 public class RoomController : MonoBehaviourPunCallbacks
 {

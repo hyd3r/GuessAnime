@@ -13,7 +13,125 @@ MonoBehaviour:
   m_Name: AnilistAPI
   m_EditorClassIdentifier: 
   url: https://graphql.anilist.co/
-  queries: []
+  queries:
+  - name: GetAnimeLists
+    type: 0
+    query: "query GetAnimeLists{\n    MediaListCollection(  userName :\"sdfsdfsgsysesetststst\",
+      type :ANIME, sort :SCORE_DESC, status :COMPLETED, forceSingleCompletedList
+      :true ){\n        lists{\n            entries{\n                mediaId\n           
+      }\n        }\n    }\n}"
+    queryString: MediaListCollection
+    returnType: MediaListCollection
+    queryOptions:
+    - Page
+    - Media
+    - MediaTrend
+    - AiringSchedule
+    - Character
+    - Staff
+    - MediaList
+    - MediaListCollection
+    - GenreCollection
+    - MediaTagCollection
+    - User
+    - Viewer
+    - Notification
+    - Studio
+    - Review
+    - Activity
+    - ActivityReply
+    - Following
+    - Follower
+    - Thread
+    - ThreadComment
+    - Recommendation
+    - Like
+    - Markdown
+    - AniChartUser
+    - SiteStatistics
+    fields:
+    - index: 0
+      name: lists
+      type: MediaListGroup
+      parentIndexes: 
+      hasSubField: 1
+      possibleFields:
+      - name: lists
+        type: MediaListGroup
+      - name: user
+        type: User
+      - name: hasNextChunk
+        type: Boolean
+      - name: statusLists
+        type: MediaList
+      - name: customLists
+        type: MediaList
+      hasChanged: 0
+    - index: 0
+      name: entries
+      type: MediaList
+      parentIndexes: 00000000
+      hasSubField: 1
+      possibleFields:
+      - name: entries
+        type: MediaList
+      - name: name
+        type: String
+      - name: isCustomList
+        type: Boolean
+      - name: isSplitCompletedList
+        type: Boolean
+      - name: status
+        type: MediaListStatus
+      hasChanged: 0
+    - index: 2
+      name: mediaId
+      type: Int
+      parentIndexes: 0000000001000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: Int
+      - name: userId
+        type: Int
+      - name: mediaId
+        type: Int
+      - name: status
+        type: MediaListStatus
+      - name: score
+        type: Float
+      - name: progress
+        type: Int
+      - name: progressVolumes
+        type: Int
+      - name: repeat
+        type: Int
+      - name: priority
+        type: Int
+      - name: private
+        type: Boolean
+      - name: notes
+        type: String
+      - name: hiddenFromStatusLists
+        type: Boolean
+      - name: customLists
+        type: Json
+      - name: advancedScores
+        type: Json
+      - name: startedAt
+        type: FuzzyDate
+      - name: completedAt
+        type: FuzzyDate
+      - name: updatedAt
+        type: Int
+      - name: createdAt
+        type: Int
+      - name: media
+        type: Media
+      - name: user
+        type: User
+      hasChanged: 0
+    isComplete: 1
   mutations: []
   subscriptions: []
   loading: 0
