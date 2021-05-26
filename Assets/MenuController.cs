@@ -6,16 +6,19 @@ using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
 
+
 public class MenuController : MonoBehaviourPunCallbacks
 {
     [SerializeField] private GameObject usernameMenu;
     [SerializeField] private GameObject connectPanel;
-
+    
     [SerializeField] private TMP_InputField usernameInput;
     [SerializeField] private InputField createGameInput;
     [SerializeField] private InputField joinGameInput;
+    [SerializeField] private Text info;
 
     [SerializeField] private GameObject startButton;
+
 
     private void Awake()
     {
@@ -31,7 +34,12 @@ public class MenuController : MonoBehaviourPunCallbacks
     public override void OnConnectedToMaster()
     {
         PhotonNetwork.JoinLobby(TypedLobby.Default);
-        Debug.Log("Connected");
+        info.text = "Connected to the Server";
+    }
+
+    public override void OnCreateRoomFailed(short returnCode, string message)
+    {
+        info.text = message;
     }
 
 
@@ -62,6 +70,8 @@ public class MenuController : MonoBehaviourPunCallbacks
     {
         RoomOptions roomOptions = new RoomOptions();
         roomOptions.MaxPlayers = 5;
+        roomOptions.PublishUserId = true;
+        roomOptions.CleanupCacheOnLeave = false;
         PhotonNetwork.JoinOrCreateRoom(joinGameInput.text, roomOptions, TypedLobby.Default);
     }
 
@@ -69,4 +79,6 @@ public class MenuController : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.LoadLevel("MainGame");
     }
+
+
 }
