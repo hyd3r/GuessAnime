@@ -16,10 +16,16 @@ MonoBehaviour:
   queries:
   - name: GetAnimeLists
     type: 0
-    query: "query GetAnimeLists{\n    MediaListCollection(  userName :\"sdfsdfsgsysesetststst\",
+    query: "query GetAnimeLists{\n    MediaListCollection(  userName :\"hyd3r\",
       type :ANIME, sort :SCORE_DESC, status :COMPLETED, forceSingleCompletedList
-      :true ){\n        lists{\n            entries{\n                mediaId\n           
-      }\n        }\n    }\n}"
+      :true ){\n        lists{\n            entries{\n                media{\n                   
+      coverImage{\n                        large\n        }\n                   
+      title{\n                        english\n        }\n                    characters{\n                       
+      nodes{\n                            name{\n                               
+      full\n        }\n                            image{\n                               
+      large\n        }\n                            description\n            }\n       
+      }\n                    genres\n                    bannerImage\n                   
+      description\n                }\n            }\n        }\n    }\n}"
     queryString: MediaListCollection
     returnType: MediaListCollection
     queryOptions:
@@ -84,11 +90,11 @@ MonoBehaviour:
       - name: status
         type: MediaListStatus
       hasChanged: 0
-    - index: 2
-      name: mediaId
-      type: Int
+    - index: 18
+      name: media
+      type: Media
       parentIndexes: 0000000001000000
-      hasSubField: 0
+      hasSubField: 1
       possibleFields:
       - name: id
         type: Int
@@ -130,6 +136,864 @@ MonoBehaviour:
         type: Media
       - name: user
         type: User
+      hasChanged: 0
+    - index: 22
+      name: coverImage
+      type: MediaCoverImage
+      parentIndexes: 000000000100000002000000
+      hasSubField: 1
+      possibleFields:
+      - name: id
+        type: Int
+      - name: idMal
+        type: Int
+      - name: title
+        type: MediaTitle
+      - name: type
+        type: MediaType
+      - name: format
+        type: MediaFormat
+      - name: status
+        type: MediaStatus
+      - name: description
+        type: String
+      - name: startDate
+        type: FuzzyDate
+      - name: endDate
+        type: FuzzyDate
+      - name: season
+        type: MediaSeason
+      - name: seasonYear
+        type: Int
+      - name: seasonInt
+        type: Int
+      - name: episodes
+        type: Int
+      - name: duration
+        type: Int
+      - name: chapters
+        type: Int
+      - name: volumes
+        type: Int
+      - name: countryOfOrigin
+        type: CountryCode
+      - name: isLicensed
+        type: Boolean
+      - name: source
+        type: MediaSource
+      - name: hashtag
+        type: String
+      - name: trailer
+        type: MediaTrailer
+      - name: updatedAt
+        type: Int
+      - name: coverImage
+        type: MediaCoverImage
+      - name: bannerImage
+        type: String
+      - name: genres
+        type: String
+      - name: synonyms
+        type: String
+      - name: averageScore
+        type: Int
+      - name: meanScore
+        type: Int
+      - name: popularity
+        type: Int
+      - name: isLocked
+        type: Boolean
+      - name: trending
+        type: Int
+      - name: favourites
+        type: Int
+      - name: tags
+        type: MediaTag
+      - name: relations
+        type: MediaConnection
+      - name: characters
+        type: CharacterConnection
+      - name: staff
+        type: StaffConnection
+      - name: studios
+        type: StudioConnection
+      - name: isFavourite
+        type: Boolean
+      - name: isAdult
+        type: Boolean
+      - name: nextAiringEpisode
+        type: AiringSchedule
+      - name: airingSchedule
+        type: AiringScheduleConnection
+      - name: trends
+        type: MediaTrendConnection
+      - name: externalLinks
+        type: MediaExternalLink
+      - name: streamingEpisodes
+        type: MediaStreamingEpisode
+      - name: rankings
+        type: MediaRank
+      - name: mediaListEntry
+        type: MediaList
+      - name: reviews
+        type: ReviewConnection
+      - name: recommendations
+        type: RecommendationConnection
+      - name: stats
+        type: MediaStats
+      - name: siteUrl
+        type: String
+      - name: autoCreateForumThread
+        type: Boolean
+      - name: isRecommendationBlocked
+        type: Boolean
+      - name: modNotes
+        type: String
+      hasChanged: 0
+    - index: 1
+      name: large
+      type: String
+      parentIndexes: 00000000010000000200000003000000
+      hasSubField: 0
+      possibleFields:
+      - name: extraLarge
+        type: String
+      - name: large
+        type: String
+      - name: medium
+        type: String
+      - name: color
+        type: String
+      hasChanged: 0
+    - index: 2
+      name: title
+      type: MediaTitle
+      parentIndexes: 000000000100000002000000
+      hasSubField: 1
+      possibleFields:
+      - name: id
+        type: Int
+      - name: idMal
+        type: Int
+      - name: title
+        type: MediaTitle
+      - name: type
+        type: MediaType
+      - name: format
+        type: MediaFormat
+      - name: status
+        type: MediaStatus
+      - name: description
+        type: String
+      - name: startDate
+        type: FuzzyDate
+      - name: endDate
+        type: FuzzyDate
+      - name: season
+        type: MediaSeason
+      - name: seasonYear
+        type: Int
+      - name: seasonInt
+        type: Int
+      - name: episodes
+        type: Int
+      - name: duration
+        type: Int
+      - name: chapters
+        type: Int
+      - name: volumes
+        type: Int
+      - name: countryOfOrigin
+        type: CountryCode
+      - name: isLicensed
+        type: Boolean
+      - name: source
+        type: MediaSource
+      - name: hashtag
+        type: String
+      - name: trailer
+        type: MediaTrailer
+      - name: updatedAt
+        type: Int
+      - name: coverImage
+        type: MediaCoverImage
+      - name: bannerImage
+        type: String
+      - name: genres
+        type: String
+      - name: synonyms
+        type: String
+      - name: averageScore
+        type: Int
+      - name: meanScore
+        type: Int
+      - name: popularity
+        type: Int
+      - name: isLocked
+        type: Boolean
+      - name: trending
+        type: Int
+      - name: favourites
+        type: Int
+      - name: tags
+        type: MediaTag
+      - name: relations
+        type: MediaConnection
+      - name: characters
+        type: CharacterConnection
+      - name: staff
+        type: StaffConnection
+      - name: studios
+        type: StudioConnection
+      - name: isFavourite
+        type: Boolean
+      - name: isAdult
+        type: Boolean
+      - name: nextAiringEpisode
+        type: AiringSchedule
+      - name: airingSchedule
+        type: AiringScheduleConnection
+      - name: trends
+        type: MediaTrendConnection
+      - name: externalLinks
+        type: MediaExternalLink
+      - name: streamingEpisodes
+        type: MediaStreamingEpisode
+      - name: rankings
+        type: MediaRank
+      - name: mediaListEntry
+        type: MediaList
+      - name: reviews
+        type: ReviewConnection
+      - name: recommendations
+        type: RecommendationConnection
+      - name: stats
+        type: MediaStats
+      - name: siteUrl
+        type: String
+      - name: autoCreateForumThread
+        type: Boolean
+      - name: isRecommendationBlocked
+        type: Boolean
+      - name: modNotes
+        type: String
+      hasChanged: 0
+    - index: 1
+      name: english
+      type: String
+      parentIndexes: 00000000010000000200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: romaji
+        type: String
+      - name: english
+        type: String
+      - name: native
+        type: String
+      - name: userPreferred
+        type: String
+      hasChanged: 0
+    - index: 34
+      name: characters
+      type: CharacterConnection
+      parentIndexes: 000000000100000002000000
+      hasSubField: 1
+      possibleFields:
+      - name: id
+        type: Int
+      - name: idMal
+        type: Int
+      - name: title
+        type: MediaTitle
+      - name: type
+        type: MediaType
+      - name: format
+        type: MediaFormat
+      - name: status
+        type: MediaStatus
+      - name: description
+        type: String
+      - name: startDate
+        type: FuzzyDate
+      - name: endDate
+        type: FuzzyDate
+      - name: season
+        type: MediaSeason
+      - name: seasonYear
+        type: Int
+      - name: seasonInt
+        type: Int
+      - name: episodes
+        type: Int
+      - name: duration
+        type: Int
+      - name: chapters
+        type: Int
+      - name: volumes
+        type: Int
+      - name: countryOfOrigin
+        type: CountryCode
+      - name: isLicensed
+        type: Boolean
+      - name: source
+        type: MediaSource
+      - name: hashtag
+        type: String
+      - name: trailer
+        type: MediaTrailer
+      - name: updatedAt
+        type: Int
+      - name: coverImage
+        type: MediaCoverImage
+      - name: bannerImage
+        type: String
+      - name: genres
+        type: String
+      - name: synonyms
+        type: String
+      - name: averageScore
+        type: Int
+      - name: meanScore
+        type: Int
+      - name: popularity
+        type: Int
+      - name: isLocked
+        type: Boolean
+      - name: trending
+        type: Int
+      - name: favourites
+        type: Int
+      - name: tags
+        type: MediaTag
+      - name: relations
+        type: MediaConnection
+      - name: characters
+        type: CharacterConnection
+      - name: staff
+        type: StaffConnection
+      - name: studios
+        type: StudioConnection
+      - name: isFavourite
+        type: Boolean
+      - name: isAdult
+        type: Boolean
+      - name: nextAiringEpisode
+        type: AiringSchedule
+      - name: airingSchedule
+        type: AiringScheduleConnection
+      - name: trends
+        type: MediaTrendConnection
+      - name: externalLinks
+        type: MediaExternalLink
+      - name: streamingEpisodes
+        type: MediaStreamingEpisode
+      - name: rankings
+        type: MediaRank
+      - name: mediaListEntry
+        type: MediaList
+      - name: reviews
+        type: ReviewConnection
+      - name: recommendations
+        type: RecommendationConnection
+      - name: stats
+        type: MediaStats
+      - name: siteUrl
+        type: String
+      - name: autoCreateForumThread
+        type: Boolean
+      - name: isRecommendationBlocked
+        type: Boolean
+      - name: modNotes
+        type: String
+      hasChanged: 0
+    - index: 1
+      name: nodes
+      type: Character
+      parentIndexes: 00000000010000000200000007000000
+      hasSubField: 1
+      possibleFields:
+      - name: edges
+        type: CharacterEdge
+      - name: nodes
+        type: Character
+      - name: pageInfo
+        type: PageInfo
+      hasChanged: 0
+    - index: 1
+      name: name
+      type: CharacterName
+      parentIndexes: 0000000001000000020000000700000008000000
+      hasSubField: 1
+      possibleFields:
+      - name: id
+        type: Int
+      - name: name
+        type: CharacterName
+      - name: image
+        type: CharacterImage
+      - name: description
+        type: String
+      - name: gender
+        type: String
+      - name: dateOfBirth
+        type: FuzzyDate
+      - name: age
+        type: String
+      - name: isFavourite
+        type: Boolean
+      - name: isFavouriteBlocked
+        type: Boolean
+      - name: siteUrl
+        type: String
+      - name: media
+        type: MediaConnection
+      - name: updatedAt
+        type: Int
+      - name: favourites
+        type: Int
+      - name: modNotes
+        type: String
+      hasChanged: 0
+    - index: 3
+      name: full
+      type: String
+      parentIndexes: 000000000100000002000000070000000800000009000000
+      hasSubField: 0
+      possibleFields:
+      - name: first
+        type: String
+      - name: middle
+        type: String
+      - name: last
+        type: String
+      - name: full
+        type: String
+      - name: native
+        type: String
+      - name: alternative
+        type: String
+      - name: alternativeSpoiler
+        type: String
+      hasChanged: 0
+    - index: 2
+      name: image
+      type: CharacterImage
+      parentIndexes: 0000000001000000020000000700000008000000
+      hasSubField: 1
+      possibleFields:
+      - name: id
+        type: Int
+      - name: name
+        type: CharacterName
+      - name: image
+        type: CharacterImage
+      - name: description
+        type: String
+      - name: gender
+        type: String
+      - name: dateOfBirth
+        type: FuzzyDate
+      - name: age
+        type: String
+      - name: isFavourite
+        type: Boolean
+      - name: isFavouriteBlocked
+        type: Boolean
+      - name: siteUrl
+        type: String
+      - name: media
+        type: MediaConnection
+      - name: updatedAt
+        type: Int
+      - name: favourites
+        type: Int
+      - name: modNotes
+        type: String
+      hasChanged: 0
+    - index: 0
+      name: large
+      type: String
+      parentIndexes: 00000000010000000200000007000000080000000b000000
+      hasSubField: 0
+      possibleFields:
+      - name: large
+        type: String
+      - name: medium
+        type: String
+      hasChanged: 0
+    - index: 3
+      name: description
+      type: String
+      parentIndexes: 0000000001000000020000000700000008000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: Int
+      - name: name
+        type: CharacterName
+      - name: image
+        type: CharacterImage
+      - name: description
+        type: String
+      - name: gender
+        type: String
+      - name: dateOfBirth
+        type: FuzzyDate
+      - name: age
+        type: String
+      - name: isFavourite
+        type: Boolean
+      - name: isFavouriteBlocked
+        type: Boolean
+      - name: siteUrl
+        type: String
+      - name: media
+        type: MediaConnection
+      - name: updatedAt
+        type: Int
+      - name: favourites
+        type: Int
+      - name: modNotes
+        type: String
+      hasChanged: 0
+    - index: 24
+      name: genres
+      type: String
+      parentIndexes: 000000000100000002000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: Int
+      - name: idMal
+        type: Int
+      - name: title
+        type: MediaTitle
+      - name: type
+        type: MediaType
+      - name: format
+        type: MediaFormat
+      - name: status
+        type: MediaStatus
+      - name: description
+        type: String
+      - name: startDate
+        type: FuzzyDate
+      - name: endDate
+        type: FuzzyDate
+      - name: season
+        type: MediaSeason
+      - name: seasonYear
+        type: Int
+      - name: seasonInt
+        type: Int
+      - name: episodes
+        type: Int
+      - name: duration
+        type: Int
+      - name: chapters
+        type: Int
+      - name: volumes
+        type: Int
+      - name: countryOfOrigin
+        type: CountryCode
+      - name: isLicensed
+        type: Boolean
+      - name: source
+        type: MediaSource
+      - name: hashtag
+        type: String
+      - name: trailer
+        type: MediaTrailer
+      - name: updatedAt
+        type: Int
+      - name: coverImage
+        type: MediaCoverImage
+      - name: bannerImage
+        type: String
+      - name: genres
+        type: String
+      - name: synonyms
+        type: String
+      - name: averageScore
+        type: Int
+      - name: meanScore
+        type: Int
+      - name: popularity
+        type: Int
+      - name: isLocked
+        type: Boolean
+      - name: trending
+        type: Int
+      - name: favourites
+        type: Int
+      - name: tags
+        type: MediaTag
+      - name: relations
+        type: MediaConnection
+      - name: characters
+        type: CharacterConnection
+      - name: staff
+        type: StaffConnection
+      - name: studios
+        type: StudioConnection
+      - name: isFavourite
+        type: Boolean
+      - name: isAdult
+        type: Boolean
+      - name: nextAiringEpisode
+        type: AiringSchedule
+      - name: airingSchedule
+        type: AiringScheduleConnection
+      - name: trends
+        type: MediaTrendConnection
+      - name: externalLinks
+        type: MediaExternalLink
+      - name: streamingEpisodes
+        type: MediaStreamingEpisode
+      - name: rankings
+        type: MediaRank
+      - name: mediaListEntry
+        type: MediaList
+      - name: reviews
+        type: ReviewConnection
+      - name: recommendations
+        type: RecommendationConnection
+      - name: stats
+        type: MediaStats
+      - name: siteUrl
+        type: String
+      - name: autoCreateForumThread
+        type: Boolean
+      - name: isRecommendationBlocked
+        type: Boolean
+      - name: modNotes
+        type: String
+      hasChanged: 0
+    - index: 23
+      name: bannerImage
+      type: String
+      parentIndexes: 000000000100000002000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: Int
+      - name: idMal
+        type: Int
+      - name: title
+        type: MediaTitle
+      - name: type
+        type: MediaType
+      - name: format
+        type: MediaFormat
+      - name: status
+        type: MediaStatus
+      - name: description
+        type: String
+      - name: startDate
+        type: FuzzyDate
+      - name: endDate
+        type: FuzzyDate
+      - name: season
+        type: MediaSeason
+      - name: seasonYear
+        type: Int
+      - name: seasonInt
+        type: Int
+      - name: episodes
+        type: Int
+      - name: duration
+        type: Int
+      - name: chapters
+        type: Int
+      - name: volumes
+        type: Int
+      - name: countryOfOrigin
+        type: CountryCode
+      - name: isLicensed
+        type: Boolean
+      - name: source
+        type: MediaSource
+      - name: hashtag
+        type: String
+      - name: trailer
+        type: MediaTrailer
+      - name: updatedAt
+        type: Int
+      - name: coverImage
+        type: MediaCoverImage
+      - name: bannerImage
+        type: String
+      - name: genres
+        type: String
+      - name: synonyms
+        type: String
+      - name: averageScore
+        type: Int
+      - name: meanScore
+        type: Int
+      - name: popularity
+        type: Int
+      - name: isLocked
+        type: Boolean
+      - name: trending
+        type: Int
+      - name: favourites
+        type: Int
+      - name: tags
+        type: MediaTag
+      - name: relations
+        type: MediaConnection
+      - name: characters
+        type: CharacterConnection
+      - name: staff
+        type: StaffConnection
+      - name: studios
+        type: StudioConnection
+      - name: isFavourite
+        type: Boolean
+      - name: isAdult
+        type: Boolean
+      - name: nextAiringEpisode
+        type: AiringSchedule
+      - name: airingSchedule
+        type: AiringScheduleConnection
+      - name: trends
+        type: MediaTrendConnection
+      - name: externalLinks
+        type: MediaExternalLink
+      - name: streamingEpisodes
+        type: MediaStreamingEpisode
+      - name: rankings
+        type: MediaRank
+      - name: mediaListEntry
+        type: MediaList
+      - name: reviews
+        type: ReviewConnection
+      - name: recommendations
+        type: RecommendationConnection
+      - name: stats
+        type: MediaStats
+      - name: siteUrl
+        type: String
+      - name: autoCreateForumThread
+        type: Boolean
+      - name: isRecommendationBlocked
+        type: Boolean
+      - name: modNotes
+        type: String
+      hasChanged: 0
+    - index: 6
+      name: description
+      type: String
+      parentIndexes: 000000000100000002000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: Int
+      - name: idMal
+        type: Int
+      - name: title
+        type: MediaTitle
+      - name: type
+        type: MediaType
+      - name: format
+        type: MediaFormat
+      - name: status
+        type: MediaStatus
+      - name: description
+        type: String
+      - name: startDate
+        type: FuzzyDate
+      - name: endDate
+        type: FuzzyDate
+      - name: season
+        type: MediaSeason
+      - name: seasonYear
+        type: Int
+      - name: seasonInt
+        type: Int
+      - name: episodes
+        type: Int
+      - name: duration
+        type: Int
+      - name: chapters
+        type: Int
+      - name: volumes
+        type: Int
+      - name: countryOfOrigin
+        type: CountryCode
+      - name: isLicensed
+        type: Boolean
+      - name: source
+        type: MediaSource
+      - name: hashtag
+        type: String
+      - name: trailer
+        type: MediaTrailer
+      - name: updatedAt
+        type: Int
+      - name: coverImage
+        type: MediaCoverImage
+      - name: bannerImage
+        type: String
+      - name: genres
+        type: String
+      - name: synonyms
+        type: String
+      - name: averageScore
+        type: Int
+      - name: meanScore
+        type: Int
+      - name: popularity
+        type: Int
+      - name: isLocked
+        type: Boolean
+      - name: trending
+        type: Int
+      - name: favourites
+        type: Int
+      - name: tags
+        type: MediaTag
+      - name: relations
+        type: MediaConnection
+      - name: characters
+        type: CharacterConnection
+      - name: staff
+        type: StaffConnection
+      - name: studios
+        type: StudioConnection
+      - name: isFavourite
+        type: Boolean
+      - name: isAdult
+        type: Boolean
+      - name: nextAiringEpisode
+        type: AiringSchedule
+      - name: airingSchedule
+        type: AiringScheduleConnection
+      - name: trends
+        type: MediaTrendConnection
+      - name: externalLinks
+        type: MediaExternalLink
+      - name: streamingEpisodes
+        type: MediaStreamingEpisode
+      - name: rankings
+        type: MediaRank
+      - name: mediaListEntry
+        type: MediaList
+      - name: reviews
+        type: ReviewConnection
+      - name: recommendations
+        type: RecommendationConnection
+      - name: stats
+        type: MediaStats
+      - name: siteUrl
+        type: String
+      - name: autoCreateForumThread
+        type: Boolean
+      - name: isRecommendationBlocked
+        type: Boolean
+      - name: modNotes
+        type: String
       hasChanged: 0
     isComplete: 1
   mutations: []

@@ -14,6 +14,7 @@ public class RoomController : MonoBehaviourPunCallbacks
     public GameObject playerPanel, playerObject;
     public InputField chatBox;
     PhotonView photonView;
+    public GameObject startButton;
     public Sprite[] images;
 
     public Color playerMessage, info;
@@ -34,7 +35,8 @@ public class RoomController : MonoBehaviourPunCallbacks
         if (PhotonNetwork.IsMasterClient)
         {
             SendMessageToChat(" " + username + " has created the " + roomName.text + " room", Message.MessageType.info);
-        }
+            
+        }else startButton.SetActive(false);
 
         photonView.RPC("LoadPlayerList", RpcTarget.AllBuffered, username);
     }
