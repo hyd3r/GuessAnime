@@ -9,7 +9,6 @@ public class PlayerAndScoreHandler : MonoBehaviourPun, IPunObservable
     public GameObject[] playerScoreBoard;
     public GameObject playerList;
     public Sprite[] images;
-    public bool isUpdating = false;
     public List<Color> color = new List<Color>();
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
@@ -18,6 +17,7 @@ public class PlayerAndScoreHandler : MonoBehaviourPun, IPunObservable
         {
             for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
             {
+                Debug.Log(playerScoreBoard[i].activeInHierarchy);
                 if (!playerScoreBoard[i].activeInHierarchy)
                 {
                     playerScoreBoard[i].SetActive(true);
@@ -44,17 +44,7 @@ public class PlayerAndScoreHandler : MonoBehaviourPun, IPunObservable
                     playerScoreBoard[i].transform.GetChild(2).GetComponent<Text>().text = "0";
                     stream.SendNext("0");
                 }
-                stream.SendNext(isUpdating);
-                if (isUpdating)
-                {
-                    for (int k = 0; k < PhotonNetwork.PlayerList.Length; k++)
-                    {
-                        stream.SendNext(ColorUtility.ToHtmlStringRGBA(playerScoreBoard[k].GetComponent<Image>().color));
-                        stream.SendNext(playerScoreBoard[k].transform.GetChild(2).GetComponent<Text>().text);
-                    }
-                }
             }
-
         }
         else if (stream.IsReading)
         {
@@ -76,19 +66,7 @@ public class PlayerAndScoreHandler : MonoBehaviourPun, IPunObservable
                 {
                     playerScoreBoard[i].transform.GetChild(2).GetComponent<Text>().text = (string)stream.ReceiveNext();
                 }
-                isUpdating = (bool)stream.ReceiveNext();
-                if (isUpdating)
-                {
-                    for (int k = 0; k < PhotonNetwork.PlayerList.Length; k++)
-                    {
-                        Color temp;
-                        ColorUtility.TryParseHtmlString((string)stream.ReceiveNext(), out temp);
-                        playerScoreBoard[k].GetComponent<Image>().color = temp;
-                        playerScoreBoard[k].transform.GetChild(2).GetComponent<Text>().text= (string)stream.ReceiveNext();
-                    }
-                }
             }
-
         }
     }
 
@@ -110,16 +88,23 @@ public class PlayerAndScoreHandler : MonoBehaviourPun, IPunObservable
             playerScoreBoard[i].GetComponent<Image>().color = color[0];
         }
     }
-    public void UpdateScoreboard(List<PlayerAns> playerAns)
+    public void PreUpdateScoreboard(List<PlayerAns> playerAns)
     {
-        isUpdating = true;
+        for(int g = 0; g < playerAns.Count; g++)
+        {
+            photonView.RPC("UpdateScoreboard", RpcTarget.AllBuffered,playerAns[g].username, playerAns[g].isCorrect);
+        }
+        
+    }
+
+    [PunRPC]
+    public void UpdateScoreboard(string username, bool isCorrect)
+    {
         for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
         {
-            for (int x = 0; x < playerAns.Count; x++)
-            {
-                if (playerAns[x].username.Equals(playerScoreBoard[i].transform.GetChild(1).GetComponent<Text>().text))
+                if (username.Equals(playerScoreBoard[i].transform.GetChild(1).GetComponent<Text>().text))
                 {
-                    if (playerAns[x].isCorrect)
+                    if (isCorrect)
                     {
                         playerScoreBoard[i].transform.GetChild(2).GetComponent<Text>().text = int.Parse(playerScoreBoard[i].transform.GetChild(2).GetComponent<Text>().text)+1+"";
                         playerScoreBoard[i].GetComponent<Image>().color = color[2];
@@ -148,7 +133,7 @@ public class PlayerAndScoreHandler : MonoBehaviourPun, IPunObservable
                         playerScoreBoard[i].GetComponent<Image>().color = color[1];
                     }
                 }
-            }
+            
         }
     }
 }

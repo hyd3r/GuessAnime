@@ -1670,7 +1670,10390 @@ MonoBehaviour:
   syncInput: {fileID: 1818999398}
   aniListAPI: {fileID: 11400000, guid: 63f3555e89cc64a469a1e28b97d937fe, type: 2}
   animelist: []
-  charaList: []
+  charaList:
+  - Mitsuha Miyamizu
+  - Taki Tachibana
+  - Tsukasa Fujii
+  - Yotsuha Miyamizu
+  - Hitoha Miyamizu
+  - Sayaka Natori
+  - Miki Okudera
+  - Shinta Takagi
+  - Katsuhiko Teshigawara
+  - Toshiki Miyamizu
+  - Futaba Miyamizu
+  - Taki no chichi
+  - Teshigawara no chichi
+  - Teshigawara no haha
+  - Yukari Yukino
+  - Norman
+  - Ray
+  - Emma
+  - Isabella
+  - Phil
+  - Krone
+  - Don
+  - Lannion
+  - Thoma
+  - Conny
+  - Gilda
+  - Nat
+  - Anna
+  - Grandmother
+  - Iori Kitahara
+  - Chisa Kotegawa
+  - Kouhei Imamura
+  - Azusa Hamaoka
+  - Shinji Tokita
+  - Ryuujirou Kotobuki
+  - Nanaka Kotegawa
+  - Aina Yoshiwara
+  - 'Yuu Mitarai '
+  - Rie Oohashi
+  - Shinichirou Yamamoto
+  - Toshio Kotegawa
+  - Hajime Nojima
+  - Kudou
+  - Kaya Mizuki
+  - Kenta Fujiwara
+  - Bar Master
+  - German Lecturer
+  - Kanako Iida
+  - Keiko Suzuki
+  - Josuke Higashikata
+  - Koichi Hirose
+  - Okuyasu Nijimura
+  - Rohan Kishibe
+  - Jotaro Kujo
+  - Yukako Yamagishi
+  - Keicho Nijimura
+  - Joseph Joestar
+  - Reimi  Sugimoto
+  - Yoshikage Kira
+  - Mikitaka Hasekura
+  - Akira Otoishi
+  - Shigekiyo Yangu
+  - Toyohiro Kanedaichi
+  - Nijimura
+  - Masazo Kinoto
+  - Tonio Trussardi
+  - Toshikazu Hazamada
+  - Shinobu Kawajiri
+  - Yuya Fungami
+  - Ken Oyanagi
+  - Terunosuke Miyamoto
+  - Anjuro Katagiri
+  - Yoshihiro Kira
+  - "Ros\xE9 Tomas"
+  - Alphonse Elric
+  - Kathleen Elle Armstrong
+  - Shao May
+  - Isaac McDougal
+  - King Bradley
+  - Roy Mustang
+  - Envy
+  - Miles
+  - Martel
+  - Edward Elric
+  - Winry Rockbell
+  - Bido
+  - Jean Havoc
+  - Maes Hughes
+  - Ling Yao
+  - Slicer Brothers
+  - Paninya
+  - Maria Ross
+  - Lan Fan
+  - Van Hohenheim
+  - Yoki
+  - Philip Gargantos Armstrong
+  - Alex Louis Armstrong
+  - Lelouch Lamperouge
+  - Kyoshiro Toudou
+  - Kento Sugiyama
+  - Rivalz Cardemonde
+  - Jeremiah Gottwald
+  - Kaguya Sumeragi
+  - Gino Weinberg
+  - Luciano Bradley
+  - Cornelia li Britannia
+  - Milly Ashford
+  - Kallen Stadtfeld
+  - Nunnally Lamperouge
+  - Suzaku Kururugi
+  - Charles zi Britannia
+  - Arthur
+  - Mutsuki Minase
+  - Diethard Ried
+  - Zhou Xianglin
+  - Ichijiku Hinata
+  - Villetta Nu
+  - Alicia Lohmeyer
+  - Monica Kruszewski
+  - Anya Alstreim
+  - Xingke Li
+  - Rossiu Adai
+  - Leeron Littner
+  - Kamina
+  - Makken Jokin
+  - Gimmy Adai
+  - Leite Jokin
+  - Boota
+  - Yoko Littner
+  - Magin
+  - Memu
+  - Darry Adai
+  - Attenborough Cortich
+  - Iraak Coega
+  - Kinon Bachika
+  - Simon
+  - Adiane
+  - Kittan Bachika
+  - Kid Coega
+  - Kiyoh Bachika
+  - Viral
+  - Old Coco
+  - Tetsukan Littner
+  - Guinble Kaito
+  - Cytomander
+  - Misa Amane
+  - Teru Mikami
+  - Shuuichi Aizawa
+  - Stephen Loud
+  - Light Yagami
+  - L Lawliet
+  - Yuri
+  - Kiyomi Takada
+  - Halle Bullook
+  - Sayu Yagami
+  - Kanzo Mogi
+  - Shidoh
+  - Hirokazu Ukita
+  - Nate River
+  - Mary Kenwood
+  - Mihael Keehl
+  - Ryuk
+  - Touta Matsuda
+  - Rem
+  - Takuo Shibuimaru
+  - Mail Jeevas
+  - Tierry Morello
+  - Soichiro Yagami
+  - Quillsh Wammy
+  - Eren Yeager
+  - Mikasa Ackerman
+  - Armin Arlert
+  - Levi
+  - Sasha Blouse
+  - Connie Springer
+  - Jean Kirstein
+  - Reiner Braun
+  - Bertolt Hoover
+  - Pieck Finger
+  - Falco Grice
+  - Annie Leonhart
+  - Zofia
+  - Gabi Braun
+  - Porco Galliard
+  - Nicolo
+  - Zeke
+  - Lisa Blouse
+  - Krista Lenz
+  - Willy Tybur
+  - Colt Grice
+  - Floch Forster
+  - Theo Magath
+  - Kaya
+  - Sylphiette
+  - Rudeus Greyrat
+  - Eris Boreas Greyrat
+  - Paul Greyrat
+  - Roxy Migurdia
+  - Ruijerd Superdia
+  - Lilia
+  - Zenith Greyrat
+  - Nanahoshi Shizuka
+  - Ghislaine Dedoldia
+  - Aisha Greyrat
+  - Norn Greyrat
+  - Pax Shirone
+  - Philip Boreas Greyrat
+  - Thomas
+  - Sauros Boreas Greyrat
+  - Hilda Boreas Greyrat
+  - Alphonse
+  - Edna Leylune
+  - Maid
+  - Kizoku Musuko
+  - Kizoku
+  - Kizoku
+  - Shukujo
+  - Haruki Shiga
+  - Sakura Yamauchi
+  - Issei Miyata
+  - Takahiro
+  - Haruki's Mother
+  - Haruki's Father
+  - Kyoko Takimoto
+  - Tomoya Aki
+  - Megumi Katou
+  - Michiru Hyoudou
+  - Utaha Kasumigaoka
+  - Eriri Spencer Sawamura
+  - Izumi Hashima
+  - Iori Hashima
+  - Tokino Himekawa
+  - Ranko Morioka
+  - Echika Mizuhara
+  - Sonoko Machida
+  - Sakura Matou
+  - Shirou Emiya
+  - Rin Tohsaka
+  - Illyasviel von Einzbern
+  - Artoria Pendragon
+  - Kirei Kotomine
+  - Medusa
+  - Touko Aozaki
+  - Kischur Zelretch Schweinorg
+  - Ayako Mitsuzuri
+  - Zoken Matou
+  - Taiga Fujimura
+  - Hassan-i-Sabbah
+  - Kaede Makidera
+  - Kane  Himuro
+  - Yukika Saegusa
+  - Heracles
+  - Justeaze Lizrich von Einzbern
+  - Archer
+  - Sella
+  - Leysritt
+  - Issei Ryuudou
+  - Angra Mainyu
+  - Nagato Tohsaka
+  - Megumin
+  - Aqua
+  - Darkness
+  - Kazuma Satou
+  - Wiz
+  - Yunyun
+  - Luna
+  - Arakuremono
+  - Komekko
+  - Vanir
+  - Sylvia
+  - Hyoizaburoo
+  - Yuiyui
+  - Eris
+  - Takai
+  - Nagi Amano
+  - Keisuke Suga
+  - Fumi Tachibana
+  - Natsumi Suga
+  - Detective Yasui
+  - Hina Amano
+  - Hodaka Morishima
+  - Taki Tachibana
+  - Mitsuha Miyamizu
+  - Kana
+  - Fortune Teller
+  - Ayane
+  - Scoutman Kimura
+  - Rain
+  - Sgt. Sasaki
+  - Priest
+  - Artoria Pendragon
+  - Shirou Emiya
+  - Rin Tohsaka
+  - Sakura Matou
+  - Illyasviel von Einzbern
+  - Shinji Matou
+  - Medusa
+  - Zoken Matou
+  - Gilgamesh
+  - Archer
+  - Taiga Fujimura
+  - Kirei Kotomine
+  - Heracles
+  - Tamako Kitashirakawa
+  - Mochizou Ooji
+  - Midori Tokiwa
+  - Kanna Makino
+  - Shiori Asagiri
+  - Anko Kitashirakawa
+  - Gohei Ooji
+  - Michiko Ooji
+  - Fumiko Mitsumura
+  - Mamedai Kitashirakawa
+  - Hinako Kitashirakawa
+  - Chouji Yumoto
+  - Choi Mochimazzi
+  - Nobuhiko Tokiwa
+  - Sayuri Yumoto
+  - Kunio Yaobi
+  - Tomio Shimizu
+  - Mecha Mochimazzi
+  - Takashi Uotani
+  - Kaoru Hanase
+  - Dera Mochimazzi
+  - Mari Uotani
+  - Fuku Kitashirakawa
+  - Daitokuji
+  - Crow Hogan
+  - Paradox
+  - Pharaoh Atem
+  - Yuugi Mutou
+  - Yubel
+  - Luca
+  - Sugoroku Mutou
+  - Judai Yuki
+  - Jack Atlas
+  - Yusei Fudou
+  - Aki Izayoi
+  - Lua
+  - Pegasus J. Crawford
+  - Mahado
+  - Mana
+  - Rudger Godwin
+  - Takuma Saiou
+  - Makoto Edamura
+  - Laurent Thierry
+  - Abigail Jones
+  - Cynthia Moore
+  - Kudou
+  - Eddie Cassano
+  - Salazar
+  - Shi Ohn Kim
+  - Anderson
+  - Razzie
+  - Seiji Ozaki
+  - Tom
+  - Ed
+  - Shougo Nakanoshima
+  - Christina
+  - Danny
+  - Dyshana
+  - Clark Ibrahim
+  - Sam Ibrahim
+  - Tootoo Vialli
+  - James Coleman
+  - Lewis Muller
+  - Isabelle Muller
+  - Caio Bisconti
+  - Kaguya Shinomiya
+  - Chika Fujiwara
+  - Miyuki Shirogane
+  - Yuu Ishigami
+  - Ai Hayasaka
+  - Miko Iino
+  - Kobachi Osaragi
+  - Narrator
+  - 'Tsubasa Tanuma '
+  - Nagisa Kashiwagi
+  - Adolphe Pescarolo
+  - Kei Shirogane
+  - Moeha Fujiwara
+  - Tsubame Koyasu
+  - Karen Kino
+  - Erika Kose
+  - Maki Shijo
+  - Rei Onodera
+  - Papa Shirogane
+  - Kyoko Ootomo
+  - Kou Ogino
+  - Kazeno
+  - 'Kozue Makihara '
+  - 'Gigako '
+  - Eren Yeager
+  - Zeke
+  - Connie Springer
+  - Erwin Smith
+  - Reiner Braun
+  - Levi
+  - Jean Kirstein
+  - Bertolt Hoover
+  - Mikasa Ackerman
+  - Grisha Yeager
+  - "Hange Zo\xEB"
+  - Armin Arlert
+  - Krista Lenz
+  - Sasha Blouse
+  - Marlo Freudenberg
+  - Moblit Berner
+  - Floch Forster
+  - Dirk
+  - Harold
+  - Marco Bott
+  - Annie Leonhart
+  - Marlene
+  - Klaus
+  - Sandra
+  - Kei Shirogane
+  - Yuu Ishigami
+  - Chika Fujiwara
+  - Ai Hayasaka
+  - Miyuki Shirogane
+  - Kaguya Shinomiya
+  - 'Tsubasa Tanuma '
+  - Nagisa Kashiwagi
+  - Betsy Beltoise
+  - Adolphe Pescarolo
+  - Papa Shirogane
+  - Saburo Odajima
+  - Miko Iino
+  - Maki Shijo
+  - Kobachi Osaragi
+  - Moeha Fujiwara
+  - Narrator
+  - Toyomi Fujiwara
+  - Erika Kose
+  - Trish Una
+  - Diavolo
+  - Vinegar Doppio
+  - Bruno Bucciarati
+  - Jean-Pierre Polnareff
+  - Risotto Nero
+  - Pesci
+  - Prosciutto
+  - Koichi Hirose
+  - Giorno Giovanna
+  - Narancia Ghirga
+  - Pannacotta Fugo
+  - Guido Mista
+  - Leone Abbacchio
+  - 'Polpo '
+  - Jotaro Kujo
+  - Sale
+  - Luca
+  - Antonio Rossi
+  - Formaggio
+  - Nunzio Pericolo
+  - Mario Zucchero
+  - Melone
+  - Ghiaccio
+  - Rei Kiriyama
+  - Kyouko Kouda
+  - Akari Kawamoto
+  - Hinata Kawamoto
+  - Momo Kawamoto
+  - Harunobu Nikaidou
+  - Someji Kawamoto
+  - Kai Shimada
+  - Takashi Hayashida
+  - Touji Souya
+  - Sakutarou Yanagihara
+  - Kokubu-sensei
+  - Yuusuke Takahashi
+  - Tannin
+  - Megumi Takagi
+  - Noguchi Eisaku
+  - Ayumu Kouda
+  - Takeshi Tsujii
+  - Tatsuyuki Misumi
+  - Takanori Jinguuji
+  - Chiho Sakura
+  - Gakuto Sakurai
+  - Masachika Kouda
+  - Hanaoka
+  - Daisuke Tachibana
+  - Ryouko Sonoda
+  - Miu Imazu
+  - Setsuko Satou
+  - Aira Miyamoto
+  - Roman Yamashina
+  - Chinatsu Nishio
+  - Hira Takumi
+  - Akane Mizuno
+  - Kotarou Azumi
+  - Sakura Tanaka
+  - Ayane Mizuno
+  - Hiroshi Mizuno
+  - Ryuunosuke Azumi
+  - Saori Mizuno
+  - Daichi Ogasawara
+  - Junko Azumi
+  - Wiz
+  - Megumin
+  - Darkness
+  - Aqua
+  - Kazuma Satou
+  - Eris
+  - Luna
+  - Yunyun
+  - Sena
+  - Arakuremono
+  - Komekko
+  - Vanir
+  - Chomusuke
+  - Kyouya Mitsurugi
+  - Dust
+  - Alderp Alexei Barnes
+  - Wolbach
+  - Hans
+  - Keele
+  - Ignis  Dustiness Ford
+  - Subaru Natsuki
+  - Emilia
+  - Felt
+  - Rem
+  - Ram
+  - Reinhard van Astrea
+  - Petelgeuse Romanee-Conti
+  - Anastasia Hoshin
+  - Aldebaran
+  - Wilhelm van Astrea
+  - Elsa Granhiert
+  - Beatrice
+  - Roswaal L. Mathers
+  - Julius Euclius
+  - Felix Argyle
+  - Crusch Karsten
+  - Priscilla Barielle
+  - Puck
+  - Otto Suwen
+  - Rachins Hoffman
+  - Theresia van Astrea
+  - Rom
+  - Kadomon Risch
+  - Plum Risch
+  - Saitama
+  - Genos
+  - Sonic
+  - Tatsumaki
+  - King
+  - Satoru
+  - 'Bang '
+  - Fubuki
+  - Handsome Kamen Amai Mask
+  - Puri-Puri Prisoner
+  - Watchdog Man
+  - Metal Bat
+  - Deep Sea King
+  - Lord Boros
+  - Sneck
+  - Kombu Infinity
+  - Asura Kabuto
+  - Tanktop Tiger
+  - Child Emperor
+  - All Back-Man
+  - Spring Mustachio
+  - Senkou no Flash
+  - Armored Gorilla
+  - Golden Ball
+  - Ryouta Watari
+  - Kousei Arima
+  - Tsubaki Sawabe
+  - Kaori Miyazono
+  - Saitou
+  - Nao Kashiwagi
+  - Takeshi Aiza
+  - Emi Igawa
+  - Saki Arima
+  - Hiroko Seto
+  - Koharu Seto
+  - Satsuki Kiryuin
+  - Ryuuko Matoi
+  - Senketsu
+  - Mako Mankanshoku
+  - Ira Gamagoori
+  - Houka Inumuta
+  - Nonon Jakuzure
+  - Mataro Mankanshoku
+  - Barazou Mankanshoku
+  - Sukuyo Mankanshoku
+  - Aikurou Mikisugi
+  - Maiko Oogure
+  - Uzu Sanageyama
+  - Takaharu Fukuroda
+  - Omiko Hakodate
+  - Takiji Kuroido
+  - Shirou Iori
+  - Guts
+  - Sanzou Soroi
+  - Nui Harime
+  - Tsumugu Kinagase
+  - Ragyo Kiryuin
+  - Rei Hououmaru
+  - Ryousuke Todoroki
+  - Akatsuki
+  - Nyanta
+  - Shiroe
+  - Naotsugu
+  - Marielle
+  - Henrietta
+  - Serara
+  - Shouryuu
+  - Hien
+  - Liliana
+  - Ashlynn
+  - Eisel
+  - Asuka
+  - Krusty
+  - Isaac
+  - Eins
+  - Rodrick
+  - Kanami
+  - Londark
+  - Demikas
+  - Smash
+  - Nureha
+  - Lenessia Eruarte Cowen
+  - Sergiatte Cowen
+  - Gilgamesh
+  - Ryuunosuke Uryuu
+  - Artoria Pendragon
+  - Kirei Kotomine
+  - "Natalia Kami\u0144ski"
+  - Martha Mackenzie
+  - Aoi Tohsaka
+  - Waver Velvet
+  - Kiritsugu Emiya
+  - Irisviel von Einzbern
+  - Diarmuid  Ua Duibhne
+  - Rin Tohsaka
+  - Illyasviel von Einzbern
+  - Sakura Matou
+  - Tokiomi Tohsaka
+  - Sola-Ui Nuada-Re Sophia-Ri
+  - Iskandar
+  - Lancelot
+  - Shirou Emiya
+  - Kariya Matou
+  - Kayneth Archibald El-Melloi
+  - Zoken Matou
+  - Glen Mackenzie
+  - Shirley
+  - Menchi
+  - Cocco
+  - Silva Zoldyck
+  - Knov
+  - Leroute
+  - Kalluto Zoldyck
+  - Illumi Zoldyck
+  - Shoot McMahon
+  - Chrollo Lucilfer
+  - Feitan Portor
+  - Pakunoda
+  - Hisoka Morow
+  - Shaiapouf
+  - Ponzu
+  - Ging Freecss
+  - Neon Nostrade
+  - Wing
+  - Majitani
+  - Elena
+  - Eeta
+  - Knuckle Bine
+  - Captain
+  - Uvogin
+  - Meleoron
+  - Atsumu Matsuyuki
+  - Jinta Yadomi
+  - Aki
+  - Touko Yadomi
+  - Mother Anjou
+  - Haruna
+  - Satoshi Honma
+  - Tetsudo Hisakawa
+  - Chiriko Tsurumi
+  - Naruko Anjou
+  - Irene Honma
+  - Manabu Honma
+  - Meiko Honma
+  - Atsushi Yadomi
+  - Yama
+  - Itaru Hashida
+  - Suzuha Amane
+  - Luka Urushibara
+  - Rintarou Okabe
+  - Mayuri Shiina
+  - Moeka Kiryuu
+  - Yuugo Tennouji
+  - Rumiho Akiha
+  - Yukitaka Akiha
+  - John Titor
+  - Nae Tennouji
+  - Eisuke Urushibara
+  - Dr. Nakabachi
+  - Kilik Lunge
+  - Free
+  - Joe Buttataki
+  - Spirit Albarn
+  - Blair
+  - Medusa Gorgon
+  - Kim Diehl
+  - Death the Kid
+  - Tsubaki Nakatsukasa
+  - Crona
+  - Pharaoh
+  - Elizabeth Thompson
+  - Giriko
+  - "Harvar D. \xC9clair"
+  - Shinigami
+  - Yumi Azusa
+  - Excalibur
+  - Arachne Gorgon
+  - "White\u2606Star"
+  - Maka Albarn
+  - Asura
+  - Eruka Frog
+  - Angela Leon
+  - Sonson J.
+  - Nice Holystone
+  - Goose Perkins
+  - Carol
+  - Ladd Russo
+  - Tick Jefferson
+  - Gustav St. Germain
+  - Gretto Avaro
+  - Rachel
+  - Ronny Schiatto
+  - Miria Harvent
+  - Lebreau Fermet Viralesque
+  - Chane Laforet
+  - Natalie Beriam
+  - Manfred Beriam
+  - President of the Daily Days
+  - Ennis
+  - Eve Genoard
+  - Luck Gandor
+  - Isaac Dian
+  - Dune
+  - Claire Stanfield
+  - Mary Beriam
+  - Dallas Genoard
+  - "Czes\u0142aw Meyer"
+  - Shizuka
+  - Utakata
+  - Minato Namikaze
+  - Kimimaro Kaguya
+  - Shiseru
+  - Sasori
+  - Genma Shiranui
+  - Orochimaru
+  - Zabuza Momochi
+  - Akamaru
+  - Guruko
+  - Naruto Uzumaki
+  - Hina
+  - Sasuke Uchiha
+  - Gaara
+  - Hiruzen Sarutobi
+  - Shibi Aburame
+  - Ebisu
+  - Itachi Uchiha
+  - Yakku
+  - Denka
+  - Kakashi Hatake
+  - Mizuki Touji
+  - Fudou
+  - Lelouch Lamperouge
+  - Kyoshiro Toudou
+  - Kento Sugiyama
+  - Rivalz Cardemonde
+  - Jeremiah Gottwald
+  - Andreas Darlton
+  - Kaguya Sumeragi
+  - Cornelia li Britannia
+  - Milly Ashford
+  - Kallen Stadtfeld
+  - Nunnally Lamperouge
+  - Suzaku Kururugi
+  - Charles zi Britannia
+  - Arthur
+  - Euphemia li Britannia
+  - Diethard Ried
+  - Villetta Nu
+  - Xingke Li
+  - Sayoko Shinozaki
+  - Mao
+  - Nagisa Chiba
+  - Nina Einstein
+  - C.C.
+  - Shirley Fenette
+  - Mitsuru Ishino
+  - Masayoshi
+  - Kensei Muguruma
+  - Nova
+  - Yoruichi Shihouin
+  - Kaname Tousen
+  - Isshin Kurosaki
+  - Tsubaki
+  - Lily
+  - Nemu Kurotsuchi
+  - Karin Kurosaki
+  - Ichigo Kurosaki
+  - Uryuu Ishida
+  - Shuuhei Hisagi
+  - Keigo Asano
+  - Kanou
+  - Kisuke Urahara
+  - Yasutora Sado
+  - Bawabawa
+  - Zonzain
+  - Findorr Calius
+  - Iceringer
+  - Charlotte Chuhlhourne
+  - Hyourinmaru
+  - Shouyou Hinata
+  - Tobio Kageyama
+  - Yuu Nishinoya
+  - Tadashi Yamaguchi
+  - Kei Tsukishima
+  - Ryuunosuke Tanaka
+  - Asahi Azumane
+  - Daichi Sawamura
+  - Koushi Sugawara
+  - Chikara Ennoshita
+  - Ittetsu Takeda
+  - Keishin Ukai
+  - Kiyoko Shimizu
+  - Hitoka Yachi
+  - Akiteru Tsukishima
+  - Satori Tendou
+  - Tsutomu Goshiki
+  - Wakatoshi Ushijima
+  - Reon Ouhira
+  - Eita Semi
+  - Tanji Washijou
+  - Hajime Iwaizumi
+  - Tooru Oikawa
+  - Kenjirou Shirabu
+  - Megumi Fushiguro
+  - Yuuji Itadori
+  - Nobara Kugisaki
+  - Satoru Gojou
+  - Sukuna
+  - Panda
+  - Toge Inumaki
+  - Maki Zenin
+  - Kento Nanami
+  - Hanami
+  - Mahito
+  - Jougo
+  - Suguru Getou
+  - Aoi Toudou
+  - Kasumi Miwa
+  - Mai Zenin
+  - Yoshinobu Gakuganji
+  - Masamichi Yaga
+  - Shoko  Ieiri
+  - Kiyotaka Ijichi
+  - Junpei  Yoshino
+  - Tsumiki Fushiguro
+  - Wasuke Itadori
+  - Takada
+  - Subaru Natsuki
+  - Garfiel Tinsel
+  - Echidna
+  - Emilia
+  - Otto Suwen
+  - Ram
+  - Roswaal L. Mathers
+  - Elsa Granhiert
+  - Meili Portroute
+  - Beatrice
+  - Frederica Baumann
+  - Ryuuzu Birma
+  - Petra Leyte
+  - Puck
+  - Fortuna
+  - Patrasche
+  - Petelgeuse Romanee-Conti
+  - Ricardo Welkin
+  - Reshia Tinsel
+  - Rem
+  - Framir Suewen
+  - Mazeran Suewen
+  - Oslo Suewen
+  - Regin Suewen
+  - Yotsuba Nakano
+  - Ichika Nakano
+  - Nino Nakano
+  - Miku Nakano
+  - Itsuki Nakano
+  - Raiha Uesugi
+  - Maruo Nakano
+  - Isanari Uesugi
+  - Shimoda
+  - Quintuplets' Grandfather
+  - Revival's manager
+  - Maeda
+  - Komugiya's manager
+  - Yuusuke Takeda
+  - Fuutarou Uesugi
+  - Veldora Tempest
+  - Rimuru Tempest
+  - Daikenja
+  - Shion
+  - Gobuta
+  - Rigurdo
+  - Geld
+  - Diablo
+  - Ranga
+  - Milim Nava
+  - Gabil
+  - Treyni
+  - Ramiris
+  - Souei
+  - Shuna
+  - Benimaru
+  - Hakurou
+  - Hinata Sakaguchi
+  - Kyouya Tachibana
+  - Shougo Taguchi
+  - Kirara Mizutani
+  - Albis
+  - Mjurran
+  - Grucius
+  - Noelle Silva
+  - Yuno
+  - Asta
+  - Finral Roulacase
+  - Charlotte Roselei
+  - Julius Novachrono
+  - Vanessa Enoteca
+  - Klaus Lunettes
+  - Mimosa Vermillion
+  - Magna Swing
+  - Yami Sukehiro
+  - William Vangeance
+  - Nozel Silva
+  - Lily Aquaria
+  - Grey
+  - Gauche Adlai
+  - Charmy Pappitson
+  - Gordon Agrippa
+  - Luck Voltia
+  - Marx Francois
+  - Gueldre Poizot
+  - Jack the Ripper
+  - Rill Boismortier
+  - Dorothy Unsworth
+  - Akira
+  - Kohachi Inugami
+  - Kabane Kusaka
+  - Yui
+  - Shiki Tademaru
+  - Youko Inari
+  - Nowaki Homuramaru
+  - Aya Tademaru
+  - Mihai Florescu
+  - Kon
+  - Reika Kaga
+  - Erika Kaga
+  - Izuku Midoriya
+  - Toshinori Yagi
+  - Katsuki Bakugou
+  - Slice
+  - Keigo Takami
+  - Eijirou Kirishima
+  - Tomura Shigaraki
+  - Shouto Todoroki
+  - Mezou Shouji
+  - Momo Yaoyorozu
+  - Mina Ashido
+  - Hanta Sero
+  - Kyouka Jirou
+  - Tenya Iida
+  - Minoru Mineta
+  - Tsuyu Asui
+  - Tooru Hagakure
+  - Denki Kaminari
+  - Kouji Kouda
+  - Yuuga Aoyama
+  - Ochako Uraraka
+  - Fumikage Tokoyami
+  - Mashirao Ojiro
+  - Rikidou Satou
+  - Kyoujurou Rengoku
+  - Tanjirou Kamado
+  - Enmu
+  - Nezuko Kamado
+  - Zenitsu Agatsuma
+  - Inosuke Hashibira
+  - Akaza
+  - Ruka Rengoku
+  - Shinjurou Rengoku
+  - Senjurou Rengoku
+  - Hanako Kamado
+  - Rokuta Kamado
+  - Shigeru Kamado
+  - Tanjurou Kamado
+  - Takeo Kamado
+  - Shinobu Kochou
+  - Giyuu Tomioka
+  - Kagaya Ubuyashiki
+  - Kie Kamado
+  - Sanemi Shinazugawa
+  - Tengen Uzui
+  - Obanai Iguro
+  - Gyoumei Himejima
+  - Luffy Monkey
+  - Zoro Roronoa
+  - Usopp
+  - Buggy
+  - Sanji
+  - Smoker
+  - Chopper Tony Tony
+  - Mohji
+  - Franky
+  - Nami
+  - Alvida
+  - Richie
+  - Cabaji
+  - Robin Nico
+  - Brook
+  - Tashigi
+  - Galdino
+  - Law Trafalgar
+  - Lucci Rob
+  - Douglas Bullet
+  - Buena Festa
+  - Eustass Kid
+  - Bege Capone
+  - Apoo Scratchmen
+  - Conan Edogawa
+  - Tooru Amuro
+  - Eri Kisaki
+  - Ai Haibara
+  - Sonoko Suzuki
+  - Ran Mouri
+  - Kogoro Mouri
+  - Ayumi Yoshida
+  - Hiroshi Agasa
+  - Genta Kojima
+  - Mitsuhiko Tsuburaya
+  - Kazunobu Chiba
+  - Miwako Satou
+  - Wataru Takagi
+  - Ninzaburo Shiratori
+  - Juzo Megure
+  - Azusa Enomoto
+  - Midori Kuriyama
+  - Toshirou Odagiri
+  - Hyoue Kuroda
+  - Artoria Pendragon
+  - Rin Tohsaka
+  - Shirou Emiya
+  - Sakura Matou
+  - Archer
+  - Illyasviel von Einzbern
+  - "C\xFA  Chulainn"
+  - Taiga Fujimura
+  - Kirei Kotomine
+  - Kiritsugu Emiya
+  - Medusa
+  - Zoken Matou
+  - Ayako Mitsuzuri
+  - Kojirou Sasaki
+  - Gilgamesh
+  - Medea
+  - Issei Ryuudou
+  - Shinji Matou
+  - Soichirou Kuzuki
+  - Heracles
+  - Leysritt
+  - Sella
+  - Chris Redfield
+  - Leon Scott Kennedy
+  - 'Rebecca Chambers '
+  - Tetsuya Kuroko
+  - Seijuro Akashi
+  - Taiga Kagami
+  - Ryouta Kise
+  - Atsushi Murasakibara
+  - Shintarou Midorima
+  - Daiki Aomine
+  - Kagetora Aida
+  - Yukio Kasamatsu
+  - Shouya Ishida
+  - Shouko Nishimiya
+  - Yuzuru Nishimiya
+  - Naoka Ueno
+  - Miyako Ishida
+  - Maria Ishida
+  - Miki Kawai
+  - Satoshi Mashiba
+  - Tomohiro Nagatsuka
+  - Yaeko Nishimiya
+  - Ito Nishimiya
+  - Miyoko Sahara
+  - Kazuki Shimada
+  - Takeuchi
+  - Pedro
+  - Kita
+  - Keisuke Hirose
+  - Darui
+  - Boruto Uzumaki
+  - Sarada Uchiha
+  - Naruto Uzumaki
+  - Sasuke Uchiha
+  - Mitsuki
+  - Inojin Yamanaka
+  - Shikadai Nara
+  - Kurotsuchi
+  - Gaara
+  - Chojuro
+  - Shinki
+  - Momoshiki Ootsutsuki
+  - Kinshiki Ootsutsuki
+  - Himawari Uzumaki
+  - Hinata Hyuuga
+  - Tono Katsuke
+  - Rock Lee
+  - Konohamaru Sarutobi
+  - Kurama
+  - Sai
+  - Sakura Haruno
+  - Tenten
+  - Shikamaru Nara
+  - Naruto Uzumaki
+  - Sai
+  - Hinata Hyuuga
+  - Sakura Haruno
+  - Shikamaru Nara
+  - Kakashi Hatake
+  - Gaara
+  - Sasuke Uchiha
+  - Hanabi Hyuuga
+  - Toneri Ootsutsuki
+  - Ino Yamanaka
+  - Hiashi Hyuuga
+  - Tsunade Senju
+  - Chouji Akimichi
+  - A
+  - Konohamaru Sarutobi
+  - Oonoki
+  - Rock Lee
+  - Himawari Uzumaki
+  - Kiba Inuzuka
+  - Guy Might
+  - Iruka Umino
+  - Kotetsu Hagane
+  - Pain
+  - Takuro Sugawara
+  - Masafumi Akagi
+  - Yuki Minagawa
+  - Shinichi Katori
+  - Takeru Gouda
+  - Hotaru Furuya
+  - Chiaki Uchimura
+  - Chizuru Takano
+  - Saki Kanda
+  - Ayaka Kamine
+  - Ryouko Kaji
+  - Yuuki Kaga
+  - Kana Ijima
+  - Kazuko Hosogawa
+  - Jun Furuya
+  - Noro Akimasa
+  - Ayane Matsuura
+  - Chiyo Kurihara
+  - Erika Shibasaki
+  - Fuyumi Toda
+  - Haruhiko Takase
+  - Hideki Yukawa
+  - Tsuji Keisuke
+  - Patricia Caulfield
+  - Albedo
+  - Tanya Degurechaff
+  - Ram
+  - Kazuma Satou
+  - Momonga
+  - Roswaal L. Mathers
+  - Subaru Natsuki
+  - Emilia
+  - Cocytus
+  - Warren Grantz
+  - Puck
+  - Aqua
+  - Shalltear Bloodfallen
+  - Rhiner  Neumann
+  - Mare Bello Fiore
+  - Kurt von Rudersdorf
+  - Demiurge
+  - Darkness
+  - Beatrice
+  - Viktoriya Ivanovna Serebryakova
+  - Megumin
+  - Rem
+  - Aura Bella Fiora
+  - Erich von Rerugen
+  - Noel Niihashi
+  - Ninny Spangcole
+  - Balgo Ywain Parks
+  - 'Osushi '
+  - Billy Banx Jr.
+  - Wolfgang Slashhaut
+  - Bruno Bangnyfe
+  - Sullivan Squire
+  - Roy B. Dipper
+  - Macy  Baljure
+  - Harry Shayk
+  - Tronbone Takkinen
+  - Cquntnire Milieve
+  - Saka Rynn
+  - Narrator
+  - Arata Kaizaki
+  - Chizuru Hishiro
+  - Ryou Yoake
+  - An Onoya
+  - Rena Kariu
+  - Kazuomi Ooga
+  - Honoka Tamarai
+  - Akira Inukai
+  - Nobunaga Asaji
+  - Kokoro Amatsu
+  - Rumi Naomi
+  - Kento Amagase
+  - Zen Kamioka
+  - Saiki Michiru
+  - Rin
+  - Aurora Suya Rhys Kaymin
+  - Maou Tasogare
+  - Akuma Shuudoushi
+  - Haritoge Majiro
+  - Yuusha Akatsuki
+  - Debi Akuma
+  - Red Siberian Kai
+  - Kaen doku Ryuu
+  - Minotaur
+  - Yashiki Teshita Goblin
+  - Frankenzombie
+  - Poseidon
+  - Neo Alraune
+  - Obake Furoshiki
+  - Scissor Magician
+  - Alazif
+  - Nasu Azarashi
+  - Harpy
+  - Narrator
+  - Futakubi Dragon
+  - Joukyuu Gaikotsu-hei
+  - Chourou
+  - Monban
+  - Josei
+  - Nasa Yuzaki
+  - Tsukasa Yuzaki
+  - Chitose Kaginoji
+  - Aya Arisugawa
+  - Kaname Arisugawa
+  - Naoko Yanagi
+  - Charlotte
+  - Aurora
+  - Enishi Yuzaki
+  - Tobio Kageyama
+  - Atsumu Miya
+  - Tadashi Yamaguchi
+  - Shouyou Hinata
+  - Kei Tsukishima
+  - Kourai Hoshiumi
+  - Osamu Miya
+  - Keishin Ukai
+  - Daichi Sawamura
+  - Kazuhito Narita
+  - Koushi Sugawara
+  - Yuu Nishinoya
+  - Ittetsu Takeda
+  - Hitoshi Ginjima
+  - Ryuunosuke Tanaka
+  - Asahi Azumane
+  - Hisashi Kinoshita
+  - Chikara Ennoshita
+  - Heisuke Riseki
+  - Shinsuke Kita
+  - Hitoka Yachi
+  - Aran Ojiro
+  - Michinari Akagi
+  - Ren Oomimi
+  - Yui Yuigahama
+  - Yukino Yukinoshita
+  - Hachiman Hikigaya
+  - Haruno Yukinoshita
+  - Komachi Hikigaya
+  - Iroha Isshiki
+  - Hayato Hayama
+  - Yumiko Miura
+  - Hina Ebina
+  - Saki Kawasaki
+  - Kakeru Tobe
+  - Keika Kawasaki
+  - Shizuka Hiratsuka
+  - Saika Totsuka
+  - Yoshiteru Zaimokuza
+  - Tamanawa
+  - Kaori Orimoto
+  - Mama Yuigahama
+  - Meguri Shiromeguri
+  - Yukino no Haha
+  - Subaru Natsuki
+  - Emilia
+  - Echidna
+  - Rem
+  - Beatrice
+  - Ram
+  - Roswaal L. Mathers
+  - Otto Suwen
+  - Reinhard van Astrea
+  - Satella
+  - Felix Argyle
+  - Julius Euclius
+  - Puck
+  - Anastasia Hoshin
+  - Felt
+  - Crusch Karsten
+  - Carmilla
+  - Elsa Granhiert
+  - Minerva
+  - Sekhmet
+  - Typhon
+  - Garfiel Tinsel
+  - Daphne
+  - Petra Leyte
+  - Tuuli
+  - Gunther
+  - Benno
+  - Myne
+  - Lutz
+  - Mark
+  - Ferdinand
+  - Gil
+  - Delia
+  - Ella
+  - Wilma
+  - Hugo
+  - Rosina
+  - Corinna
+  - Arno
+  - Karla
+  - Bezewanst
+  - Effa
+  - Egmont
+  - Jenni
+  - Fran
+  - Freida
+  - Otto
+  - Leise
+  - Katarina Claes
+  - Keith Claes
+  - Alan Stuart
+  - Gerald Stuart
+  - Nicole Ascart
+  - Anne Shelly
+  - Sirius Deek
+  - Mary Hunt
+  - Sophia Ascart
+  - Maria Campbell
+  - Luigi Claes
+  - Millidiana Claes
+  - Sirius' Mother
+  - Atsuko Sasaki
+  - Dan Ascart
+  - Radia Ascart
+  - Kakushi Gotou
+  - Hime Gotou
+  - Ami Kakei
+  - Kakeru Keshi
+  - Rasuna Sumita
+  - Aogu Shiji
+  - Ichigo Rokujou
+  - Nadila
+  - Mario
+  - You Shiokoshi
+  - Naru Senda
+  - Kumi Jouro
+  - Silvia Kobu
+  - Rikirou Daiwa
+  - Hina Toumi
+  - Risa Uchiki
+  - Riko Kitsuchi
+  - Satsuki Tomaruin
+  - Roku Gotou
+  - Kayo Aiga
+  - Nantokaemon Ishikawa
+  - Hime's Mother
+  - Tadashi Yamaguchi
+  - Tobio Kageyama
+  - Kei Tsukishima
+  - Shouyou Hinata
+  - Atsumu Miya
+  - Kourai Hoshiumi
+  - Ryuunosuke Tanaka
+  - Koushi Sugawara
+  - Yuu Nishinoya
+  - Daichi Sawamura
+  - Chikara Ennoshita
+  - Asahi Azumane
+  - Keishin Ukai
+  - Hitoka Yachi
+  - Kiyoko Shimizu
+  - Ittetsu Takeda
+  - Kiyoomi Sakusa
+  - Motoya Komori
+  - Takurou Oiwake
+  - Maiko Yonezawa
+  - Kanoka Amanai
+  - Tsutomu Goshiki
+  - Tanji Washijou
+  - Wakatoshi Ushijima
+  - Stunk
+  - Crimvael
+  - 'Zel '
+  - Aloe
+  - Kanchal
+  - Meidri
+  - Ginny
+  - Elma
+  - Okpa
+  - Mii
+  - Lorna
+  - Piltia
+  - Milky
+  - Mitsue
+  - Eldry
+  - Elza
+  - Tiaplate
+  - Narugami
+  - Bubulala
+  - Samutaun
+  - Death Abyss
+  - Demon Two
+  - Dr. Okina
+  - Brooz
+  - Chiyuki Fujito
+  - Ikuto Tsumura
+  - Kokoro Hasegawa
+  - Honoka Tsumura
+  - Ichika Tsumura
+  - Aoi Tsumura
+  - Too Ayano
+  - Hazime Yanagida
+  - Ryuunosuke Eda
+  - Seira
+  - Youko Takaoka
+  - Kaoru Kizaki
+  - Mai Ayano
+  - Kumi Moriyama
+  - Yu Igarashi
+  - Yuriko Tsumura
+  - Kenji Fujito
+  - Shizuku Naruoka
+  - Kuroko Shirai
+  - Mikoto Misaka
+  - Kazari Uiharu
+  - Ruiko Saten
+  - Misaki Shokuhou
+  - MISAKA 10032
+  - Yoshio Baba
+  - Touma Kamijou
+  - Junko Hokaze
+  - Misuzu Misaka
+  - Gunha Sogiita
+  - Mitori Kouzaku
+  - Mitsuko Kongo
+  - Kinuho Wannai
+  - Maaya Awatsuki
+  - Gensei Kihara
+  - Xochitl
+  - Seria Kumokawa
+  - Dolly
+  - Komoe Tsukuyomi
+  - Frenda Seivelun
+  - Teitoku Kakine
+  - Kana Hazamaya
+  - Ryouko Kuriba
+  - Akihito Narihisago
+  - Masamune Habutae
+  - Hunetarou Momoki
+  - Takuhiko Hayaseura
+  - Kokufu Shirou
+  - Koharu Hondoumachi
+  - Nishimura Tsukimaru
+  - Wakashika Kazuo
+  - Sarina Tougou
+  - Shiratake Sennosuke
+  - Kokuryuu Matsuoka
+  - Fukuda Tamotsu
+  - Genpei Oono
+  - Muku Narihisago
+  - Ayako Narihisago
+  - Kouji Fuyukawa
+  - John Walker
+  - Keiko Kikuchi
+  - Nishio Shirakoma
+  - Kiki Asukai
+  - Nahosi Inami
+  - Haruka Kazuta
+  - Denshin Katsuyama
+  - Hitoshi Sonoda
+  - Chihaya Ayase
+  - Arata Wataya
+  - Taichi Mashima
+  - Tsutomu Komano
+  - Yuusei Nishida
+  - Kanade Ooe
+  - Sumire Hanano
+  - Inokuma Haruka
+  - Rion Yamashiro
+  - Taeko Miyauchi
+  - Hisashi Suou
+  - Hideo Harada
+  - Shinobu Wakamiya
+  - Akito Sudou
+  - Midori Sakurazawa
+  - Akihiro Tsukuba
+  - Megumu Ousaka
+  - Yumi Yamamoto
+  - Shiho Wakamiya
+  - Reiko Mashima
+  - Grandmother Wakamiya
+  - Kyouko Yamashiro
+  - Daijirou Ise
+  - Izuku Midoriya
+  - Nejire Hadou
+  - Tamaki Amajiki
+  - Mina Ashido
+  - Mirio Togata
+  - Kai Chisaki
+  - Shouta Aizawa
+  - Eijirou Kirishima
+  - Tsuyu Asui
+  - Jin Bubaigawara
+  - Toshinori Yagi
+  - Ochako Uraraka
+  - Himiko Toga
+  - Shouto Todoroki
+  - Katsuki Bakugou
+  - Tomura Shigaraki
+  - Denki Kaminari
+  - Kurogiri
+  - Eri
+  - Momo Yaoyorozu
+  - Fumikage Tokoyami
+  - Tenya Iida
+  - Sir Nighteye
+  - Minoru Mineta
+  - Fumino Furuhashi
+  - Asumi Kominami
+  - Mafuyu Kirisu
+  - Uruka Takemoto
+  - Mizuki Yuiga
+  - Nariyuki Yuiga
+  - Rizu Ogata
+  - Mikuni
+  - Chinami Umihara
+  - Sawako Sekijou
+  - Kashima
+  - Machiko
+  - Himura
+  - Ayuko Kuwase
+  - Reiji Furuhashi
+  - Myne
+  - Gunther
+  - Effa
+  - Lutz
+  - Tuuli
+  - Otto
+  - Mark
+  - Benno
+  - Freida
+  - Gustav
+  - Ralph
+  - Fey
+  - Obasan
+  - Ojisan
+  - Gunther no Douryou
+  - Fey no Tomodachi
+  - Corinna
+  - Karla
+  - Zaimokuya no Oyakata
+  - Saikushi
+  - Uketsuke
+  - Zasha
+  - Sieg
+  - Oyakata
+  - Thorfinn Karlsefni
+  - Thors Snorresson
+  - Bjorn
+  - Askeladd
+  - Thorkell
+  - Canute
+  - Leif Erikson
+  - Floki
+  - Ragnar
+  - Ylva
+  - Willibald
+  - Sweyn Forkbeard
+  - Helga
+  - Asgeir
+  - Torgrim
+  - Ear
+  - Atli
+  - 'Hordaland '
+  - Anne
+  - Ari
+  - Halfdan
+  - Gratianus
+  - Ake
+  - Asser
+  - Senkuu Ishigami
+  - Chrome
+  - Suika
+  - Tsukasa Shishiou
+  - Yuzuriha Ogawa
+  - Taiju Ooki
+  - Kohaku
+  - Gen Asagiri
+  - Kaseki
+  - Ginrou
+  - Kinrou
+  - Ruri
+  - Magma
+  - Hyouga
+  - Chalk
+  - Jasper
+  - Mantle
+  - Homura Momiji
+  - Lillian Weinberg
+  - Byakuya Ishigami
+  - Shamil  Volkov
+  - Darya Nikitina
+  - Kokuyo
+  - Connie Lee
+  - Shinra Kusakabe
+  - Iris
+  - Arthur Boyle
+  - Takehisa Hinawa
+  - Akitaru Oubi
+  - Maki Oze
+  - Joker
+  - Viktor Licht
+  - Tamaki Kotatsu
+  - Rekka Hoshimiya
+  - Princess Hibana
+  - Tooru Kishiri
+  - Huo Yan Li
+  - Karim Flam
+  - Benimaru Shinmon
+  - Leonard Burns
+  - Takeru Noto
+  - Shou Kusakabe
+  - Vulcan Joseph
+  - Yuu
+  - Lisa Isaribi
+  - Hinata
+  - Hikage
+  - Konro Sagamiya
+  - Kanata Hoshijima
+  - Aries Spring
+  - Quitterie Raffaeli
+  - Zack Walker
+  - Charce Lacroix
+  - Ulgar Zweig
+  - Yun-Hua Lu
+  - Funicia Raffaeli
+  - Luca Esposito
+  - Polina Levinskaya
+  - Lieutenant Grace
+  - Emma Spring
+  - Jed Walker
+  - Noah Vix
+  - Marco Esposito
+  - Wei Lu
+  - Mark Vix
+  - Gert Zweig
+  - Sophie Lacroix
+  - Rei Hoshijima
+  - Finn Zweig
+  - Felice Genma
+  - Olive Raffaeli
+  - Osamu Dazai
+  - Ougai Mori
+  - Chuuya Nakahara
+  - Atsushi Nakajima
+  - Ryuunosuke Akutagawa
+  - Yukichi Fukuzawa
+  - Doppo Kunikida
+  - Naomi Tanizaki
+  - Ranpo Edogawa
+  - Motojirou Kajii
+  - Ichiyou Higuchi
+  - Akiko Yosano
+  - Junichirou Tanizaki
+  - Lucy Maud Montgomery
+  - Kenji Miyazawa
+  - Francis Scott Key Fitzgerald
+  - Kyouka Izumi
+  - Louisa May Alcott
+  - Elise
+  - Katai Tayama
+  - Kouyou Ozaki
+  - Ryuurou Hirotsu
+  - Fyodor Dostoyevsky
+  - Ango Sakaguchi
+  - Sakonji Urokodaki
+  - Giyuu Tomioka
+  - Inosuke Hashibira
+  - Tanjirou Kamado
+  - Genya Shinazugawa
+  - Zenitsu Agatsuma
+  - Nezuko Kamado
+  - Kasugaigarasu
+  - Kagaya Ubuyashiki
+  - Makomo
+  - Sabito
+  - Muzan Kibutsuji
+  - Numa Oni
+  - Yahaba
+  - Susamaru
+  - Teoni
+  - Odou no Oni
+  - Hotaru Haganezuka
+  - Tamayo
+  - Yushirou
+  - Rui
+  - Kumo Oni Haha
+  - Kumo Oni Ani
+  - Kumo Oni Chichi
+  - Miku Nakano
+  - Nino Nakano
+  - Yotsuba Nakano
+  - Itsuki Nakano
+  - Ichika Nakano
+  - Fuutarou Uesugi
+  - Raiha Uesugi
+  - Isanari Uesugi
+  - Maruo Nakano
+  - Maeda
+  - Hongo
+  - Oda
+  - Shigeo Kageyama
+  - Teruki Hanazawa
+  - Arataka Reigen
+  - Tenga Onigawara
+  - Ekubo
+  - Ritsu Kageyama
+  - Musashi Gouda
+  - Mob's Mother Kageyama
+  - Emi
+  - Haruto  Kijibayashi
+  - Jun Sagawa
+  - Hikaru   Tokugawa
+  - Mob's Father Kageyama
+  - Hiroshi Kumagawa
+  - Shinji Kamuro
+  - Hideki  Yamamura
+  - Shou Suzuki
+  - Kirin   Shodou
+  - Banshoumaru Shinra
+  - Keiji Mogami
+  - Minori Asagiri
+  - Hipparu
+  - Mameta   Inukawa
+  - Kunekune
+  - Juliet Persia
+  - Romio Inuzuka
+  - Scott Fold
+  - Chartreux Westia
+  - Hasuki Komai
+  - Cait Sith
+  - Teria Wang
+  - Rex Journey
+  - Nia Pomera
+  - Somali Longhaired
+  - Kento Tosa
+  - Aby Ssinia
+  - Shizuka Shishi
+  - Eigo Kohitsuji
+  - Kochou Wang
+  - Chizuru Maru
+  - Anne Sieber
+  - Airu Inuzuka
+  - Kazuma Fujioka
+  - Nira
+  - Kousuke Sakaki
+  - Genichirou Tazaki
+  - Kakeru Kurahara
+  - Haiji Kiyose
+  - Takashi Sugiyama
+  - Tarou Jou
+  - Jirou Jou
+  - Yukihiko Iwakura
+  - Musa Kamala
+  - Akihiro Hirata
+  - Akane Kashiwazaki
+  - Hanako Katsuta
+  - Sakuta Azusagawa
+  - Mai Sakurajima
+  - Kaede Azusagawa
+  - Rio Futaba
+  - Shouko Makinohara
+  - Nodoka Toyohama
+  - Tomoe Koga
+  - Saki Kamisato
+  - Yousuke Maesawa
+  - Mai no Haha
+  - Yuuma Kunimi
+  - Fumika Nanjou
+  - Rena Kashiba
+  - Kotomi Kano
+  - Uzuki Hirokawa
+  - Eren Yeager
+  - Mikasa Ackerman
+  - Armin Arlert
+  - Levi
+  - Dot Pixis
+  - Jean Kirstein
+  - "Hange Zo\xEB"
+  - Sasha Blouse
+  - Connie Springer
+  - Erwin Smith
+  - Nifa
+  - Rod Reiss
+  - Traute Caven
+  - Kenny Ackerman
+  - Zeke
+  - Bertolt Hoover
+  - Reiner Braun
+  - Ymir
+  - Nile Dok
+  - Marlo Freudenberg
+  - Hitch Dreyse
+  - Grisha Yeager
+  - Keith Shadis
+  - Carla Yeager
+  - Rintarou Okabe
+  - Suzuha Amane
+  - Itaru Hashida
+  - Maho Hiyajou
+  - Nae Tennouji
+  - Rumiho Akiha
+  - Luka Urushibara
+  - Moeka Kiryuu
+  - Yuki Amane
+  - Kagari Shiina
+  - Alexis Leskinen
+  - Judy Reyes
+  - Yuugo Tennouji
+  - Katsumi Nakase
+  - Kaede Kurushima
+  - Mayuri Shiina
+  - Kurisu Makise
+  - Souma Yukihira
+  - Erina Nakiri
+  - Megumi Tadokoro
+  - Eishi Tsukasa
+  - Rindou Kobayashi
+  - Terunori Kuga
+  - Satoshi Isshiki
+  - Yuuki Yoshino
+  - Alice Nakiri
+  - Anne
+  - Ryouko Sakaki
+  - Jouichirou Yukihira
+  - Nene Kinokuni
+  - Miyoko Houjou
+  - Berta
+  - Isami Aldini
+  - Takumi Aldini
+  - Urara Kawashima
+  - Fumio Daimidou
+  - 'Daigo  Aoki '
+  - 'Shouji  Satou '
+  - Ryou Kurokiba
+  - Saitou Soumei
+  - Azami Nakiri
+  - Katsuki Bakugou
+  - Izuku Midoriya
+  - Tenya Iida
+  - Shouto Todoroki
+  - Momo Yaoyorozu
+  - Tsuyu Asui
+  - Shouta Aizawa
+  - Tomura Shigaraki
+  - Minoru Mineta
+  - Mina Ashido
+  - Denki Kaminari
+  - Hanta Sero
+  - Eijirou Kirishima
+  - Kyouka Jirou
+  - Mei Hatsume
+  - Mezou Shouji
+  - Mashirao Ojiro
+  - Fumikage Tokoyami
+  - Kouji Kouda
+  - Rikidou Satou
+  - Sirius
+  - Tooru Hagakure
+  - Neito Monoma
+  - Chizome Akaguro
+  - Hina
+  - Yoshifumi Nitta
+  - Anzu
+  - Kiyoshi Baba
+  - Mao
+  - Hitomi Mishima
+  - Sabu
+  - Utako Sakura
+  - Yassan
+  - Atsushi Yamamoto
+  - Kei Ikaruga
+  - Kengo Tanaka
+  - Mika Nitta
+  - Yoshihiko Ashikawa
+  - Mami Shinjou
+  - Minako Mishima
+  - Sayo Aizawa
+  - Tsubasa Matsutani
+  - Tatsuhiko Naitou
+  - Takashi Shimoda
+  - Mother Nitta
+  - Shiho Asagiri
+  - Hayashi
+  - Director
+  - Hiro
+  - Zero Two
+  - Ichigo
+  - Goro
+  - Miku
+  - Zorome
+  - Kokoro
+  - Futoshi
+  - Ikuno
+  - Mitsuru
+  - Nana
+  - Dr. Franxx
+  - Hachi
+  - Kyouryuu no Hime
+  - Naomi
+  - 9' Alpha
+  - 9' Delta
+  - 9' Beta
+  - Shuseki
+  - Fukushuseki
+  - Lemur
+  - 9' Epsilon
+  - Tarsier
+  - 090
+  - Takagi
+  - Nishikata
+  - Nakai
+  - Mano
+  - Kimura
+  - Mina Hibino
+  - Sanae Tsukimoto
+  - Takao
+  - Tanabe-sensei
+  - Souma Yukihira
+  - Eishi Tsukasa
+  - Rindou Kobayashi
+  - Erina Nakiri
+  - Megumi Tadokoro
+  - Ryouko Sakaki
+  - Senzaemon Nakiri
+  - Alice Nakiri
+  - Subaru Mimasaka
+  - Akira Hayama
+  - Nene Kinokuni
+  - Yuuki Yoshino
+  - Takumi Aldini
+  - Ryou Kurokiba
+  - Momo Akanegakubo
+  - Jouichirou Yukihira
+  - Hisako Arato
+  - Ikumi Mito
+  - Shun Ibusaki
+  - Satoshi Isshiki
+  - Gin Doujima
+  - Eizan Etsuya
+  - Koujirou Shinomiya
+  - Zenji Marui
+  - Kiyotaka Ayanokouji
+  - Suzune Horikita
+  - Kikyou Kushida
+  - Airi Sakura
+  - Honami Ichinose
+  - Sae Chabashira
+  - Yousuke Hirata
+  - Manabu Horikita
+  - Arisu Sakayanagi
+  - Mei Yu Wang
+  - Kei Karuizawa
+  - Rokusuke Kouenji
+  - Kakeru Ryuuen
+  - Mio Ibuki
+  - Akane Tachibana
+  - Yume Kobashi
+  - Satsuki Shinohara
+  - Masumi Kamuro
+  - Chie Hoshinomiya
+  - Riko
+  - Reg
+  - Nanachi
+  - Bondrewd
+  - Ouzen
+  - Lyza
+  - Nat
+  - Shiggy
+  - Marulk
+  - Hablog
+  - Kiwi
+  - Jiruo
+  - Mitty
+  - Simred
+  - Mio
+  - Laffi
+  - Tankutsuka
+  - Zapo-jii
+  - Yelme
+  - Beruchero
+  - Ilim
+  - Yumeko Jabami
+  - Mary Saotome
+  - Ryouta Suzui
+  - Sayaka Igarashi
+  - Midari Ikishima
+  - Kaede Manyuda
+  - Kirari Momobami
+  - Yuriko Nishinotouin
+  - Itsuki Sumeragi
+  - Runa Yomozuki
+  - Ririka Momobami
+  - Yumemi Yumemite
+  - Nanami Tsubomi
+  - Jun Kiwatari
+  - Shinnouji
+  - Saori
+  - Tomoya Aki
+  - Izumi Hashima
+  - Michiru Hyoudou
+  - Eriri Spencer Sawamura
+  - Utaha Kasumigaoka
+  - Megumi Katou
+  - Sonoko Machida
+  - Iori Hashima
+  - Ranko Morioka
+  - Echika Mizuhara
+  - Tokino Himekawa
+  - Katsuki Bakugou
+  - Mashirao Ojiro
+  - Hanta Sero
+  - Sirius
+  - Neito Monoma
+  - Shouta Aizawa
+  - Itsuka Kendou
+  - Chizome Akaguro
+  - Enji Todoroki
+  - Dabi
+  - Himiko Toga
+  - Tenya Iida
+  - Kouji Kouda
+  - Momo Yaoyorozu
+  - Mei Hatsume
+  - Yuuga Aoyama
+  - Tetsutetsu Tetsutetsu
+  - Mina Ashido
+  - Hizashi Yamada
+  - Nemuri Kayama
+  - Sorahiko
+  - Tooru Hagakure
+  - Shouto Todoroki
+  - Izuku Midoriya
+  - Hanabi Yasuraoka
+  - Mugi Awaya
+  - Akane Minagawa
+  - Sanae Ebato
+  - Narumi Kanai
+  - Noriko Kamomebata
+  - Atsuya Kirishima
+  - Takuya Terauchi
+  - Mei Hayakawa
+  - Hanabi's Mother
+  - Mito
+  - Tohru
+  - Fafnir
+  - Riko Saikawa
+  - Shouta Magatsuchi
+  - Kanna Kamui
+  - Quetzalcoatl
+  - Makoto Takiya
+  - Elma
+  - Georgie Saikawa
+  - Kobayashi
+  - Damocles
+  - Yana
+  - Sone
+  - Touzoku no Shoujo
+  - Masamune Makabe
+  - Aki Adagaki
+  - Chinatsu Hayase
+  - Tae Futaba
+  - Yoshino Koiwai
+  - Kikuon Kiba
+  - Sonoka Kaneko
+  - Kojuurou Shuri
+  - Mari Mizuno
+  - Neko Fujinomiya
+  - Kinue Hayase
+  - Kanetsugu Gasou
+  - Hinata Kawamoto
+  - Momo Kawamoto
+  - Akari Kawamoto
+  - Harunobu Nikaidou
+  - Someji Kawamoto
+  - Rei Kiriyama
+  - Kyouko Kouda
+  - Kai Shimada
+  - Takashi Hayashida
+  - Noguchi Eisaku
+  - Yuusuke Takahashi
+  - Tatsuyuki Misumi
+  - Issa Matsumoto
+  - Morio Shigeta
+  - Shouichi Matsunaga
+  - Masachika Kouda
+  - Ayumu Kouda
+  - Hanaoka
+  - Misaki
+  - Manabu Yasui
+  - Okuyasu Yokomizo
+  - Izumida
+  - Takanori Jinguuji
+  - Takeshi Tsujii
+  - Hajime Hinata
+  - Mikan Tsumiki
+  - Ibuki Mioda
+  - Fuyuhiko Kuzuryuu
+  - Nekomaru Nidai
+  - Teruteru Hanamura
+  - Ryouta Mitarai
+  - Peko Pekoyama
+  - Nagito Komaeda
+  - Sonia Nevermind
+  - Akane Owari
+  - Hiyoko Saionji
+  - Kazuichi Souda
+  - Mahiru Koizumi
+  - Junko Enoshima
+  - Chiaki Nanami
+  - Mukuro Ikusaba
+  - Kouichi Kizakura
+  - Seiko Kimura
+  - Sounosuke Izayoi
+  - Chisa Yukizome
+  - Juuzou Sakakura
+  - Jin
+  - Karen Kisaragi
+  - Shigeo Kageyama
+  - Arataka Reigen
+  - Ekubo
+  - Ritsu Kageyama
+  - Tenga Onigawara
+  - Tome Kurata
+  - Teruki Hanazawa
+  - Ichi Mezato
+  - Takane Tsubomi
+  - Chihiro
+  - Daichi Shiratori
+  - Kaito Shiratori
+  - Yusuke  Sakurai
+  - Mukai
+  - Megumu Koyama
+  - Tsuyoshi Edano
+  - Muto
+  - Toichiro  Suzuki
+  - Ishiguro
+  - Mob's Mother Kageyama
+  - Miyagawa
+  - Takeuchi
+  - Terada
+  - Shou Suzuki
+  - Souma Yukihira
+  - Erina Nakiri
+  - Megumi Tadokoro
+  - Ryou Kurokiba
+  - Takumi Aldini
+  - Alice Nakiri
+  - Ikumi Mito
+  - Ryouko Sakaki
+  - Yuuki Yoshino
+  - Satoshi Isshiki
+  - Senzaemon Nakiri
+  - Isami Aldini
+  - Shun Ibusaki
+  - Jouichirou Yukihira
+  - Eizan Etsuya
+  - Hisako Arato
+  - Akira Hayama
+  - Gin Doujima
+  - Hinako Inui
+  - Subaru Mimasaka
+  - Zenji Marui
+  - Fuyumi Mizuhara
+  - Goutoda Donato
+  - Roland Chapelle
+  - Yukichi Fukuzawa
+  - Atsushi Nakajima
+  - Osamu Dazai
+  - Ryuunosuke Akutagawa
+  - Doppo Kunikida
+  - Ranpo Edogawa
+  - Junichirou Tanizaki
+  - Kenji Miyazawa
+  - Akiko Yosano
+  - Naomi Tanizaki
+  - Chuuya Nakahara
+  - Motojirou Kajii
+  - Ichiyou Higuchi
+  - Kyouka Izumi
+  - Ougai Mori
+  - Michizou Tachihara
+  - Elise
+  - Rokuzou Taguchi
+  - Minoura
+  - Gin Akutagawa
+  - Nabuko Sasaki
+  - Junsa Sugimoto
+  - Ryuurou Hirotsu
+  - Lucy Maud Montgomery
+  - Toshinori Yagi
+  - Izuku Midoriya
+  - Ochako Uraraka
+  - Tenya Iida
+  - Katsuki Bakugou
+  - Tsuyu Asui
+  - Shouto Todoroki
+  - Mina Ashido
+  - Minoru Mineta
+  - Momo Yaoyorozu
+  - Hanta Sero
+  - Mashirao Ojiro
+  - Kyouka Jirou
+  - Fumikage Tokoyami
+  - Mezou Shouji
+  - Tooru Hagakure
+  - Kouji Kouda
+  - Rikidou Satou
+  - Eijirou Kirishima
+  - Yuu Takeyama
+  - Shouta Aizawa
+  - All For One
+  - Denki Kaminari
+  - Tomura Shigaraki
+  - Megumin
+  - Aqua
+  - Darkness
+  - Kazuma Satou
+  - Wiz
+  - Luna
+  - Eris
+  - Sena
+  - Arakuremono
+  - Beldia
+  - Keith
+  - Kyouya Mitsurugi
+  - Dust
+  - Tenshi
+  - Haruhiro
+  - Yume
+  - Ranta
+  - Shihoru
+  - Manato
+  - Moguzo
+  - Renji
+  - Britney
+  - Barbara
+  - Mary
+  - Shinohara
+  - Youji Itami
+  - Tuka Luna Marceau
+  - Rory Mercury
+  - Lelei la Lelena
+  - "Pi\xF1a Co Lada"
+  - Shino Kuribayashi
+  - Arpeggio el Lalena
+  - Tyuule
+  - Satoru Fujinuma
+  - Kayo Hinazuki
+  - Sachiko Fujinuma
+  - Airi Katagiri
+  - Kazu
+  - Kenya Kobayashi
+  - Osamu
+  - Jun Shiratori
+  - Gaku Yashiro
+  - Misato
+  - Hiromi Sugita
+  - Koutarou Bokuto
+  - Keiji Akaashi
+  - Chikara Ennoshita
+  - Yuu Nishinoya
+  - Tadashi Yamaguchi
+  - Kei Tsukishima
+  - Ryuunosuke Tanaka
+  - Asahi Azumane
+  - Daichi Sawamura
+  - Koushi Sugawara
+  - Tobio Kageyama
+  - Shouyou Hinata
+  - Hitoka Yachi
+  - Yuuji Terushima
+  - Akiteru Tsukishima
+  - Keishin Ukai
+  - Ittetsu Takeda
+  - Kiyoko Shimizu
+  - Takanobu Aone
+  - Tooru Oikawa
+  - Tetsurou Kuroo
+  - Kenji Futakuchi
+  - Lev Haiba
+  - Hajime Iwaizumi
+  - Momonga
+  - Shalltear Bloodfallen
+  - Albedo
+  - Solution Epsilon
+  - Demiurge
+  - Mare Bello Fiore
+  - Aura Bella Fiora
+  - Cocytus
+  - Narberal Gamma
+  - Pandora's Actor
+  - Sebas Tian
+  - Entoma Vasilissa Zeta
+  - Shizu Delta
+  - Gazef Stronoff
+  - Lupusregina Beta
+  - Touch Me
+  - Brain Unglaus
+  - Yuri Alpha
+  - Clementine
+  - Nemu Emmot
+  - Lizzie Bareare
+  - Nfirea Bareare
+  - Enri Emmot
+  - Hamusuke
+  - Rito Yuuki
+  - Momo Belia Deviluke
+  - Konjiki no Yami
+  - Mea Kurosaki
+  - Lala Satalin Deviluke
+  - Mikan Yuuki
+  - Nana Astar Deviluke
+  - Yui Kotegawa
+  - Nemesis
+  - Celine
+  - Risa Momioka
+  - Peke
+  - Haruna Sairenji
+  - Rin Kujou
+  - Ren Elsie Jewelria
+  - Taizou Motemitsu
+  - Ryouko Mikado
+  - Tearju Lunatique
+  - Run Elsie Jewelria
+  - Shizu Murasame
+  - Aya Fujisaki
+  - Honekawa
+  - Sayaka Arai
+  - Nakajima
+  - Rory Mercury
+  - Lelei la Lelena
+  - Tuka Luna Marceau
+  - "Pi\xF1a Co Lada"
+  - Youji Itami
+  - Shino Kuribayashi
+  - Yao Ha Ducy
+  - Molt Augustus
+  - Takeo Kurata
+  - Chitoge Kirisaki
+  - Raku Ichijou
+  - Kosaki Onodera
+  - Marika Tachibana
+  - Seishirou Tsugumi
+  - Ruri Miyamoto
+  - Fuu-chan
+  - Haru Onodera
+  - Paula McCoy
+  - Tsukasa Mizugaki
+  - Michiru Kinushima
+  - Zack
+  - Kazuki Kuwanomi
+  - Constance
+  - Yasutaka Hanada
+  - Sherry
+  - Eru Miru
+  - Takao Yamanobe
+  - Isla
+  - Andy
+  - Nina
+  - Chizu Shirohana
+  - Marsha
+  - Souta Wakanae
+  - Mikijirou Tetsuguro
+  - Mari Iwai
+  - Hajime Iwai
+  - Edward
+  - Artoria Pendragon
+  - Rin Tohsaka
+  - Shirou Emiya
+  - Sakura Matou
+  - Archer
+  - Illyasviel von Einzbern
+  - "C\xFA  Chulainn"
+  - Taiga Fujimura
+  - Kirei Kotomine
+  - Kiritsugu Emiya
+  - Gilgamesh
+  - Kojirou Sasaki
+  - Medea
+  - Soichirou Kuzuki
+  - Shinji Matou
+  - Leysritt
+  - Luviagelita Edelfelt
+  - Waver Velvet
+  - Souma Yukihira
+  - Erina Nakiri
+  - Megumi Tadokoro
+  - Satoshi Isshiki
+  - Yuuki Yoshino
+  - Ryouko Sakaki
+  - Shun Ibusaki
+  - Zenji Marui
+  - Takumi Aldini
+  - Isami Aldini
+  - Ikumi Mito
+  - Senzaemon Nakiri
+  - Jouichirou Yukihira
+  - Alice Nakiri
+  - Ryou Kurokiba
+  - Eizan Etsuya
+  - Gin Doujima
+  - Hinako Inui
+  - Akira Hayama
+  - Hisako Arato
+  - Fuyumi Mizuhara
+  - Roland Chapelle
+  - Koujirou Shinomiya
+  - Nao Sadatsuka
+  - Bell Cranel
+  - Ais Wallenstein
+  - Hestia
+  - Liliruca Arde
+  - Eina Tulle
+  - Syr Flova
+  - Ryuu  Lion
+  - Tiona Hiryute
+  - Bete Loga
+  - Lefiya Viridis
+  - Tione Hiryute
+  - Riveria Ljos Alf
+  - Welf Crozzo
+  - Mikoto Yamato
+  - Misha  Flott
+  - Ganesha
+  - Guile India
+  - Chloe  Rollo
+  - Freya
+  - Asfi  Al Andromeda
+  - Loki
+  - Takemikazuchi
+  - Zeus
+  - Anya Fromel
+  - Hachiman Hikigaya
+  - Yukino Yukinoshita
+  - Yui Yuigahama
+  - Saika Totsuka
+  - Yoshiteru Zaimokuza
+  - Komachi Hikigaya
+  - Haruno Yukinoshita
+  - Shizuka Hiratsuka
+  - Hayato Hayama
+  - Iroha Isshiki
+  - Tamanawa
+  - Hina Ebina
+  - Rumi Tsurumi
+  - Oooka
+  - Kakeru Tobe
+  - Saki Kawasaki
+  - Yamato
+  - Meguri Shiromeguri
+  - Yumiko Miura
+  - Kaori Orimoto
+  - Chika Nakamachi
+  - Tetsuya Kuroko
+  - Taiga Kagami
+  - Atsushi Murasakibara
+  - Riko Aida
+  - Seijuro Akashi
+  - Daiki Aomine
+  - Satsuki Momoi
+  - Shintarou Midorima
+  - Teppei Kiyoshi
+  - Ryouta Kise
+  - Junpei Hyuuga
+  - Shinji Koganei
+  - Tatsuya Himuro
+  - Yukio Kasamatsu
+  - Kotarou Hayama
+  - Makoto Hanamiya
+  - Kagetora Aida
+  - Hiroshi Fukuda
+  - Kensuke Fukui
+  - Shun Izuki
+  - Kouichi Kawahara
+  - Shinsuke Kimura
+  - Shoichi Imayoshi
+  - Alexandra Garcia
+  - Jotaro Kujo
+  - Mohammed Avdol
+  - Noriaki Kakyoin
+  - Jean-Pierre Polnareff
+  - Dio Brando
+  - Iggy
+  - Joseph Joestar
+  - Vanilla Ice
+  - Enya Geil
+  - Terence D'Arby
+  - Daniel D'Arby
+  - Hol Horse
+  - Boingo
+  - Pet Shop
+  - Suzie Q
+  - Nukesaku
+  - N'Doul
+  - Wilson Phillips
+  - Oingo
+  - Chaka
+  - Mariah
+  - Kenny G.
+  - Anubis
+  - Alessi
+  - Shinichi Izumi
+  - Migi
+  - Ryouko Tamiya
+  - Kana Kimishima
+  - Satomi Murano
+  - Mr. A
+  - Kazuyuki Izumi
+  - Nobuko Izumi
+  - Hideo Shimada
+  - Gotou
+  - Mamoru Uda
+  - Takeshi Hirokawa
+  - Kamijou
+  - Mitsuo
+  - Makiko Hayase
+  - Mitsuyo
+  - Kusano
+  - Taku Furuya
+  - Yuuko Tachikawa
+  - Akiho Suzuki
+  - B
+  - Hirama
+  - Youko Kuramori
+  - Uragami
+  - Meliodas
+  - Diane
+  - Hawk
+  - Elizabeth Liones
+  - Ban
+  - King
+  - Gowther
+  - Gilthunder
+  - Elaine
+  - Jericho
+  - Guila
+  - Howzer
+  - Hendricksen
+  - Dreyfus
+  - Veronica Liones
+  - Griamor
+  - Merlin
+  - Arthur Pendragon
+  - Margaret Liones
+  - Gustav
+  - Bartra Liones
+  - Vivian
+  - Zeal
+  - Slader
+  - Artoria Pendragon
+  - Rin Tohsaka
+  - Shirou Emiya
+  - Sakura Matou
+  - Archer
+  - Illyasviel von Einzbern
+  - "C\xFA  Chulainn"
+  - Taiga Fujimura
+  - Kirei Kotomine
+  - Kiritsugu Emiya
+  - Medea
+  - Sella
+  - Kojirou Sasaki
+  - Leysritt
+  - Gilgamesh
+  - Soichirou Kuzuki
+  - Shinji Matou
+  - Medusa
+  - Ayako Mitsuzuri
+  - Heracles
+  - Issei Ryuudou
+  - Yukika Saegusa
+  - Kane  Himuro
+  - 'Umetaro Nozaki '
+  - 'Chiyo Sakura '
+  - 'Mikoto Mikoshiba '
+  - Yuu Kashima
+  - 'Yuzuki Seo '
+  - Hori Masayuki
+  - 'Hirotaka Wakamatsu '
+  - Mitsuya Maeno
+  - Ken Miyamae
+  - Yukari Miyako
+  - Sei Handa
+  - Miwa Yamamura
+  - Tamako Arai
+  - Hiroshi Kido
+  - Hina Kubota
+  - Kentarou Oohama
+  - Akihiko Arai
+  - Kousuke Kanzaki
+  - Yuujirou Kido
+  - Kazuyuki Sakamoto
+  - Naru Kotoishi
+  - Emi Handa
+  - Takao Kawafuji
+  - Seimei Handa
+  - Sora
+  - Shiro
+  - Stephanie Dola
+  - Jibril
+  - Chlammy Zell
+  - Fiel Nilvalen
+  - Izuna Hatsuse
+  - Tet
+  - Makoto Dola
+  - Queen
+  - Miko
+  - Azriel
+  - Ino Hatsuse
+  - High Official
+  - Robber
+  - Shouyou Hinata
+  - Tobio Kageyama
+  - Koushi Sugawara
+  - Daichi Sawamura
+  - Ryuunosuke Tanaka
+  - Keishin Ukai
+  - Chikara Ennoshita
+  - Ittetsu Takeda
+  - Kiyoko Shimizu
+  - Tooru Oikawa
+  - Kei Tsukishima
+  - Yuu Nishinoya
+  - Tadashi Yamaguchi
+  - Asahi Azumane
+  - Kazuhito Narita
+  - Tetsurou Kuroo
+  - Kenma Kozume
+  - Hajime Iwaizumi
+  - Hisashi Kinoshita
+  - Yuutarou Kindaichi
+  - Takurou Oiwake
+  - Nobuyuki Kai
+  - Shouhei Fukunaga
+  - Sou Inuoka
+  - Miyuki Shiba
+  - Tatsuya Shiba
+  - Erika Chiba
+  - Hanzou Hattori
+  - Suzune Ichihara
+  - Masaki Ichijou
+  - Takeaki Kirihara
+  - Shizuku Kitayama
+  - Sayaka Mibu
+  - Shun Morisaki
+  - Mayumi Saegusa
+  - Leonhart Saijou
+  - Midori Sawaki
+  - Mizuki Shibata
+  - Koutaro Tatsumi
+  - Kinoe Tsukasa
+  - Mari Watanabe
+  - Mikihiko Yoshida
+  - Honoka Mitsui
+  - Yakumo Kokonoe
+  - Haruka Ono
+  - Kanon Chiyoda
+  - Harunobu Kazama
+  - Sayuri Shiba
+  - Jotaro Kujo
+  - Mohammed Avdol
+  - Noriaki Kakyoin
+  - Jean-Pierre Polnareff
+  - Dio Brando
+  - Joseph Joestar
+  - Rubber Soul
+  - Hol Horse
+  - Holly Kujo
+  - Nena
+  - J. Geil
+  - Forever
+  - Sherry Polnareff
+  - Anne
+  - Gray Fly
+  - Steely Dan
+  - Devo
+  - Cameo
+  - Mannish Boy
+  - Arabia Fats
+  - Roses
+  - ZZ
+  - Impostor Captain Tennille
+  - Midler
+  - Chitoge Kirisaki
+  - Kosaki Onodera
+  - Marika Tachibana
+  - Raku Ichijou
+  - Seishirou Tsugumi
+  - Claude Ringheart
+  - Ruri Miyamoto
+  - Shuu Maiko
+  - Kyoko
+  - Ryuu
+  - Nanako Onodera
+  - Gen Tachibana
+  - Yugo Hachiken
+  - Aki Mikage
+  - Shinnosuke Aikawa
+  - Tamako Inada
+  - Ichiro Komaba
+  - Grandfather Mikage
+  - Ayame Minamikujou
+  - Manabu Yoda
+  - Nakaya
+  - Nurse
+  - Matsuzawa
+  - Baseball Coach
+  - Shinichirou Inada
+  - Fukubuchou
+  - Kenta Ishiyama
+  - Hiroyuki Kino
+  - Kouji Futamata
+  - Minami Kitamachi
+  - Misora Komaba
+  - Grandmother Mikage
+  - Mother Komaba
+  - Noboru Maruyama
+  - Nino Komaba
+  - Yuuichi Matsuyama
+  - Drakon
+  - Yunan
+  - Yamuraiha
+  - Ja'far
+  - Sharrkan
+  - Kougyoku Ren
+  - Sinbad
+  - Kouen Ren
+  - Alibaba Saluja
+  - Hakuryuu Ren
+  - Morgiana
+  - Judar
+  - Masrur
+  - Aladdin
+  - Pisti
+  - Hinahoho
+  - Myers
+  - Lin Sai
+  - Hakuei Ren
+  - Hakuyuu Ren
+  - Titus Alexius
+  - Solomon Jehoahaz Abraham
+  - Aum Madaura
+  - Scheherazade
+  - Kouko Kaga
+  - Banri Tada
+  - Mitsuo Yanagisawa
+  - Nana Hayashida
+  - Chinami Oka
+  - Takaya Satou
+  - Nana
+  - Kosshii
+  - Sao
+  - Shii
+  - Tenri Ayukawa
+  - Diana
+  - Shiori Shiomiya
+  - Keima Katsuragi
+  - Elucia de Lute Ima
+  - Chihiro Kosaka
+  - Yui Goidou
+  - Haqua du Lot Herminium
+  - Tsukiyo Kujou
+  - Lune
+  - Ayumi Takahara
+  - Kanon Nakagawa
+  - Apollo
+  - Mars
+  - Vulcan
+  - Minerva
+  - Tamako Inada
+  - Yugo Hachiken
+  - Shinnosuke Aikawa
+  - Aki Mikage
+  - Ichiro Komaba
+  - Mayumi Yoshino
+  - Keiji Tokiwa
+  - Yoshiyuki Nakajima
+  - Tarou Beppu
+  - 'Ichiko Fuji '
+  - Misako Hachiken
+  - Kouji Futamata
+  - Shingo Hachiken
+  - Kazumasa Hachiken
+  - Chidori Ikeda
+  - Hirono
+  - Mother Inada
+  - Shinichirou Inada
+  - Father Inada
+  - Minami Kitamachi
+  - Misora Komaba
+  - Nino Komaba
+  - Mother Komaba
+  - Noboru Maruyama
+  - Tsuduri Tessou
+  - Shizuri Mugino
+  - Mii Konori
+  - Kuroko Shirai
+  - Ryoukan
+  - Erii Haruue
+  - Maika Tsuchimikado
+  - Mikoto Misaka
+  - Accelerator
+  - Aiho Yomikawa
+  - Misuzu Misaka
+  - Kazari Uiharu
+  - Ao Amai
+  - Ruiko Saten
+  - Kinuho Wannai
+  - Touma Kamijou
+  - Maaya Awatsuki
+  - Misaki Shokuhou
+  - Banri Edasaki
+  - Mitsuko Kongo
+  - Shinobu Nunotaba
+  - Saiai Kinuhata
+  - Frenda Seivelun
+  - Rikou Takitsubo
+  - Albert Ende
+  - Yuki Mizushima
+  - Riho Sasaki
+  - Miki Shiba
+  - Lucifer
+  - Crestia Bell
+  - Alciel
+  - Emeralda Etuva
+  - Olba Meyer
+  - Emilia Justina
+  - Watanabe
+  - Mitsuki Sarue
+  - Rika Suzuki
+  - Chiho Sasaki
+  - Mayumi Kisaki
+  - Servantes Reberiz
+  - Kaori Shouji
+  - Satan Jacob
+  - Kawachi
+  - Senichi Sasaki
+  - Robertio Iguno Valentia
+  - Nord Justina
+  - Kuryuu
+  - Haruno Yukinoshita
+  - Saki Kawasaki
+  - Shizuka Hiratsuka
+  - Yumiko Miura
+  - Hayato Hayama
+  - Yoshiteru Zaimokuza
+  - Oooka
+  - Yamato
+  - Atsugi
+  - Hina Ebina
+  - Yukino Yukinoshita
+  - Meguri Shiromeguri
+  - Minami Sagami
+  - Komachi Hikigaya
+  - Hachiman Hikigaya
+  - Saika Totsuka
+  - Yui Yuigahama
+  - Rumi Tsurumi
+  - Taishi Kawasaki
+  - Yuka
+  - Mori
+  - Yokko
+  - Kakeru Tobe
+  - Mandola
+  - Galdo Gasper
+  - Black Percher
+  - Shiroyasha
+  - Jack-o'-lantern
+  - Izayoi Sakamaki
+  - Ratten
+  - Laius Perseus
+  - Mikeneko
+  - You Kasukabe
+  - Leticia Drakurea
+  - Kyaroro Gundark
+  - Kurousagi
+  - Jin Russell
+  - Lili
+  - Melln
+  - Sandora Dortlake
+  - Ayesha Ignis Fatuus
+  - Asuka Kudou
+  - Chieko Ayase
+  - Midori Sakurazawa
+  - Anthony Sorb
+  - Nayuta Amakasu
+  - Chitose Ayase
+  - Mari Wataya
+  - Shinichi Murao
+  - Matoba
+  - Taichi Mashima
+  - Rieko Ooe
+  - Akihiro Tsukuba
+  - Kyungseo Park
+  - Kouki Shiroyama
+  - Hiro Kinashi
+  - Makoto Yamai
+  - Futoshi Mochida
+  - Hideo Harada
+  - Kenji Ayase
+  - Hajime Wataya
+  - Taeko Miyauchi
+  - Tsutomu Komano
+  - Rion Yamashiro
+  - Hiroshi Tsuboguchi
+  - Tomonori Oikawa
+  - Juko Yagi
+  - Michiko Ooji
+  - Mamedai Kitashirakawa
+  - Takashi Uotani
+  - Tadashi Yagi
+  - Kaoru Hanase
+  - Fumiko Mitsumura
+  - Gohei Ooji
+  - Sayuri Yumoto
+  - Dera Mochimazzi
+  - Mecha Mochimazzi
+  - Tomio Shimizu
+  - Kunio Yaobi
+  - Nobuhiko Tokiwa
+  - Chouji Yumoto
+  - Anko Kitashirakawa
+  - Fuku Kitashirakawa
+  - Mari Uotani
+  - Hinako Kitashirakawa
+  - Shiori Asagiri
+  - Choi Mochimazzi
+  - Mochizou Ooji
+  - Tadanao Shiraki
+  - Tatsuya
+  - Shinya Kougami
+  - Shuusei Kagari
+  - Nobuchika Ginoza
+  - Risa Aoyanagi
+  - Shogo Makishima
+  - Rikako Ouryou
+  - Yayoi Kunizuka
+  - Rina Takizaki
+  - Shion Karanomori
+  - Kimihiko Hayama
+  - Akane Tsunemori
+  - Mitsuru Sasayama
+  - Chika Shimazu
+  - Masatake Midou
+  - Joushuu Kasei
+  - Tomomi Masaoka
+  - Kouichi Ashikaga
+  - Nobuaki Kudama
+  - Nobuo Ookura
+  - Yuuji Kanehara
+  - Gu-sung Choe
+  - Jouji Saiga
+  - Shouko Sugawara
+  - Junmei Itou
+  - Rita Ainsworth
+  - Ryuunosuke Akasaka
+  - Maid-chan
+  - Ayano Iida
+  - Jin Mitaka
+  - Akiko Kanda
+  - Koharu Shiroyama
+  - Chihiro Sengoku
+  - Kazuki Fujisawa
+  - Father Kanda
+  - Souichirou Tatebayashi
+  - Saori Himemiya
+  - Shiori Nanba
+  - Fuuka Kamiigusa
+  - Noriko
+  - Mashiro Shiina
+  - Yuuko Kanda
+  - Iori Himemiya
+  - Momoko
+  - Misaki Kamiigusa
+  - Yayoi Honjou
+  - Sorata Kanda
+  - Otoha Nakano
+  - Daichi Miyahara
+  - Drakon
+  - Koubun Ka
+  - Uraltugo Noi Nueph
+  - Yunan
+  - Amon
+  - Markkio
+  - Ithnan
+  - Yamuraiha
+  - Jamil
+  - Hinahoho
+  - Zagan
+  - Ja'far
+  - Hakuei Ren
+  - Cassim
+  - Paimon
+  - Zaynab
+  - Spartos Leoxses
+  - Ryosai
+  - Apollonius
+  - Fatima
+  - Sharrkan
+  - Kougyoku Ren
+  - Sinbad
+  - Toya
+  - Yuuzan Yoshida
+  - Takashi Mizutani
+  - Chizuru Ooshima
+  - Kyouko Misawa
+  - Yuu Miyama
+  - Kenji Yamaguchi
+  - Saeko Ninomiya
+  - Haru Yoshida
+  - Shizuku Mizutani
+  - Masahiro Ayanokouji
+  - Ryuuji Tomioka
+  - Shimoyanagi
+  - Mitsuyoshi Misawa
+  - Yumeko
+  - Murakami
+  - Souhei Sasahara
+  - Takaya Mizutani
+  - Asako Natsume
+  - Seta
+  - Terashima
+  - Ryuuzen Gotou
+  - Fuusenkazura
+  - Maiko Fujishima
+  - Mother Kiriyama
+  - Himeko Inaba
+  - Reika Nagase
+  - Taichi Yaegashi
+  - Brother Inaba
+  - Yoshifumi Aoki
+  - Iori Nagase
+  - Nana Nishino
+  - Shingo Watase
+  - Rina Yaegashi
+  - Yui Kiriyama
+  - Father Aoki
+  - Yukina Kurihara
+  - Anzu Kiriyama
+  - Chinatsu Mihashi
+  - Kaidou
+  - Kaoru Setouchi
+  - Oryouri Kenkyuukai Buchou
+  - Tomoe Oreki
+  - Muneyoshi Kugayama
+  - Engei Buin
+  - Takeo Kaitou
+  - Yuri Kounosu
+  - Midori Yamanishi
+  - Ayako Kouchi
+  - Jirou Tanabe
+  - Jirou Sugimura
+  - Mitsuishi
+  - Konari
+  - Mamiko Senoue
+  - Fuyumi Irisu
+  - Masashi Tohgaito
+  - Oryouri Kenkyuukai Fukubuchou
+  - Punk
+  - Takeo Katsuta
+  - Tanimoto
+  - Shouko Yuasa
+  - Satoshi Fukube
+  - Yasukuni Yoshino
+  - Omichi
+  - Hanai
+  - Hidenori Tabata
+  - Yoshitake Tanaka
+  - Homeroom teacher
+  - President
+  - Vice President
+  - Vice President
+  - Yanagi
+  - Bully
+  - Ikushima
+  - Nago-san
+  - Yoshitake's sister
+  - Yuusuke Tabata
+  - Kyuuseishu
+  - Kiyotaka
+  - Motoharu
+  - Tadakuni
+  - Senpai
+  - Takahiro's friend
+  - Father Tabata
+  - Habara
+  - Emi
+  - Takahiro Matsumoto
+  - Mino
+  - Mitsuo
+  - Sae Nakata
+  - Kanae Itou
+  - Tsukasa Ayatsuji
+  - Haruka Morishima
+  - Jessica Morishima
+  - Keiko Tanaka
+  - Risa Kamizaki
+  - Hibiki Tsukahara
+  - Ai Nanasaki
+  - Maya Takahashi
+  - Kaoru Tanamachi
+  - Rihoko Sakurai
+  - Masayoshi Umehara
+  - Miya Tachibana
+  - Junichi Tachibana
+  - Manaka Hiba
+  - Ruriko Yuzuki
+  - Yayoi
+  - Noriko Kurosawa
+  - Shuuichirou Keido
+  - Arisa Kuhouin
+  - Gai Tsutsugami
+  - Makoto Waltz Segai
+  - Kurosu Ouma
+  - Tsugumi
+  - Shibungi
+  - Ayase Shinomiya
+  - Yahiro Samukawa
+  - Kenji Kido
+  - Souta Tamadate
+  - Arugo Tsukishima
+  - Yuu
+  - Haruka Ouma
+  - Guin
+  - Daryl Yan
+  - Hare Menjou
+  - Okina Kuhouin
+  - Major General Yan
+  - Kanon Kusama
+  - Kyou
+  - Dan Eagleman
+  - Hirohide Nanba
+  - Oogumo
+  - Chieko Ayase
+  - Sakura Kanai
+  - Nayuta Amakasu
+  - Chitose Ayase
+  - Mari Wataya
+  - Shinichi Murao
+  - Taichi Mashima
+  - Rieko Ooe
+  - Hiro Kinashi
+  - Ririka Tachikawa
+  - Grandmother Wakamiya
+  - Hisashi Suou
+  - Shiho Wakamiya
+  - Futoshi Mochida
+  - Hideo Harada
+  - Kenji Ayase
+  - Yumi Yamamoto
+  - Hajime Wataya
+  - Taeko Miyauchi
+  - Tsutomu Komano
+  - Yasuda
+  - Hiroshi Tsuboguchi
+  - Akira Wataya
+  - Akito Sudou
+  - Gilgamesh
+  - Ryuunosuke Uryuu
+  - Artoria Pendragon
+  - Kirei Kotomine
+  - "Natalia Kami\u0144ski"
+  - Martha Mackenzie
+  - Aoi Tohsaka
+  - Waver Velvet
+  - Irisviel von Einzbern
+  - Diarmuid  Ua Duibhne
+  - Kiritsugu Emiya
+  - Rin Tohsaka
+  - Illyasviel von Einzbern
+  - Sakura Matou
+  - Tokiomi Tohsaka
+  - Sola-Ui Nuada-Re Sophia-Ri
+  - Iskandar
+  - Lancelot
+  - Kariya Matou
+  - Hassan-i-Sabbah
+  - Kayneth Archibald El-Melloi
+  - Zoken Matou
+  - Glen Mackenzie
+  - Fionn mac Cumhaill
+  - Pitcher
+  - Yuu Hatori
+  - Kusunoki Kasuga
+  - Yuri Nikaido
+  - Dokurou Skull
+  - Yotsuba Sugimoto
+  - Mari Katsuragi
+  - Elucia de Lute Ima
+  - Keima Katsuragi
+  - Ichirou Kodama
+  - Haqua du Lot Herminium
+  - Chihiro Kosaka
+  - Jun Nagase
+  - Ayumi Takahara
+  - Ume Kurumizawa
+  - Sawako Kuronuma
+  - Kento Miura
+  - Shouta Kazehaya
+  - Ayane Yano
+  - Chizuru Yoshida
+  - Ryuu Sanada
+  - Mr. Kuronuma
+  - Yuka
+  - Kazuichi Arai
+  - Tomoko Endou
+  - Souichi Jounouchi
+  - Eriko Hirano
+  - Chigusa Takahashi
+  - Youko Kuronuma
+  - Tooru Sanada
+  - Fujidera
+  - Yuu Hatori
+  - Yuri Nikaido
+  - Okada
+  - Mari Katsuragi
+  - Shiori Shiomiya
+  - Mio Aoyama
+  - Elucia de Lute Ima
+  - Keima Katsuragi
+  - Ichirou Kodama
+  - Kanon Nakagawa
+  - Chihiro Kosaka
+  - Sora Asuka
+  - Ayumi Takahara
+  - Yuri
+  - Saki Tenjouin
+  - Shizu Murasame
+  - Saibai Yuuki
+  - Yui Kotegawa
+  - Ringo Yuuki
+  - Rito Yuuki
+  - Akiho Sairenji
+  - Risa Momioka
+  - Celine
+  - Aya Fujisaki
+  - Zastin
+  - Mikan Yuuki
+  - Konjiki no Yami
+  - Kenichi Saruyama
+  - Haruna Sairenji
+  - Principal
+  - Peke
+  - Momo Belia Deviluke
+  - Nana Astar Deviluke
+  - Mio Sawada
+  - Kyouko Kirisaki
+  - Honekawa
+  - Lala Satalin Deviluke
+  - Run Elsie Jewelria
+  - Sae Nakata
+  - Kanae Itou
+  - Tsukasa Ayatsuji
+  - Haruka Morishima
+  - Keiko Tanaka
+  - Risa Kamizaki
+  - Hibiki Tsukahara
+  - Ai Nanasaki
+  - Junichi Tachibana
+  - Maya Takahashi
+  - Kaoru Tanamachi
+  - Rihoko Sakurai
+  - Masayoshi Umehara
+  - Miya Tachibana
+  - Manaka Hiba
+  - Mika Makihara
+  - American Director
+  - Ruriko Yuzuki
+  - Yukari Ayatsuji
+  - Yayoi
+  - Ikuo Nanasaki
+  - Igarashi
+  - Mysterious Boy
+  - Hatsune Otonashi
+  - Shiori Sekine
+  - Yusa
+  - Masami Iwasawa
+  - Saitou
+  - Yuzuru Otonashi
+  - Yui
+  - Kanade Tachibana
+  - Miyuki Irie
+  - Ayato Naoi
+  - Hisako
+  - Chaa
+  - Takamatsu
+  - Hideki Hinata
+  - Yuri Nakamura
+  - Hitomi
+  - Ooyama
+  - Shiina
+  - Takeyama
+  - Fujimaki
+  - Matsushita
+  - Noda
+  - Tora Igarashi
+  - Minako Ayuzawa
+  - Hinata Shintani
+  - Shizuko Kaga
+  - Kuuga Sakurai
+  - Soutarou Kanou
+  - Subaru
+  - Nagisa Tsuwamono
+  - Gouki Aratake
+  - Sakura Hanazono
+  - Misaki Ayuzawa
+  - Takumi Usui
+  - Ikuto Sarashina
+  - Satsuki Hyoudou
+  - Erika
+  - Honoka
+  - Sayu
+  - Shou
+  - Kanade Maki
+  - Naoya Shirakawa
+  - Takezawa
+  - Takashi Hagimoto
+  - Ryuunosuke Kurosaki
+  - Shouichirou Yukimura
+  - Izaya Orihara
+  - Kyohei Kadota
+  - Shizuo Heiwajima
+  - Tom Tanaka
+  - Hiroshi
+  - Haruna Niekawa
+  - Takashi Nasujima
+  - Kinnosuke Kuzuhara
+  - Masaomi Kida
+  - Anri Sonohara
+  - Shinra Kishitani
+  - Celty Sturluson
+  - Shuji Niekawa
+  - Horada
+  - Shingen Kishitani
+  - Namie Yagiri
+  - Saburou Togusa
+  - Isaac Dian
+  - Shiri
+  - Saki Mikajima
+  - Kazutano
+  - Ryo Takiguchi
+  - Mika Harima
+  - Shiki
+  - Ume Kurumizawa
+  - Sawako Kuronuma
+  - Shouta Kazehaya
+  - Tooru Sanada
+  - Ayane Yano
+  - Genji Sanada
+  - Chizuru Yoshida
+  - Haruka Katayama
+  - Ryuu Sanada
+  - Mr. Kuronuma
+  - Yuka
+  - Kazuichi Arai
+  - Shino
+  - Tomoko Endou
+  - Touta Kazehaya
+  - Yoshiyuki Arai
+  - Souichi Jounouchi
+  - Eriko Hirano
+  - Chigusa Takahashi
+  - Taiga Aisaka
+  - Minori Kushieda
+  - Maya Kihara
+  - Yuri Koigakubo
+  - Yasuko Takasu
+  - Inko-chan
+  - Sena Hamada
+  - Kouta Tomiie
+  - Kouji Haruta
+  - Yuusaku Kitamura
+  - Ami Kawashima
+  - Sumire Kanou
+  - Rikurou Aisaka
+  - Stalker man
+  - Sakura Kanou
+  - Ryuuji Takasu
+  - Aisaka's Mother
+  - Murase
+  - Hisamitsu Noto
+  - Nanako Kashii
+  - Kuroma
+  - Inage
+  - Seiji Takasu
+  - Sonoko Takasu
+  - Lambo
+  - Gamma
+  - Uncle Kawahira
+  - Uri
+  - Bianchi
+  - Hibird
+  - Superbi Squalo
+  - Giotto
+  - Reborn
+  - Knuckle
+  - Ryohei Sasagawa
+  - Kyouya Hibari
+  - Fon
+  - Alaude
+  - Leviathan
+  - Ken Joshima
+  - Lal Mirch
+  - Bluebell
+  - Lavina
+  - Fuuta de la Stella
+  - Glo Xinia
+  - Nana Sawada
+  - Ginger Bread
+  - Tsunayoshi Sawada
+  - Alphonse Elric
+  - Kathleen Elle Armstrong
+  - Gracia Hughes
+  - Lujon
+  - King Bradley
+  - Roy Mustang
+  - Edward Elric
+  - Bard
+  - "Ros\xE9 Tomas"
+  - Roa
+  - Solf J. Kimblee
+  - Maes Hughes
+  - Wrath
+  - Greed
+  - Yoki
+  - Frank Archer
+  - Philip Gargantos Armstrong
+  - Alex Louis Armstrong
+  - Winry Rockbell
+  - Martel
+  - Clause
+  - Lyra
+  - Riza Hawkeye
+  - Scar
+  - Senkuu Ishigami
+  - Gen Asagiri
+  - Chrome
+  - Kohaku
+  - Nikki Hanada
+  - Tsukasa Shishiou
+  - Ginrou
+  - Kaseki
+  - Kinrou
+  - Ukyou Saionji
+  - Suika
+  - Magma
+  - Yuzuriha Ogawa
+  - Taiju Ooki
+  - Ruri
+  - Minami Hokutouzai
+  - Hyouga
+  - Homura Momiji
+  - You Uei
+  - Kokuyo
+  - Mirai Shishiou
+  - Lillian Weinberg
+  - Byakuya Ishigami
+  - Izumi Miyamura
+  - Kyouko Hori
+  - Yuki Yoshikawa
+  - Tooru Ishikawa
+  - Kakeru Sengoku
+  - Sakura Kouno
+  - Remi Ayasaki
+  - Shuu Iura
+  - Akane Yanagi
+  - Motoko Iura
+  - Makio Tanihara
+  - Yuriko Hori
+  - Kouichi Shindou
+  - Honoka Sawada
+  - Souta Hori
+  - Kyousuke Hori
+  - Takako Nishi
+  - Chika Ichijou
+  - Shin Yasuda
+  - Daiki Mizouchi
+  - Miki Yoshikawa
+  - Reiko Terajima
+  - Iori Miyamura
+  - Keigo Izumi
+  - Toujaku Ou
+  - Maid Chou
+  - Dai Shikyou
+  - Maou
+  - Ou Otouto Gensui
+  - Yuusha
+  - Ansatsusha
+  - Karyuu Koujo
+  - Fukukan
+  - Onna Kishi
+  - Seinen Shounin
+  - Kokuin Ou
+  - Fuyu no Ouji
+  - Ao Ma Shougun
+  - Onna Mahoutsukai
+  - Byakuya Ou
+  - Rekidai Maou
+  - Rou Yumihei
+  - Katame Shirei-kan
+  - Youhei Taichou
+  - Hikari no Seirei
+  - Shounin Shitei
+  - Shisha
+  - Kizoku Shitei
+  - Norimi Kawaguchi
+  - Sawako Yamanaka
+  - Satoshi Tainaka
+  - Nodoka Manabe
+  - Mrs. Kawakami
+  - Yui Hirasawa
+  - Maki
+  - Mio Akiyama
+  - Mother Hirasawa
+  - Ritsu Tainaka
+  - Tsumugi Kotobuki
+  - Father Hirasawa
+  - Azusa Nakano
+  - Ui Hirasawa
+  - Jun Suzuki
+  - Teacher Horigome
+  - Shiho
+  - Aya
+  - Occult Club Member 1
+  - Occult Club Members 2
+  - Youko Sasaki
+  - Jane
+  - Keiko Sano
+  - Della
+  - Jun Naruse
+  - Takumi Sakagami
+  - Daiki Tasaki
+  - Natsuki Nitou
+  - Youko Uno
+  - Arata Kaizaki
+  - Chizuru Hishiro
+  - Ryou Yoake
+  - An Onoya
+  - Rena Kariu
+  - Kazuomi Ooga
+  - Honoka Tamarai
+  - Akira Inukai
+  - Nobunaga Asaji
+  - Chizuru Ichinose
+  - Kazuya Kinoshita
+  - Ruka Sarashina
+  - Sumi Sakurasawa
+  - Mami Nanami
+  - Yoshiaki Kibe
+  - Nagomi Kinoshita
+  - Bianca
+  - Ryuka
+  - Surarin
+  - Martha
+  - Sakuta Azusagawa
+  - Nodoka Toyohama
+  - Mai Sakurajima
+  - Tomoe Koga
+  - Rio Futaba
+  - Kaede Azusagawa
+  - Shouko Makinohara
+  - Saki Kamisato
+  - Yousuke Maesawa
+  - Mai no Haha
+  - Lio Fotia
+  - Kray Foresight
+  - Galo Thymos
+  - Aina Ardebit
+  - Remi Puguna
+  - Varys Truss
+  - Lucia  Fex
+  - Ignis  Ex
+  - Heris Ardebit
+  - Deus Prometh
+  - Gueria
+  - Vulcan Haestus
+  - Vinny
+  - Biar Colossus
+  - Meis
+  - Ikoma
+  - Kajika
+  - Mumei
+  - Ayame Yomogawa
+  - Yukina
+  - Kurusu
+  - Kibito
+  - Kaito Kuroba
+  - Ran Mouri
+  - Sonoko Suzuki
+  - Conan Edogawa
+  - Makoto Kyogoku
+  - Genta Kojima
+  - Ayumi Yoshida
+  - Ai Haibara
+  - Mitsuhiko Tsuburaya
+  - Ginzo Nakamori
+  - Hiroshi Agasa
+  - Kogoro Mouri
+  - Hezli  Jamaluddin
+  - Sherilyn  Tan
+  - Eugene  Lim
+  - Mark  Aidan
+  - Reijiro  Nakatomi
+  - John Han  Chen
+  - Rishi  Ramanathan
+  - Leon Lowe
+  - Bell Cranel
+  - Hestia
+  - Welf Crozzo
+  - Liliruca Arde
+  - Ais Wallenstein
+  - Artemis
+  - Eina Tulle
+  - Tione Hiryute
+  - Ryuu  Lion
+  - Tiona Hiryute
+  - Uranus
+  - Loki
+  - Lefiya Viridis
+  - Bete Loga
+  - Syr Flova
+  - Hermes
+  - Riveria Ljos Alf
+  - Meryl Tear
+  - Freya
+  - Lena  Tally
+  - Finn Deimne
+  - Gareth Landrock
+  - Ganesha
+  - Ottarl
+  - Tanya Degurechaff
+  - Viktoriya Ivanovna Serebryakova
+  - Mary Sioux
+  - Erich von Rerugen
+  - Hans von Zettour
+  - Matheus Johann  Weiss
+  - Kurt von Rudersdorf
+  - Rhiner  Neumann
+  - Warren Grantz
+  - Wilibald  Koenig
+  - William Douglas Drake
+  - "S\xE9verin   Bient\xF4t"
+  - Isaac Dustin Drake
+  - Adelheid  Von Schugel
+  - Pierre-Michel   De Lugo
+  - Vivi
+  - Goku Son
+  - Vegeta
+  - Broly
+  - Beerus
+  - Bulma
+  - Freeza
+  - King Vegeta
+  - Paragus
+  - King Cold
+  - Ginyu
+  - Piccolo
+  - Dodoria
+  - Burter
+  - Bardock
+  - Jeice
+  - Whis
+  - Recoome
+  - Guldo
+  - Shenlong
+  - Zarbon
+  - Berryblue
+  - Cheelai
+  - Gine
+  - Beets
+  - Izuku Midoriya
+  - Toshinori Yagi
+  - Melissa Shield
+  - David Shield
+  - Katsuki Bakugou
+  - Ochako Uraraka
+  - Shouto Todoroki
+  - Tenya Iida
+  - Momo Yaoyorozu
+  - Eijirou Kirishima
+  - Wolfram
+  - Fumikage Tokoyami
+  - Minoru Mineta
+  - Hanta Sero
+  - Mezou Shouji
+  - All For One
+  - Mina Ashido
+  - Tooru Hagakure
+  - Tsuyu Asui
+  - Kyouka Jirou
+  - Denki Kaminari
+  - Rikidou Satou
+  - Daruma Ujiko
+  - Inko Midoriya
+  - Atsushi Nakajima
+  - Osamu Dazai
+  - Ryuunosuke Akutagawa
+  - Chuuya Nakahara
+  - Tatsuhiko  Shibusawa
+  - Fyodor Dostoyevsky
+  - Elise
+  - Mizuki Tsujimura
+  - Kyouka Izumi
+  - Kenji Miyazawa
+  - Ranpo Edogawa
+  - Yukichi Fukuzawa
+  - Ango Sakaguchi
+  - Ougai Mori
+  - Junichirou Tanizaki
+  - Izuna Hatsuse
+  - Sora
+  - Shiro
+  - Stephanie Dola
+  - Jibril
+  - Tet
+  - Schwi Dola
+  - Riku Dola
+  - Couronna Dola
+  - Shinku  Nilvalen
+  - Nonna Zell
+  - Azriel
+  - Ivan Zell
+  - Einithi
+  - Raphael
+  - Artosh
+  - Miyuki Shiba
+  - Tatsuya Shiba
+  - Erika Chiba
+  - Leonhart Saijou
+  - Mizuki Shibata
+  - Mikihiko Yoshida
+  - Shizuku Kitayama
+  - Honoka Mitsui
+  - Angelina Kudou Shields
+  - Kokoa
+  - Conan Edogawa
+  - Ran Mouri
+  - Genta Kojima
+  - Mitsuhiko Tsuburaya
+  - Shizuka Hattori
+  - Heiji Hattori
+  - Kazuha Toyama
+  - Ai Haibara
+  - Fumimaro Ayanokoji
+  - Sonoko Suzuki
+  - Hiroshi Agasa
+  - Ayumi Yoshida
+  - Gorou Otaki
+  - Ginshiro Toyama
+  - Momiji Ooka
+  - Muga Iori
+  - Masaru Katou
+  - Reika Shimohira
+  - Kei Kurono
+  - Yoshikazu Suzuki
+  - Anzu Yamasaki
+  - Sanpei Taira
+  - Nobuo Muroya
+  - Oka Hachirou
+  - Joichiro Nishi
+  - Ayumu Katou
+  - Tetsuo Hara
+  - Susumu Kimura
+  - Yuugi Mutou
+  - Seto Kaiba
+  - Katsuya Jonouchi
+  - Mokuba Kaiba
+  - Ryou Bakura
+  - Ryuuji Otogi
+  - Hiroto Honda
+  - Anzu Mazaki
+  - Shadi
+  - Aigami
+  - Mani
+  - Kogoro Mouri
+  - Ran Mouri
+  - Sonoko Suzuki
+  - Hiroshi Agasa
+  - Tooru Amuro
+  - Shuuichi Akai
+  - Mitsuhiko Tsuburaya
+  - Conan Edogawa
+  - Gin
+  - Vodka
+  - Vermouth
+  - Chianti
+  - Korn
+  - Hidemi Hondou
+  - Jodie Starling
+  - Andre Camel
+  - James Black
+  - Ayumi Yoshida
+  - Genta Kojima
+  - Azusa Enomoto
+  - Miwako Satou
+  - Kazunobu Chiba
+  - Juzo Megure
+  - Wataru Takagi
+  - Conan Edogawa
+  - Kaito Kuroba
+  - Ai Haibara
+  - Ran Mouri
+  - Jirokichi Suzuki
+  - Sonoko Suzuki
+  - Ayumi Yoshida
+  - Genta Kojima
+  - Mitsuhiko Tsuburaya
+  - Hiroshi Agasa
+  - Kogoro Mouri
+  - Ginzo Nakamori
+  - Conan Edogawa
+  - Shuuichi Akai
+  - Masumi Sera
+  - Ran Mouri
+  - Ai Haibara
+  - Wataru Takagi
+  - Kogoro Mouri
+  - Sonoko Suzuki
+  - Hiroshi Agasa
+  - Ayumi Yoshida
+  - Genta Kojima
+  - Mitsuhiko Tsuburaya
+  - Juzo Megure
+  - Miwako Satou
+  - Kazunobu Chiba
+  - James Black
+  - Andre Camel
+  - Jodie Starling
+  - Ninzaburo Shiratori
+  - Ai Haibara
+  - Conan Edogawa
+  - Gorou Otaki
+  - Kogoro Mouri
+  - Mitsuhiko Tsuburaya
+  - Genta Kojima
+  - Fumimaro Ayanokoji
+  - Kazuha Toyama
+  - Hiroshi Agasa
+  - Ran Mouri
+  - Ayumi Yoshida
+  - Heiji Hattori
+  - Ginshiro Toyama
+  - Heizo Hattori
+  - Juzo Megure
+  - Kurumazaki
+  - Wataru Takagi
+  - Miwako Satou
+  - Beerus
+  - Videl
+  - Whis
+  - Vegeta
+  - Gohan Son
+  - Goten Son
+  - Goku Son
+  - Oracle Fish
+  - Android 18
+  - Mr. Satan
+  - Majin Boo
+  - Tenshinhan
+  - Trunks
+  - Shu
+  - Mai
+  - Piccolo
+  - Dende
+  - Muten Roushi
+  - Oolong
+  - North Kai King
+  - Pilaf
+  - Kuririn
+  - Yamcha
+  - Pu'ar
+  - Retz
+  - Illumi Zoldyck
+  - Leorio Paradinight
+  - Chrollo Lucilfer
+  - Feitan Portor
+  - Pakunoda
+  - Hisoka Morow
+  - Kurapika
+  - Uvogin
+  - Franklin Bordeaux
+  - Shalnark Ryuseih
+  - Nobunaga Hazama
+  - Killua Zoldyck
+  - Phinks Magcub
+  - Pairo
+  - Shizuku Murasaki
+  - Gon Freecss
+  - Machi Komacine
+  - Usopp
+  - Luffy Monkey
+  - Nami
+  - Zoro Roronoa
+  - Sanji
+  - Chopper Tony Tony
+  - Robin Nico
+  - Franky
+  - Kuzan
+  - Z
+  - Borsalino
+  - Brook
+  - Bins
+  - Ain
+  - Helmeppo
+  - Sakazuki
+  - Garp
+  - Minato Namikaze
+  - Naruto Uzumaki
+  - Menma
+  - Sasuke Uchiha
+  - Kakashi Hatake
+  - Tenten
+  - Hinata Hyuuga
+  - Kiba Inuzuka
+  - Iruka Umino
+  - Ino Yamanaka
+  - Rock Lee
+  - Zetsu
+  - Shikamaru Nara
+  - Guy Might
+  - Chouji Akimichi
+  - Sai
+  - Sakura Haruno
+  - Kizashi Haruno
+  - Tobi
+  - Tsunade Senju
+  - Neji Hyuuga
+  - Shino Aburame
+  - Itachi Uchiha
+  - Mebuki Haruno
+  - Ai Haibara
+  - Ninzaburo Shiratori
+  - Conan Edogawa
+  - Natsuki Tono
+  - Mizuki Tono
+  - Kogoro Mouri
+  - Mitsuhiko Tsuburaya
+  - Shogo Hikawa
+  - Genta Kojima
+  - Wataru Takagi
+  - Sasamoto
+  - Fuyumi Tachihara
+  - Touma Tachihara
+  - Hiroshi Agasa
+  - Ran Mouri
+  - Sonoko Suzuki
+  - Ayumi Yoshida
+  - Juzo Megure
+  - Kazunobu Chiba
+  - Keisuke Yamao
+  - Miwako Satou
+  - Takehiko Muto
+  - Sumiko Kobayashi
+  - Toshirou Odagiri
+  - Ai Haibara
+  - Ninzaburo Shiratori
+  - Conan Edogawa
+  - Kaito Kuroba
+  - Waitress
+  - Kogoro Mouri
+  - Mitsuhiko Tsuburaya
+  - Genta Kojima
+  - Wataru Takagi
+  - Kasumi Nishitani
+  - Mitsuhiro Asano
+  - Ginzo Nakamori
+  - Kazuha Toyama
+  - Hiroshi Agasa
+  - Ran Mouri
+  - Sonoko Suzuki
+  - Ayumi Yoshida
+  - Heiji Hattori
+  - Chiaki Oota
+  - Juzo Megure
+  - Leader
+  - Kazunobu Chiba
+  - Ginshiro Toyama
+  - Miwako Satou
+  - Usopp
+  - Luffy Monkey
+  - Nami
+  - Zoro Roronoa
+  - Sanji
+  - Chopper Tony Tony
+  - Robin Nico
+  - Franky
+  - Nojiko
+  - Xiao's Mother
+  - Indigo
+  - Scarlet
+  - Brook
+  - Xiao's Grandmother
+  - Garp
+  - Sengoku
+  - Xiao
+  - Shiki
+  - Ever
+  - Ai Haibara
+  - Ninzaburo Shiratori
+  - Conan Edogawa
+  - Yui Uehara
+  - Risa Yoshii
+  - Shun Sawamura
+  - Mitsuhiko Tsuburaya
+  - Genta Kojima
+  - Wataru Takagi
+  - Sango Yokomizo
+  - Juugo Yokomizo
+  - Nanako Honjo
+  - Fumimaro Ayanokoji
+  - Chianti
+  - Vodka
+  - Minoru Fukase
+  - Ayami Ogino
+  - Juzo Megure
+  - Kogoro Mouri
+  - Kazuha Toyama
+  - Hiroshi Agasa
+  - Ran Mouri
+  - Sonoko Suzuki
+  - Ayumi Yoshida
+  - Zack Fair
+  - Sephiroth
+  - Rude
+  - Reno
+  - Cloud Strife
+  - Aerith Gainsborough
+  - Yazoo
+  - Elena
+  - Kadaj
+  - Rufus Shinra
+  - Yuffie Kisaragi
+  - Loz
+  - Tifa Lockhart
+  - Vincent Valentine
+  - Red XIII
+  - Cid Highwind
+  - Barret Wallace
+  - Marlene Wallace
+  - Denzel
+  - Reeve Tuesti
+  - Cait Sith
+  - Tseng
+  - Yoruichi Shihouin
+  - Homura
+  - Nemu Kurotsuchi
+  - Ichigo Kurosaki
+  - Shuuhei Hisagi
+  - Kisuke Urahara
+  - Ururu Tsumugiya
+  - Jinta Hanakari
+  - Ikkaku Madarame
+  - Soi Fon
+  - Retsu Unohana
+  - Toshiro Hitsugaya
+  - Rukia Kuchiki
+  - Yumichika Ayasegawa
+  - Shizuku
+  - Jirou Souzousa Shunsui Kyoraku
+  - Hanataro Yamada
+  - Hisana Kuchiki
+  - Byakuya Kuchiki
+  - Marechiyo Oomaeda
+  - Renji Abarai
+  - Mayuri Kurotsuchi
+  - Sajin Komamura
+  - Kenpachi Zaraki
+  - Ai Haibara
+  - Ninzaburo Shiratori
+  - Conan Edogawa
+  - Reiko Akiba
+  - Mitsuhiko Tsuburaya
+  - Genta Kojima
+  - Wataru Takagi
+  - Kogoro Mouri
+  - Hiroshi Agasa
+  - Rara Chigusa
+  - Ran Mouri
+  - Ayumi Yoshida
+  - Shion Yamane
+  - Juzo Megure
+  - Kazunobu Chiba
+  - Genya Domoto
+  - Miwako Satou
+  - Kazuki Domoto
+  - Takumi Fuwa
+  - "Hans M\xFCller"
+  - Aqua
+  - Albedo
+  - Kazuma Satou
+  - Momonga
+  - Emilia
+  - Subaru Natsuki
+  - Tanya Degurechaff
+  - Viktoriya Ivanovna Serebryakova
+  - Darkness
+  - Megumin
+  - Rem
+  - Ram
+  - Kurt von Rudersdorf
+  - Rhiner  Neumann
+  - Hans von Zettour
+  - Erich von Rerugen
+  - Puck
+  - Wilibald  Koenig
+  - Matheus Johann  Weiss
+  - Beatrice
+  - Shalltear Bloodfallen
+  - Demiurge
+  - Roswaal L. Mathers
+  - Aura Bella Fiora
+  - Toshinari Seki
+  - Rumi Yokoi
+  - Sakurako Gotou
+  - Narrator
+  - Rika no Sensei
+  - Oushou
+  - Bijutsu no Sensei
+  - Akiyasu Uzawa
+  - Ongaku no Sensei
+  - Yokoi-san no Haha
+  - Tenchou
+  - Shokuin
+  - Suugaku no Sensei
+  - Adachi-sensei
+  - Kinshou
+  - Robot (Ko)
+  - Robot (Chichi)
+  - Takahiro Maeda
+  - Tomoka Hashino
+  - Taiiku no Sensei
+  - Yuu Nakaida
+  - Robot (Haha)
+  - Tani-sensei
+  - Shouta Aizawa
+  - Tsuyu Asui
+  - Katsuki Bakugou
+  - Denki Kaminari
+  - Izuku Midoriya
+  - Tenya Iida
+  - Eijirou Kirishima
+  - Ochako Uraraka
+  - Momo Yaoyorozu
+  - Fumikage Tokoyami
+  - Shouto Todoroki
+  - Chiyo  Shuuzenji
+  - Ii
+  - Tomo Kunagisa
+  - Jun Aikawa
+  - Ilia Akagami
+  - Akari Chiga
+  - Hikari Chiga
+  - Teruko Chiga
+  - Akane Sonoyama
+  - Kanami Ibuki
+  - Maki Himena
+  - Yayoi Sashirono
+  - Shinya Sakaki
+  - Rei Handa
+  - Sahoto Ashisu
+  - Yuuki Aito
+  - Sena Kuroi
+  - Rinna Fuwa
+  - Mihari Otosuna
+  - Matome Minano
+  - Sahono Ashisu
+  - Hakobiya
+  - Hacker
+  - Kenkaya
+  - Chinpira
+  - Ippanjin
+  - Isha
+  - Satsujinki
+  - Shokeika Deshi
+  - Shokeika Shishou
+  - Boss
+  - Kuroneko
+  - Keibi Robo
+  - Usagi-chan
+  - Same-kun
+  - Imouto
+  - Onna no Ko
+  - Miyuki Shiba
+  - Tatsuya Shiba
+  - Mizuki Shibata
+  - Angelina Kudou Shields
+  - Erika Chiba
+  - Mikihiko Yoshida
+  - Mayumi Saegusa
+  - Honoka Mitsui
+  - Shizuku Kitayama
+  - Katsuto Juumonji
+  - Mari Watanabe
+  - Leonhart Saijou
+  - Yakumo Kokonoe
+  - Sylvia Mercury First
+  - Michaela Hongou
+  - Benjamin Canopus
+  - Minami Sakurai
+  - Ayako Kuroba
+  - Maya Yotsuba
+  - 3H Personal-Type '94
+  - Kei Isori
+  - Azusa Nakajou
+  - Kanon Chiyoda
+  - Nana Hiiragi
+  - Nanao Nakajima
+  - Kyoya Onodera
+  - Moguo Iijima
+  - Michiru Inukai
+  - Yohei Shibusawa
+  - Tsunekichi Hatadaira
+  - Fuko Sorano
+  - Shinji Kazama
+  - Seiya Kori
+  - Kaori Takanashi
+  - Jin Tachibana
+  - Ryuji Ishii
+  - Yuka Sasaki
+  - Kirara Habu
+  - Tannin Kyoushi
+  - Sota Saito
+  - Shoichi Kosakai
+  - Rentarou Tsurumigawa
+  - Bell Cranel
+  - Sanjouno Haruhime
+  - Ryuu  Lion
+  - Mikoto Yamato
+  - Liliruca Arde
+  - Ais Wallenstein
+  - Wiene
+  - Hestia
+  - Welf Crozzo
+  - Ottarl
+  - Syr Flova
+  - Eina Tulle
+  - Fels
+  - Aisha Belka
+  - Hermes
+  - Freya
+  - Finn Deimne
+  - Ikelos
+  - Dix Perdix
+  - Lyd
+  - Ray
+  - Takemikazuchi
+  - Uranus
+  - Zanis  Lustra
+  - Elaina
+  - Saya
+  - Fran
+  - Sheila
+  - Majo B
+  - Elaina no Chichi
+  - Elaina no Haha
+  - Majo A
+  - Monhei A
+  - Monhei B
+  - Obasan
+  - Tenshu
+  - Shorou no Monhei
+  - Emil no Chichi
+  - Imouto
+  - Nino
+  - Ani
+  - Emil
+  - "Miraros\xE9"
+  - Yuuto
+  - Macho no Otouto
+  - Odoko
+  - Ikeme
+  - Chara
+  - Natsume
+  - Kaburagi
+  - Minato
+  - Fei
+  - Linmei
+  - Kurenai
+  - Fennel
+  - Pipe
+  - Muro
+  - Mikey
+  - Turkey
+  - Donatello
+  - Hugin
+  - 'Munin '
+  - 'Jill '
+  - Arthur Boyle
+  - Akitaru Oubi
+  - Takehisa Hinawa
+  - Shinra Kusakabe
+  - Maki Oze
+  - Tamaki Kotatsu
+  - Viktor Licht
+  - Iris
+  - Leonard Burns
+  - Karim Flam
+  - Vulcan Joseph
+  - Benimaru Shinmon
+  - Princess Hibana
+  - Shou Kusakabe
+  - Huo Yan Li
+  - Arrow
+  - Assault
+  - Inca Kasugatani
+  - Rekka Hoshimiya
+  - Joker
+  - Lisa Isaribi
+  - Tooru Kishiri
+  - Konro Sagamiya
+  - Takeru Noto
+  - Souma Yukihira
+  - Eishi Tsukasa
+  - Momo Akanegakubo
+  - Megumi Tadokoro
+  - Takumi Aldini
+  - Erina Nakiri
+  - Satoshi Isshiki
+  - Ryouko Sakaki
+  - Rindou Kobayashi
+  - Terunori Kuga
+  - Senzaemon Nakiri
+  - Nene Kinokuni
+  - Ryou Kurokiba
+  - Akira Hayama
+  - Alice Nakiri
+  - Zenji Marui
+  - Hisako Arato
+  - Shun Ibusaki
+  - Subaru Mimasaka
+  - Ikumi Mito
+  - Azami Nakiri
+  - Saitou Soumei
+  - Koujirou Shinomiya
+  - Yuuki Yoshino
+  - Twenty-Fifth Baam
+  - Rak Wraithraiser
+  - Aguero Agnis Khun
+  - Rachel
+  - Endorsi Jahad
+  - Yuri Ha Jahad
+  - Headon
+  - Hatz
+  - Shibisu
+  - Yu Han Sung
+  - Anaak Jahad
+  - Lero-Ro
+  - Evan Edrok
+  - Lauroe Phonsekal
+  - No Rang
+  - Dede Kancho
+  - Announcer
+  - Levin
+  - Serena Rinnen
+  - Inoa Yoran
+  - Sunwoo Nare
+  - Kon
+  - Shopin
+  - Riron 3
+  - Kaede Honjou
+  - Risa Shiramine
+  - Kanade
+  - Kasumi
+  - May
+  - Yui
+  - Chrome
+  - Iz
+  - Frederica
+  - Dread
+  - Dorazou
+  - Drag
+  - Marx
+  - Misery
+  - Payne
+  - Shin
+  - Mii
+  - Christmas Rose
+  - Syrup
+  - Souma Yukihira
+  - Momo Akanegakubo
+  - Megumi Tadokoro
+  - Erina Nakiri
+  - Eishi Tsukasa
+  - Rindou Kobayashi
+  - Senzaemon Nakiri
+  - Takumi Aldini
+  - Satoshi Isshiki
+  - Terunori Kuga
+  - Ryouko Sakaki
+  - Jouichirou Yukihira
+  - Nene Kinokuni
+  - Alice Nakiri
+  - Azami Nakiri
+  - Anne
+  - Saitou Soumei
+  - Ryou Kurokiba
+  - Yuuki Yoshino
+  - Zenji Marui
+  - Koujirou Shinomiya
+  - 'Shouji  Satou '
+  - Eizan Etsuya
+  - Hisako Arato
+  - Mash Kyrielight
+  - Gilgamesh
+  - Enkidu
+  - 'Fou '
+  - 'Ishtar '
+  - Leonardo da Vinci
+  - Romani Archaman
+  - Ritsuka Fujimaru
+  - Merlin
+  - Medusa
+  - Ushiwakamaru
+  - Leonidas I
+  - Benkei Musashibou
+  - Siduri
+  - Wolfgang Amadeus Mozart
+  - Olga Marie Animusphere
+  - Jaguar Man
+  - Francis  Drake
+  - Ereshkigal
+  - Quetzalcoatl
+  - Sherlock Holmes
+  - Tiamat
+  - Hassan-i-Sabbah
+  - Romulus
+  - Iruma Suzuki
+  - Clara Valac
+  - Ameri Azazel
+  - Kalego Naberius
+  - Alice Asmodeus
+  - Sullivan
+  - Sabro Sabnock
+  - Opera
+  - Keroli Crocell
+  - Lied Shax
+  - Schneider Allocer
+  - Johnny Western  Zagan
+  - Goemon Garp
+  - Jazz M. Andro
+  - Elizabetta Ix
+  - Kamui Caim
+  - Picero Agares
+  - Quichelight Kimaris
+  - Eiko
+  - Narrator
+  - Suzie Stolas
+  - Gaako
+  - Robin Balse
+  - Raim
+  - 'Ristarte '
+  - Seiya Ryuguin
+  - Mash
+  - Eruru
+  - Ariadoa
+  - Chaos Machina
+  - Touya
+  - Valkyrie
+  - Cerceus
+  - Hestiaca
+  - Deathmagla
+  - Adenela
+  - Ishtar
+  - Leviae
+  - Rosalie Roseguard
+  - Mitis
+  - Carlo
+  - Nina
+  - Colt
+  - Sora Kurumatani
+  - Chiaki Hanazono
+  - Shinichi Yasuhara
+  - Fuwa Hyou
+  - Ryuuhei Nabeshima
+  - Harumi Tominaga
+  - Momoharu Hanazono
+  - Kenji Natsume
+  - Nao Nanao
+  - Kaname Shigeyoshi
+  - Madoka Yabuuchi
+  - Youko Kokubu
+  - Rei Niimi
+  - Masahiro Saki
+  - Shinichi Chiba
+  - Tarou Kabachi
+  - Katsumi Takahashi
+  - Tokitaka Tokiwa
+  - Yukinari Kojima
+  - Yozan Kamiki
+  - Shingo Katori
+  - Shigenobu Yakuma
+  - Sei Shiraishi
+  - Tomohisa Kurumatani
+  - Accelerator
+  - Last Order
+  - Esther Rosenthal
+  - Kazari Uiharu
+  - Seike Taroumaru
+  - Kikyou Yoshikawa
+  - Ruiko Saten
+  - Heaven Canceler
+  - Aiho Yomikawa
+  - Itsuki Yakumaru
+  - Mikihiko Hishigata
+  - Rita Iizumi
+  - Naruha Sakuragi
+  - Hirumi Hishigata
+  - Hasami Hitokawa
+  - MISAKA 19090
+  - MISAKA 10046
+  - Minori Kidera
+  - Youko Tadaka
+  - Waver Velvet
+  - Reines El-Melloi Archisorte
+  - Flatt  Escardos
+  - Gray
+  - Caules Forvedge  Yggdmillennia
+  - Svin Glascheit
+  - Add
+  - Iskandar
+  - Gilgamesh
+  - Luviagelita Edelfelt
+  - Kairi Shishigou
+  - Olga Marie Animusphere
+  - Rocco Belfeban
+  - Fernando Li
+  - Karabo Frampton
+  - Trisha Fellows
+  - Chardin
+  - Mary Lil Fargo
+  - Leandra
+  - Bram Nuada-Re Sophia-Ri
+  - Trimmau
+  - Jean-Mario Supinerra
+  - Ernest Fargo
+  - Wills Pelham Codrington
+  - Saitama
+  - Genos
+  - Garou
+  - Tatsumaki
+  - Fubuki
+  - Puri-Puri Prisoner
+  - Handsome Kamen Amai Mask
+  - Metal Bat
+  - King
+  - Sonic
+  - 'Bang '
+  - Satoru
+  - Sitch
+  - Eyelashes
+  - Suiryu
+  - Tanktop Tiger
+  - Child Emperor
+  - Zombieman
+  - Bofoy
+  - Watchdog Man
+  - Charanko
+  - 'Drive Knight '
+  - Senkou no Flash
+  - Bomb
+  - Oliver Schtrom
+  - Shin  Wolford
+  - Sicily von Claude
+  - August von Earlshide
+  - Melinda Bowen
+  - Maria von Messina
+  - Merlin Wolford
+  - Zest
+  - Michel Collins
+  - Olivia Stone
+  - Thor von Fregel
+  - Yuri Carlton
+  - Tony Freed
+  - Lynn Hughes
+  - Alice Corner
+  - May von Earlshide
+  - Mark Bean
+  - Julius von Littenheim
+  - Nariyuki Yuiga
+  - Rizu Ogata
+  - Fumino Furuhashi
+  - Uruka Takemoto
+  - Mafuyu Kirisu
+  - Asumi Kominami
+  - Chinami Umihara
+  - Sawako Sekijou
+  - Mizuki Yuiga
+  - Ayuko Kuwase
+  - Kashima
+  - Mikuni
+  - Machiko
+  - Himura
+  - Hazuki Yuiga
+  - Hanae Yuiga
+  - Natsuo Fujii
+  - Rui Tachibana
+  - Hina Tachibana
+  - Shuu Hagiwara
+  - Tsukiko Tachibana
+  - Momo Kashiwabara
+  - Fumiya Kurimoto
+  - Kazuyaki Kine
+  - Miu Ashihara
+  - Akihito Fujii
+  - Reiji Kiriya
+  - Masaki Kobayashi
+  - Ayano
+  - Jun Fujii
+  - Kiriya no Tantou Josei Henshuu-sha
+  - Naofumi Iwatani
+  - Raphtalia
+  - Itsuki Kawasumi
+  - Melty Q Melromarc
+  - Ren Amaki
+  - Motoyasu Kitamura
+  - Malty Melromarc
+  - Filo
+  - Erhard
+  - Beloukas
+  - Aultcray Melromarc XXXII
+  - Medicinal Shop Owner
+  - Biscas  T. Balmus
+  - Mirellia Q Melromarc
+  - The Tailor
+  - Magic Shop Owner
+  - Captain of Melromarc Knights
+  - Roudy
+  - Hickwaal
+  - Glass
+  - Elrasla  Grilaroc
+  - Ake
+  - Fitoria
+  - Keel
+  - Yumeko Jabami
+  - Mary Saotome
+  - Ryouta Suzui
+  - Sayaka Igarashi
+  - Midari Ikishima
+  - Kaede Manyuda
+  - Kirari Momobami
+  - Yuriko Nishinotouin
+  - Itsuki Sumeragi
+  - Runa Yomozuki
+  - Yumemi Yumemite
+  - Ririka Momobami
+  - Rei Batsubami
+  - Rin   Obami
+  - Miroslava Honebami
+  - Sumika   Warakubami
+  - Miri   Yobami
+  - Rumia Uru
+  - Nozomi Komabami
+  - Horo  Jomaru
+  - Inaho  Yamato
+  - Saori
+  - Erimi  Mushibami
+  - Terano   Totobami
+  - Goblin Slayer
+  - Yousei Yunde
+  - Onna Shinkan
+  - Ushikai Musume
+  - Uketsuke-jou
+  - Majo
+  - Tokage Souryo
+  - Yaritsukai
+  - Kouhito Doushi
+  - Tsurugi no Otome
+  - Ogre
+  - Senshi
+  - Butouka
+  - Mahoutsukai
+  - Minarai seishoku-sha
+  - Yuusha
+  - Omoi Kenshi
+  - Onna Kishi
+  - Ushikai Musume no Oji
+  - Goblin Slayer's Sister
+  - Shoshinsha Senshi
+  - Hitojichi Yousei Teisatsu
+  - Rhea Sekkou
+  - Kajiya
+  - Natsu Dragneel
+  - "Charl\xE9s"
+  - Lucy Heartfilia
+  - Gray Fullbuster
+  - Erza Scarlet
+  - Happy
+  - Bluenote Stinger
+  - Wendy Marvell
+  - Juvia Lockser
+  - Chelia Blendy
+  - Lyon Vastia
+  - Mavis Vermillion
+  - Zeref
+  - Mirajane Strauss
+  - Gajeel Redfox
+  - Pantherlily
+  - Laxus Dreyar
+  - Makarov Dreyar
+  - Yuka Suzuki
+  - Toby Horhorta
+  - Ooba Babasaama
+  - Minerva Orland
+  - Yukino Aguria
+  - Orga Nanagear
+  - Kazuto Kirigaya
+  - Asuna Yuuki
+  - Eugeo
+  - Alice Zuberg
+  - Andrew Gilbert Mills
+  - Ryoutarou Tsuboi
+  - Shino Asada
+  - Rika Shinozaki
+  - Keiko Ayano
+  - Tiese Shtolienen
+  - Fanatio
+  - Sortiliena Serlut
+  - Ronye Arabel
+  - Eldrie Woolsburg
+  - Deusolbert
+  - Fizel
+  - Linel
+  - Cardinal
+  - Bercouli
+  - Quinella
+  - Selka Zuberg
+  - Egome Zakkalight
+  - Akihiko Kayaba
+  - Yui
+  - Samurai Calibur
+  - Shou Utsumi
+  - Namiko
+  - Vit
+  - Rikka Takarada
+  - Alexis Kerib
+  - Akane Shinjou
+  - Yuuta Hibiki
+  - Anti
+  - Max
+  - Borr
+  - Gridman
+  - Orie Takarada
+  - Anosillus the 2nd
+  - Hass
+  - Saki Nikaidou
+  - Ai Mizuno
+  - Sakura Minamoto
+  - Junko Konno
+  - Koutarou Tatsumi
+  - Lily Hoshikawa
+  - Tae Yamada
+  - Romero
+  - Yuugiri
+  - Keisatsukan A
+  - Death Oji A
+  - Death Oji B
+  - Takeo Gou
+  - Maria  Amabuki
+  - Reiko Amabuki
+  - Misa Azumatsuru
+  - Rimuru Tempest
+  - Shion
+  - Veldora Tempest
+  - Ranga
+  - Shizue Izawa
+  - Milim Nava
+  - Benimaru
+  - Souei
+  - Shuna
+  - Daikenja
+  - Rigurdo
+  - Rigur
+  - Gobuta
+  - Myrd
+  - Kaijin
+  - Gido
+  - Dord
+  - Kaval
+  - Ellen
+  - Garm
+  - Vesta
+  - Alice Rondo
+  - Garde-Myourmiles
+  - Kenya Misaki
+  - Momonga
+  - Sebas Tian
+  - Solution Epsilon
+  - Demiurge
+  - Shalltear Bloodfallen
+  - Narberal Gamma
+  - Aura Bella Fiora
+  - Mare Bello Fiore
+  - Cocytus
+  - Albedo
+  - Shizu Delta
+  - Gazef Stronoff
+  - Lupusregina Beta
+  - Jircniv Rune Farlord El Nix
+  - Renner Theiere Chardelon Ryle Vaiself
+  - Zaryusu Shasha
+  - Shasuryu Shasha
+  - Zenberu Gugu
+  - Crusch Lulu
+  - Lakyus Alvein Dale Aindra
+  - Gagaran
+  - Tina
+  - Brain Unglaus
+  - Tuareninya Veyron
+  - Sekkekkyuu AE3803
+  - Hakkekkyuu U-1146
+  - Kousankyuu
+  - B Saibou
+  - Macrophage
+  - Killer T Saibou
+  - Kesshouban
+  - Haien Kyuukin
+  - Kioku Saibou
+  - Mast Saibou
+  - Kouenkikyuu
+  - Hakkekkyuu U-4989
+  - Sekkekkyuu AA5100
+  - Sekkekkyuu NT4201
+  - Gan Saibou
+  - Natural Killer Saibou
+  - Oshokubudokyuukin
+  - Helper T Saibou
+  - Jujousaibou
+  - Memory T Saibou
+  - Naive T Saibou
+  - Seigyosei T Saibou
+  - Hanako Honda
+  - Olivia
+  - Kasumi Nomura
+  - Maeda
+  - Higuchi Chisato
+  - Seitokaichou
+  - Fujiwara
+  - Ruu Oka
+  - Tsugumi Aozora
+  - Takayanagi
+  - Lord of Pastimers
+  - Kentarou Honda
+  - Narrator
+  - Seito-kai fuku kaichou
+  - Olivia's Brother
+  - Shera L Greenwood
+  - Diablo
+  - Rem Galleu
+  - Edelgard
+  - Sylvie
+  - Alicia Crystella
+  - Mei
+  - Celestine Baudelaire
+  - Emile Bichelberger
+  - Krebskulm
+  - Gregore
+  - Boris  Marcus
+  - Galluk
+  - Keera L. Greenwood
+  - Celsior
+  - Medios
+  - Chester Ray Galford
+  - Saddler
+  - Narumi Momose
+  - Hirotaka Nifuji
+  - Hanako Koyanagi
+  - Tarou Kabakura
+  - Naoya Nifuji
+  - Kou Sakuragi
+  - Doumoto
+  - Yoshiki Ichijou
+  - Chiba
+  - Aiba
+  - Baba
+  - Karen Kohiruimaki
+  - Goushi Asougi
+  - Miyu Shinohara
+  - Pitohui
+  - Moe Annaka
+  - Kana Fujisawa
+  - Saki Nitobe
+  - Risa Kusunoki
+  - Shiori Noguchi
+  - Milana Shidrowa
+  - David
+  - Announcer
+  - Clarence
+  - Tutorial Instructor
+  - Lax
+  - Kenta
+  - Shirley
+  - Jake
+  - Summon
+  - Junk Dog
+  - Yuuri
+  - Yukiko Shirato
+  - Fujimaki
+  - Sachio
+  - Gansaku Nanbu
+  - Mikio Shirato
+  - Tatsumi Leonard Aragaki
+  - Miyagi
+  - Abuhachi
+  - Potemkin Higashi
+  - Oicho
+  - Ghetto Hachiya
+  - Shark Samejima
+  - Goskino
+  - Yabunuma
+  - Sugar
+  - Santa
+  - Bonjiri
+  - Meliodas
+  - Elizabeth Liones
+  - Hawk
+  - Diane
+  - Ban
+  - King
+  - Gowther
+  - Merlin
+  - Gilthunder
+  - Howzer
+  - Griamor
+  - Arthur Pendragon
+  - Margaret Liones
+  - Estarossa
+  - Escanor
+  - Hendricksen
+  - Elaine
+  - Dreyfus
+  - Veronica Liones
+  - Melascula
+  - Guila
+  - Jericho
+  - Gloxinia
+  - Zeldris
+  - Momonga
+  - Narberal Gamma
+  - Albedo
+  - Pandora's Actor
+  - Cocytus
+  - Aura Bella Fiora
+  - Mare Bello Fiore
+  - Demiurge
+  - Solution Epsilon
+  - Shalltear Bloodfallen
+  - Sebas Tian
+  - Evileye
+  - Shizu Delta
+  - Gazef Stronoff
+  - Lupusregina Beta
+  - Jircniv Rune Farlord El Nix
+  - Renner Theiere Chardelon Ryle Vaiself
+  - Zaryusu Shasha
+  - Shasuryu Shasha
+  - Zenberu Gugu
+  - Crusch Lulu
+  - Touch Me
+  - Lakyus Alvein Dale Aindra
+  - Gagaran
+  - Nana Ebina
+  - Kirie Motoba
+  - Sylphynford Tachibana
+  - Umaru Doma
+  - Taihei Doma
+  - Hikari Kongou
+  - Takeshi Motoba
+  - Alex Tachibana
+  - Kanau Kongou
+  - Maika Sakuranomiya
+  - Mafuyu Hoshikawa
+  - Kaho Hinata
+  - Kouyou Akizuki
+  - Dino
+  - Hideri Kanzaki
+  - Miu Amano
+  - Owner
+  - Chise Hatori
+  - Elias Ainsworth
+  - Titania
+  - Oberon
+  - Silky
+  - Ruth
+  - Simon Callum
+  - Lindel
+  - Cartaphilus
+  - Ethan Barklem
+  - Chika Hatori
+  - Yuuki Hatori
+  - Joel Garland
+  - Seth Noel
+  - Redcurrant
+  - Nevin
+  - Fumiki Hatori
+  - Mikhail Renfred
+  - Stella Barklem
+  - Hugo
+  - Spriggan
+  - Angelica Barley
+  - Alice Swayne
+  - Jade Ariel
+  - Yuuta Sakurai
+  - Homare Koiwai
+  - Kazuomi Fujimoto
+  - Hayashi
+  - Kanbe
+  - Lilac
+  - Himeralda
+  - Pokotarou
+  - Moriko Morioka
+  - Lily
+  - Female Beautician
+  - Tenshu
+  - Aletta
+  - Kuro
+  - Aka no Jou
+  - Sarah Gold
+  - Heinrich Seelemann
+  - Altorius
+  - Tatsugorou
+  - Victoria Samanark
+  - Faldania
+  - Sirius Alfied
+  - Adelheid
+  - Roukei
+  - Sharif
+  - Ranaa
+  - Sia Gold
+  - Christian
+  - Vlad III
+  - 'Shirou Tokisada Amakusa '
+  - Jeanne  d'Arc
+  - 'Atalanta '
+  - 'Karna '
+  - Sieg
+  - Semiramis
+  - 'Siegfried '
+  - Astolfo
+  - Jack the Ripper
+  - Fiore Forvedge Yggdmillennia
+  - Roche Frain Yggdmillennia
+  - Celenike Icecolle Yggdmillennia
+  - Gordes Musik Yggdmillennia
+  - Darnic Prestone Yggdmillennia
+  - Reika Rikudou
+  - Kairi Shishigou
+  - Mordred Pendragon
+  - William  Shakespeare
+  - Merlin
+  - Waver Velvet
+  - 'Spartacus '
+  - 'Frankenstein '
+  - 'Achilles '
+  - Glenn Radars
+  - Sistine Fibel
+  - Rumia Tingel
+  - Re=L Rayford
+  - Celica Arfonia
+  - Albert Frazer
+  - Harley Astray
+  - Jaill Wolfheart
+  - Jin Ganis
+  - Bernard Jester
+  - Zeros  Dragheart
+  - Gible Wisdan
+  - Teresa Lady
+  - Eleanor Charlet
+  - Ars Camentar
+  - Zest  De Noir
+  - Leos Kleitos
+  - Cecile Clayton
+  - Kash Winger
+  - Wendy Nablesse
+  - Rainer Layer
+  - Lake Foenhaim
+  - Sara Silvers
+  - Alicia VII
+  - Amanda O'Neill
+  - Jasminka Antonenko
+  - Constanze Amalie von Braunschbank-Albrechtsberger
+  - Diana Cavendish
+  - Chariot du Nord
+  - Sucy Manbavaran
+  - Lotte Yansson
+  - Atsuko Kagari
+  - Fafnir
+  - Andrew Hanbridge
+  - Avery
+  - Samantha Badcock
+  - Croix Meridies
+  - Nelson Kyoukan
+  - Paul Hanbridge
+  - Frank
+  - Hannah England
+  - Magic Tool Store Clerk
+  - Dorlin
+  - Louis Blackwell
+  - Mr. Blackwell
+  - Anne Finnelan
+  - Marjolaine
+  - Miranda Holbrooke
+  - Master
+  - Gabriel Tenma White
+  - Satanichia Kurumizawa McDowell
+  - Vignette Tsukinose April
+  - Raphiel Shiraha Ainsworth
+  - Tapris Sugarbell Chisaki
+  - Machiko
+  - Zeruel Tenma White
+  - Haniel Tenma White
+  - Inu
+  - Tanaka
+  - Father Kurumizawa
+  - Brother Kurumizawa
+  - Mother Kurumizawa
+  - Martiel
+  - Tetsuo Takahashi
+  - Hikari Takanashi
+  - Kyouko Machi
+  - Yuki Kusakabe
+  - Himari Takanashi
+  - Sakie Satou
+  - Kurz
+  - Ugaki
+  - Junichi Outa
+  - Announcer
+  - Shizuka Kimura
+  - Kyoutou
+  - Shouko Hasegawa
+  - Kouchou-sensei
+  - Josei Taiiku Kyoushi
+  - Tennin
+  - Kouji Takanashi
+  - Atsumi Imori
+  - Yuriko
+  - Onna Seito
+  - Danshi Seito
+  - Shen-kun
+  - Danshi Seito
+  - Kobun A
+  - Tanya Degurechaff
+  - Hans von Zettour
+  - Viktoriya Ivanovna Serebryakova
+  - Erich von Rerugen
+  - Kurt von Rudersdorf
+  - Cunningham
+  - Warren Grantz
+  - Ihlen  Schwarzkopf
+  - Ragald
+  - Isaac Dustin Drake
+  - Olvajoule  Kazole
+  - Adelheid  Von Schugel
+  - Pierre-Michel   De Lugo
+  - Matheus Johann  Weiss
+  - Heinrich  Schreise
+  - Augustin   Hosman
+  - Kurst Von Walhorf
+  - Mary Sioux
+  - Anson Sioux
+  - Harald Von Vist
+  - Maximilian Johann Von Ugar
+  - Aisha  Schubert
+  - Sonsai X
+  - Sean
+  - Yuuri Katsuki
+  - Yuri Plisetsky
+  - Victor Nikiforov
+  - Makkachin
+  - Otabek Altin
+  - Jean-Jacques Leroy
+  - Christophe Giacometti
+  - Phichit Chulanont
+  - Kenjirou  Minami
+  - Celestino Cialdini
+  - Mari Katsuki
+  - Yuuto Omiki
+  - Toshiya Katsuki
+  - Hisashi Morooka
+  - Kanako Odagaki
+  - Hiroko Katsuki
+  - Takeshi Nishigori
+  - Minako Okukawa
+  - Lutz Nishigori
+  - Axel Nishigori
+  - Loop Nishigori
+  - Yuuko Nishigori
+  - Nobunari Oda
+  - Hikaru Fujiwara
+  - Atsushi Nakajima
+  - Osamu Dazai
+  - Doppo Kunikida
+  - Junichirou Tanizaki
+  - Kenji Miyazawa
+  - Akiko Yosano
+  - Yukichi Fukuzawa
+  - Ryuunosuke Akutagawa
+  - Ranpo Edogawa
+  - Naomi Tanizaki
+  - Chuuya Nakahara
+  - Motojirou Kajii
+  - Ichiyou Higuchi
+  - Kyouka Izumi
+  - Sakunosuke Oda
+  - Francis Scott Key Fitzgerald
+  - Nathaniel Hawthorne
+  - Howard Phillips Lovecraft
+  - Ougai Mori
+  - Edgar Allan Poe
+  - Lucy Maud Montgomery
+  - Kouyou Ozaki
+  - Louisa May Alcott
+  - Elise
+  - Nozomi Kaminashi
+  - Sayaka Miyata
+  - Kazane Aoba
+  - Non Toyoguchi
+  - Hanabi Kawai
+  - Mio Kusakai
+  - Maya Sakashiro
+  - Sanae Hououin
+  - Rin Rokudou
+  - Saya Kogatana
+  - Kotone Fujisaki
+  - Nagisa Ujibe
+  - Kyouko Shirayuki
+  - Atsuko Yoshida
+  - Narrator
+  - Yuko Oshima
+  - Miku Kobayakawa
+  - Makoto Naegi
+  - Kyouko Kirigiri
+  - Monokuma
+  - Aoi Asahina
+  - Monomi
+  - Kazuo Tengan
+  - Ruruka Andou
+  - Juuzou Sakakura
+  - Ryouta Mitarai
+  - Kouichi Kizakura
+  - Great Gozu
+  - Yasuhiro Hagakure
+  - Chisa Yukizome
+  - Daisaku Bandai
+  - Seiko Kimura
+  - Sounosuke Izayoi
+  - Monaka
+  - Nagisa Shingetsu
+  - Kotoko Utsugi
+  - Byakuya Togami
+  - Touko Fukawa
+  - Komaru Naegi
+  - Kyousuke Munakata
+  - 'Masaru  Daimon '
+  - Allen Walker
+  - Yu Kanda
+  - Lavi
+  - Lenalee Lee
+  - Howard Link
+  - Millenium Earl
+  - Tyki Mikk
+  - Road Kamelot
+  - Wisely
+  - Alma Karma
+  - Johnny Gill
+  - Cross Marian
+  - Miranda Lotto
+  - Noise Marie
+  - Bookman
+  - Fou
+  - Winters Sokaro
+  - Twi Chang
+  - Klaud Nine
+  - Bak Chang
+  - Jerry
+  - Madarao
+  - Chaoji Han
+  - Reever Wenhamm
+  - Grahze
+  - Daryun
+  - Arslan
+  - Elam
+  - Narsus
+  - Hilmes
+  - Gieve
+  - Kishward
+  - Zaravant
+  - Alfreed
+  - Farangis
+  - Etoile
+  - Tahamine
+  - Shagad
+  - Xandes
+  - Tus
+  - Jaswant
+  - Baudouin
+  - Guiscard
+  - Montferrat
+  - Andragoras III
+  - Rajendra
+  - Bodin
+  - Lucian
+  - Sinbad
+  - Drakon
+  - Ja'far
+  - Yunan
+  - Hinahoho
+  - Mystras Leoxses
+  - Serendine
+  - Rurumu
+  - Narrator
+  - Matal Mogamett
+  - Badr
+  - Gyokuen Ren
+  - Rashid Saluja
+  - Pisti
+  - Vittel
+  - Spartos Leoxses
+  - Sakamoto
+  - Yoshinobu Kubota
+  - Fukase
+  - Yuka
+  - Morita
+  - Mario
+  - Kakuta
+  - Shou Hayabusa
+  - Aina Kuronuma
+  - Shigemi Kubota
+  - Yasuda
+  - Yui
+  - Tanaka
+  - Tsutsumotase
+  - Yuuya Sera
+  - Megumi Fujita
+  - Erika
+  - Mii
+  - Kenken
+  - Yagi
+  - Miki
+  - Kouhei
+  - Ryou
+  - Kana
+  - Tom Tanaka
+  - Kinnosuke Kuzuhara
+  - Masaomi Kida
+  - Shinra Kishitani
+  - Celty Sturluson
+  - Izaya Orihara
+  - Shingen Kishitani
+  - Namie Yagiri
+  - Anri Sonohara
+  - Saki Mikajima
+  - Shizuo Heiwajima
+  - Seiji Yagiri
+  - Saburou Togusa
+  - Ruri Hijiribe
+  - Kyohei Kadota
+  - Mikado Ryugamine
+  - Mika Harima
+  - Walker Yumasaki
+  - Erika Karisawa
+  - Semyon Brezhnev
+  - Emilia Kishitani
+  - Vorona
+  - Kasane Kujiragi
+  - Chikage Rokujo
+  - Koro-sensei
+  - Nagisa Shiota
+  - Irina Jelavic
+  - Tadaomi Karasuma
+  - Kaede Kayano
+  - Karma Akabane
+  - Ryouma Terasaka
+  - Yuma Isogai
+  - Sousuke Sugaya
+  - Taiga Okajima
+  - Yuzuki Fuwa
+  - Yukiko Kanzaki
+  - Megu Kataoka
+  - Manami Okuda
+  - Takuya Muramatsu
+  - Sugino Tomohito
+  - Taisei Yoshida
+  - Hiroto Maehara
+  - Touka Yada
+  - Sumire Hara
+  - Rio Nakamura
+  - Kirara Hazama
+  - Koutarou Takebayashi
+  - Kouki Mimura
+  - Shinya Hiiragi
+  - Yuuichirou Hyakuya
+  - Mikaela Hyakuya
+  - Shinoa Hiiragi
+  - Shihou Kimizuki
+  - Guren Ichinose
+  - Ferid Bathory
+  - Yoichi Saotome
+  - Crowley Eusford
+  - Mahiru Hiiragi
+  - Mitsuba Sanguu
+  - Shigure Yukimi
+  - Ashuramaru
+  - Horn  Skuld
+  - Sayuri  Hanayori
+  - Kureto Hiiragi
+  - Mito Juujou
+  - Norito  Goshi
+  - Aoi  Sanguu
+  - Krul Tepes
+  - Chess  Belle
+  - Lucal Weskar
+  - Aiko  Aihara
+  - Yayoi Endou
+  - Yato
+  - Hiyori Iki
+  - Yukine
+  - Bishamon
+  - Kazuma
+  - Kofuku Ebisu
+  - Nora
+  - Daikoku
+  - Tenjin
+  - Aiha
+  - Kouto Fujisaki
+  - Izanami
+  - Kinuha
+  - Kugaha
+  - Kuraha
+  - Ookuninushi
+  - Suzuha
+  - Tsuguha
+  - Mayu
+  - Kuroh Yatogami
+  - Misaki Yata
+  - Neko
+  - Rikio Kamamoto
+  - Saruhiko Fushimi
+  - Yashiro Isana
+  - Anna Kushina
+  - Reisi Munakata
+  - Izumo Kusanagi
+  - Seri Awashima
+  - Adolf K. Weismann
+  - Daikaku Kokujouji
+  - Douhan  Hirasaka
+  - Nagare Hisui
+  - Tenkei   Iwafune
+  - Sukuna Gojou
+  - Yukari  Mishakuji
+  - Soma Schicksal
+  - Alisa Ilichina Amiella
+  - Rindou Amamiya
+  - Kouta Fujiki
+  - Sakuya Tachibana
+  - Lenka Utsugi
+  - Iroha Utsugi
+  - Canon Daiba
+  - Kiyoshi Fujino
+  - Reiji Andou
+  - Takehito Morokuzu
+  - Jouji Nezu
+  - Shingo Wakamoto
+  - Mari Kurihara
+  - Hana Midorikawa
+  - Meiko Shiraki
+  - Kurihara
+  - Anzu Yokoyama
+  - Chiyo Kurihara
+  - Umaru Doma
+  - Taihei Doma
+  - Nana Ebina
+  - Kirie Motoba
+  - Sylphynford Tachibana
+  - Takeshi Motoba
+  - Kanau Kongou
+  - Goku Son
+  - Oracle Fish
+  - Vegeta
+  - Beerus
+  - Chi-Chi
+  - Gohan Son
+  - Goten Son
+  - Trunks
+  - Whis
+  - North Kai King
+  - Mr. Satan
+  - Kuririn
+  - Freeza
+  - Bulma
+  - Bubbles
+  - Piccolo
+  - Majin Boo
+  - Tenshinhan
+  - Lord Enma
+  - Kibito
+  - Dr. Briefs
+  - Gregory
+  - Oolong
+  - Videl
+  - Yuu Otosaka
+  - Nao Tomori
+  - Joujirou Takajou
+  - Yusa Kurobane
+  - Misa Kurobane
+  - Ayumi Otosaka
+  - Arifumi Fukuyama
+  - Furuki
+  - Konishi
+  - Kouta
+  - Takehito Kumagami
+  - Maedomari
+  - Medoki
+  - Mishima
+  - Nomura
+  - Oikawa
+  - Shunsuke Otosaka
+  - Sara Shane
+  - Kazuki Tomori
+  - Yumi Shirayanagi
+  - Shou
+  - Tom Tanaka
+  - Kinnosuke Kuzuhara
+  - Masaomi Kida
+  - Shinra Kishitani
+  - Celty Sturluson
+  - Izaya Orihara
+  - Shingen Kishitani
+  - Namie Yagiri
+  - Anri Sonohara
+  - Saki Mikajima
+  - Shizuo Heiwajima
+  - Seiji Yagiri
+  - Saburou Togusa
+  - Ruri Hijiribe
+  - Kyohei Kadota
+  - Mikado Ryugamine
+  - Mika Harima
+  - Walker Yumasaki
+  - Erika Karisawa
+  - Semyon Brezhnev
+  - Vorona
+  - Kasane Kujiragi
+  - Aoba Kuronuma
+  - Akane Awakusu
+  - Akane Sakurada
+  - Shuu Sakurada
+  - Souichirou Sakurada
+  - Hikari Sakurada
+  - Aoi Sakurada
+  - Haruka Sakurada
+  - Misaki Sakurada
+  - Teru Sakurada
+  - Shiori Sakurada
+  - Satsuki Sakurada
+  - Ryuu Yamada
+  - Urara Shiraishi
+  - Toranosuke Miyamura
+  - Miyabi Itou
+  - Nene Odagiri
+  - Mikoto Asuka
+  - Ushio Igarashi
+  - Meiko Otsuka
+  - Noa Takigawa
+  - Maria Sarushima
+  - Shinichi Tamaki
+  - Leona Miyamura
+  - Saeko Fukazawa
+  - Rika Saionji
+  - Ren Asano
+  - Keigo Shibutani
+  - Rin Sasaki
+  - Haruma Yamazaki
+  - Kentarou Tsubaki
+  - Daichi Shinagawa
+  - Mitsuru Kameda
+  - Tatsumi Yamada
+  - Takeo Gouda
+  - Makoto Sunakawa
+  - Rinko Yamato
+  - Yukika Amami
+  - Hayato Oda
+  - Ai Sunakawa
+  - Mariya Saijou
+  - Kouki Ichinose
+  - Kishward
+  - Daryun
+  - Arslan
+  - Gieve
+  - Narsus
+  - Etoile
+  - Elam
+  - Farangis
+  - Hilmes
+  - Alfreed
+  - Kirus
+  - Barcacion
+  - Pradalata
+  - Zaravant
+  - Vahriz
+  - Sanjay
+  - Shagad
+  - Xandes
+  - Asim
+  - Kharlan
+  - Borna
+  - Innocentis VII
+  - Kubard
+  - Tus
+  - Yuuto Kiba
+  - Akeno Himejima
+  - Issei Hyoudou
+  - Asia Argento
+  - Koneko Toujou
+  - Rias Gremory
+  - Gasper Vladi
+  - Xenovia Quarta
+  - Azazel
+  - Ophis
+  - Rossweisse
+  - Vali Lucifer
+  - Irina Shidou
+  - Serafall Leviathan
+  - Venelana Gremory
+  - Katase
+  - Murayama
+  - Ddraig
+  - Sirzechs Lucifer
+  - Grayfia Lucifuge
+  - Kuroka
+  - Seegvaira Agares
+  - Shuri Himejima
+  - Millicas Gremory
+  - Yuuichirou Hyakuya
+  - Mikaela Hyakuya
+  - Shinoa Hiiragi
+  - Ashuramaru
+  - Krul Tepes
+  - Shihou Kimizuki
+  - Yoichi Saotome
+  - Ferid Bathory
+  - Mito Juujou
+  - Shinya Hiiragi
+  - Guren Ichinose
+  - Crowley Eusford
+  - Mitsuba Sanguu
+  - Horn  Skuld
+  - Kureto Hiiragi
+  - Norito  Goshi
+  - Akane  Hyakuya
+  - Shigure Yukimi
+  - Chess  Belle
+  - Sayuri  Hanayori
+  - "Ren\xE9 Simm"
+  - Decim
+  - Kurokami no Onna
+  - Nona
+  - Ginti
+  - Clavis
+  - Castra
+  - Oculus
+  - Harada
+  - Quin
+  - Mayu Arita
+  - Jirou
+  - Fujii
+  - Kana
+  - 'Chiyuki''s Mother '
+  - Tria
+  - Lisa
+  - Machiko
+  - Chisato Miyazaki
+  - Shigeru Miura
+  - Shimada
+  - Novem
+  - Sae Shimada
+  - Misaki Tachibana
+  - Mai Takada
+  - Koro-sensei
+  - Nagisa Shiota
+  - Karma Akabane
+  - Kaede Kayano
+  - Tadaomi Karasuma
+  - Irina Jelavic
+  - Ryouma Terasaka
+  - Yuma Isogai
+  - Sousuke Sugaya
+  - Taiga Okajima
+  - Yuzuki Fuwa
+  - Yukiko Kanzaki
+  - Megu Kataoka
+  - Manami Okuda
+  - Takuya Muramatsu
+  - Sugino Tomohito
+  - Taisei Yoshida
+  - Hiroto Maehara
+  - Touka Yada
+  - Sumire Hara
+  - Rio Nakamura
+  - Kirara Hazama
+  - Koutarou Takebayashi
+  - Kouki Mimura
+  - Tom Tanaka
+  - Kinnosuke Kuzuhara
+  - Masaomi Kida
+  - Shinra Kishitani
+  - Celty Sturluson
+  - Izaya Orihara
+  - Shingen Kishitani
+  - Namie Yagiri
+  - Anri Sonohara
+  - Saki Mikajima
+  - Shizuo Heiwajima
+  - Seiji Yagiri
+  - Saburou Togusa
+  - Ruri Hijiribe
+  - Kyohei Kadota
+  - Mikado Ryugamine
+  - Mika Harima
+  - Walker Yumasaki
+  - Erika Karisawa
+  - Semyon Brezhnev
+  - Mairu Orihara
+  - Kururi Orihara
+  - Aoba Kuronuma
+  - Kasuka Heiwajima
+  - Tomoya Aki
+  - Megumi Katou
+  - Eriri Spencer Sawamura
+  - Utaha Kasumigaoka
+  - Izumi Hashima
+  - Michiru Hyoudou
+  - Keiichi Kato
+  - Sonoko Machida
+  - Iori Hashima
+  - Ranko Morioka
+  - Echika Mizuhara
+  - Akane Tsunemori
+  - Nobuchika Ginoza
+  - Mika Shimotsuki
+  - Yayoi Kunizuka
+  - Shion Karanomori
+  - Risa Aoyanagi
+  - Kirito Kamui
+  - Sho Hinakawa
+  - Sakuya Togane
+  - Shinya Kougami
+  - Teppei Sugou
+  - Jouji Saiga
+  - Jurai Andou
+  - Chifuyu Himeki
+  - Tomoyo Kanzaki
+  - Hatoko Kushikawa
+  - Sayumi Takanashi
+  - Reatier
+  - Yanagi Akutagawa
+  - Machi Andou
+  - Hajime Kiryuu
+  - Mirei Kudou
+  - Madoka Kuki
+  - Shizumu Sagami
+  - Hitomi Saitou
+  - Shiharu Satomi
+  - Maiya Takanashi
+  - Yuuma Kuga
+  - Osamu Mikumo
+  - Yuuichi Jin
+  - Chika Amatori
+  - Replica
+  - Shiori Usami
+  - Souya Kazama
+  - Jun Arashiyama
+  - Masamune Kido
+  - Masafumi Shinoda
+  - Ai Kitora
+  - Shuuji Miwa
+  - Takumi Rindou
+  - Enedra
+  - Hairein
+  - Hyuse Cronin
+  - Gieve
+  - Shinji Fuyushima
+  - Futatsugi
+  - Itsuki Fujisawa
+  - Eida
+  - Bitou
+  - Makoto Chano
+  - Haruka Ayatsuji
+  - Akatsuki
+  - Nyanta
+  - Shiroe
+  - Naotsugu
+  - Touya
+  - Minori
+  - Isuzu
+  - Krusty
+  - Henrietta
+  - Hien
+  - Isaac
+  - Kanami
+  - Rundelhaus Kode
+  - Marielle
+  - Rodrick
+  - Serara
+  - Soujirou Seta
+  - William Massachusetts
+  - Tetora
+  - Nazuna
+  - Seine
+  - Lenessia Eruarte Cowen
+  - Michitaka
+  - Rieze
+  - Kaito Kuroba
+  - Akako Koizumi
+  - Ginzo Nakamori
+  - Aoko Nakamori
+  - Toichi Kuroba
+  - Saguru Hakuba
+  - Conan Edogawa
+  - Kounosuke Jii
+  - Kou Mabuchi
+  - Futaba Yoshioka
+  - Ren Ichinose
+  - Yuuri Makita
+  - Shuuko Murao
+  - Aya Kominato
+  - Youichi Tanaka
+  - Touma Kikuchi
+  - Akame
+  - Tatsumi
+  - Leone
+  - Mine
+  - Lubbock
+  - Sheele
+  - Bulat
+  - Chelsea
+  - Esdeath
+  - Kurome
+  - Wave
+  - Susanoo
+  - Bors
+  - Najenda
+  - Seryuu Ubiquitous
+  - Run
+  - Spear
+  - Gozuki
+  - Suzuka
+  - Mez
+  - Daidara
+  - Kubikiri Zank
+  - Sten
+  - 'Shura '
+  - Inaho Kaizuka
+  - Slaine Troyard
+  - Souma Yagarai
+  - Eddelrittuo
+  - Rayet Areash
+  - Darzana Magbaredge
+  - Kouichirou Marito
+  - Kaoru Mizusaki
+  - Cruhteo
+  - Rayregalia Vers Rayvers
+  - Saazbaum
+  - Trillram
+  - Femieanne
+  - Vlad
+  - Orlane
+  - Inko Amifumi
+  - Calm Craftman
+  - John Humeray
+  - Okisuke Mikuni
+  - Asseylum Vers Allusia
+  - Yuki  Kaizuka
+  - Nina Klein
+  - Ken Kaneki
+  - Touka Kirishima
+  - Hinami Fueguchi
+  - Koutarou Amon
+  - Yukinori Shinohara
+  - Nishiki Nishio
+  - Kimi Nishino
+  - Ayato Kirishima
+  - Juuzou Suzuya
+  - Rize Kamishiro
+  - Uta
+  - Itori
+  - Koma
+  - Taro
+  - Tatara
+  - Nico
+  - Hideyoshi Nagachika
+  - Ryouko Fueguchi
+  - Kureo Mado
+  - Shuu Tsukiyama
+  - Yakumo Oomori
+  - Akira Mado
+  - Kishou Arima
+  - Noro
+  - Yuuki Hase
+  - Shougo Kiryuu
+  - Shiho Fujimiya
+  - Jun Inoue
+  - Hajime Kujou
+  - Ai Nishimura
+  - Maiko Serizawa
+  - Saki Yamagishi
+  - Lucky
+  - Layla Heartfilia
+  - Lucy Ashley
+  - Lucy Heartfilia
+  - Rogue Cheney
+  - Happy
+  - Marl
+  - Zeref
+  - Igneel
+  - Laxus Dreyar
+  - Gildarts Clive
+  - Elfman (Edolas)
+  - Elfman Strauss
+  - "Charl\xE9s"
+  - Shagotte
+  - Juvia Lockser
+  - Juvia (Edolas)
+  - Daphne
+  - Mavis Vermillion
+  - Ren Akatsuki
+  - Mato
+  - Toma E. Fiore
+  - Jenny Realight
+  - Sting Eucliffe
+  - Yuuta Togashi
+  - Rikka Takanashi
+  - Satone Shichimiya
+  - Kumin Tsuyuri
+  - Shinka Nibutani
+  - Nanase Tsukumo
+  - Makoto Isshiki
+  - Sanae Dekomori
+  - Kuzuha Togashi
+  - Yumeha Togashi
+  - Mother Togashi
+  - Touka Takanashi
+  - Sui Nemuri
+  - Natsumi Tokugawa
+  - Mother Takanashi
+  - Kazari Kannagi
+  - Yato
+  - Hiyori Iki
+  - Yukine
+  - Bishamon
+  - Kazuma
+  - Kofuku Ebisu
+  - Nora
+  - Daikoku
+  - Rabo
+  - Tenjin
+  - Ebisu
+  - Kuraha
+  - Tsuguha
+  - Aimi Tabata
+  - Mayu
+  - Hashimoto
+  - Takatoshi Tsuda
+  - Shino Amakusa
+  - Aria Shichijou
+  - Suzu Hagimura
+  - Naruko Yokoshima
+  - Kaede Igarashi
+  - Ranko Hata
+  - Kotomi Tsuda
+  - Mutsumi Mitsuba
+  - Sayaka Dejima
+  - Chihiro Uomi
+  - Kaoru Toki
+  - Iona
+  - Gunzou Chihaya
+  - Takao
+  - Kirishima
+  - Haruna
+  - Kongou
+  - Shizuka Hozumi
+  - Kyouhei Kashihara
+  - Sou Oribe
+  - Iori Watanuki
+  - Toujuurou Osakabe
+  - Makie Osakabe
+  - Maya
+  - Hyuuga
+  - I-402
+  - I-400
+  - Narrator
+  - Ryoukan Kita
+  - Rion Nanami
+  - H-neun
+  - Kriemhild
+  - A-drei
+  - Satomi Renbokouji
+  - Takumi Kibukawa
+  - Marie Nobi
+  - Cain
+  - Yuusuke Otamaya
+  - Raizou Yamada
+  - Q-vier
+  - Saki Rukino
+  - Kyuuma Inuzuka
+  - L-ELF Karlstein
+  - X-eins
+  - Takahi Ninomiya
+  - Akira Renbokouji
+  - Shouko Sashinami
+  - Haruto Tokishima
+  - Pino
+  - Atsushi Murasakibara
+  - Kagetora Aida
+  - Genta Takeuchi
+  - Yukio Kasamatsu
+  - Riko Aida
+  - Daiki Aomine
+  - Kousuke Wakamatsu
+  - Seijuro Akashi
+  - Shoichi Imayoshi
+  - Satsuki Momoi
+  - Shintarou Midorima
+  - Shun Izuki
+  - Yuusuke Tanimura
+  - Teppei Kiyoshi
+  - Tomoki Tsugawa
+  - Satoshi Tsuchida
+  - Kazunari Takao
+  - Tetsuya Kuroko
+  - Katsunori Harasawa
+  - Taiga Kagami
+  - Ryouta Kise
+  - Tsutomu Iwamura
+  - Masaaki Nakatani
+  - Junpei Hyuuga
+  - Mirai Kuriyama
+  - Akihito Kanbara
+  - Mitsuki Nase
+  - Hiroomi Nase
+  - Miroku Fujima
+  - Sakura Inami
+  - Izumi Nase
+  - Ai Shindou
+  - Ayaka Shindou
+  - Shizuku Ninomiya
+  - Yui Inami
+  - Yayoi Kanbara
+  - Mamejirou
+  - Akimu Papladon
+  - Berros
+  - Liz T. Blood
+  - Goyle
+  - Wolf
+  - Nell Hydra
+  - Braz D. Blood
+  - Fuyumi Yanagi
+  - Mimic Yoshida
+  - Charlie Staz Blood
+  - Bell Hydra
+  - Deku
+  - Franken Stein
+  - Saty
+  - Heads Hydra
+  - Neyn Hydra
+  - Daddy Wolf
+  - Fuyumi no Chichi
+  - Yuuto Kiba
+  - Akeno Himejima
+  - Issei Hyoudou
+  - Asia Argento
+  - Koneko Toujou
+  - Rias Gremory
+  - Gasper Vladi
+  - Irina Shidou
+  - Aika Kiryuu
+  - Vali Lucifer
+  - Xenovia Quarta
+  - Azazel
+  - Freed Sellzen
+  - Serafall Leviathan
+  - Sirzechs Lucifer
+  - Bikou
+  - Ddraig
+  - Grayfia Lucifuge
+  - Matsuda
+  - Motohama
+  - Genshirou Saji
+  - Tsubaki Shinra
+  - Murayama
+  - Katase
+  - Byakuya Togami
+  - Yasuhiro Hagakure
+  - Aoi Asahina
+  - Hifumi Yamada
+  - Leon Kuwata
+  - Kiyotaka Ishimaru
+  - Touko Fukawa
+  - Sakura Oogami
+  - Mondo Oowada
+  - Junko Enoshima
+  - Makoto Naegi
+  - Chihiro Fujisaki
+  - Sayaka Maizono
+  - Celestia Ludenberg
+  - Monokuma
+  - Kyouko Kirigiri
+  - Mukuro Ikusaba
+  - Monomi
+  - Komaru Naegi
+  - Jin
+  - Alter Ego
+  - Naegi no Papa
+  - Daiya Oowada
+  - Chamber
+  - Pinion
+  - Ridget
+  - Bellows
+  - Pinion's Brother
+  - Striker
+  - Bevel
+  - Melty
+  - Crown
+  - Warm
+  - Kugel
+  - Rackage
+  - Flange
+  - Ordum
+  - Joe
+  - Fairlock
+  - Saaya
+  - Mayta
+  - Ledo
+  - Amy
+  - Sasha Blouse
+  - Hannes
+  - "Hange Zo\xEB"
+  - Levi
+  - Armin Arlert
+  - Jean Kirstein
+  - Erwin Smith
+  - Connie Springer
+  - Ymir
+  - Hugo
+  - Eren Yeager
+  - Nick
+  - 'Samuel Linke-Jackson '
+  - Carla Yeager
+  - Dot Pixis
+  - Kitts Verman
+  - Petra Ral
+  - Mikasa Ackerman
+  - Annie Leonhart
+  - Armin's Grandfather Arlert
+  - Reiner Braun
+  - Grisha Yeager
+  - Gustav
+  - Keith Shadis
+  - Reine Murasame
+  - Kurumi Tokisaki
+  - Tohka Yatogami
+  - Kyouhei Kannazuki
+  - Hiroto Tonomachi
+  - Kotori Itsuka
+  - Origami Tobiichi
+  - Yoshino Himekawa
+  - Shidou Itsuka
+  - Tamae Okamine
+  - Mana Takamiya
+  - Masaomi Mikimoto
+  - Mai Hazakura
+  - Ryouko Kusakabe
+  - Kyouji Kawagoe
+  - Hinako Shiizaki
+  - Mii Fujibakama
+  - Ai Yamabuki
+  - Kozue Minowa
+  - Narrator
+  - Yuriko Aoki
+  - Shinta Fukuda
+  - Gorou Miura
+  - Kouji Yoshida
+  - Miyuki Azuki
+  - Kazuya Hiramaru
+  - Akito Takagi
+  - Aiko Iwase
+  - Hisashi Sasaki
+  - Eiji Niizuma
+  - Natsumi Katou
+  - Yujiro Hattori
+  - Kaya Miyoshi
+  - Hiromi Yasuoka
+  - Yoshihisa Heishi
+  - Souichi Aida
+  - Shoyo Takahama
+  - Tatsurou Kosugi
+  - Tooru Nanamine
+  - Miho Azuki
+  - Moritaka Mashiro
+  - Takuro Nakai
+  - Mina Azuki
+  - Ichiriki Orihara
+  - Saki Tenjouin
+  - Shizu Murasame
+  - Yui Kotegawa
+  - Rito Yuuki
+  - Peke
+  - Risa Momioka
+  - Celine
+  - Aya Fujisaki
+  - Zastin
+  - Mikan Yuuki
+  - Konjiki no Yami
+  - Tearju Lunatique
+  - Azenda
+  - Kenichi Saruyama
+  - Haruna Sairenji
+  - Principal
+  - Momo Belia Deviluke
+  - Nana Astar Deviluke
+  - Mio Sawada
+  - Mea Kurosaki
+  - Lala Satalin Deviluke
+  - Run Elsie Jewelria
+  - Ren Elsie Jewelria
+  - Yuu Kotegawa
+  - Reisi Munakata
+  - Saruhiko Fushimi
+  - Anna Kushina
+  - Claudia Weismann
+  - Izumo Kusanagi
+  - Misaki Yata
+  - Yashiro Isana
+  - Seri Awashima
+  - Ichigen Miwa
+  - Adolf K. Weismann
+  - Kuroh Yatogami
+  - Daikaku Kokujouji
+  - Kukuri Yukizome
+  - Neko
+  - Rikio Kamamoto
+  - Mikoto Suoh
+  - Tatara Totsuka
+  - Chiho Hyuuga
+  - Sumika Inaba
+  - Saburouta Bandou
+  - Eric Surt
+  - Mushiki no Ou
+  - Evangeline Yamamoto
+  - Natsumura Kusaribe
+  - Hakaze Kusaribe
+  - Samon Kusaribe
+  - Aika Fuwa
+  - Takumi Hayakawa
+  - Tetsuma Kusaribe
+  - Junichirou Hoshimura
+  - Mahiro Fuwa
+  - Megumu Hanemura
+  - Kousuke Kira
+  - Masahito Date
+  - Kiyoshi Taira
+  - Shiki Murasaki
+  - Nobutaka Oda
+  - Souichi Natsume
+  - Masashi Miyamoto
+  - Yoshiaki Imagawa
+  - Hidemi Kinoshita
+  - Yuki
+  - Miho
+  - Himiko
+  - Ryouta Sakamoto
+  - Takanohashi
+  - Tsuneaki Iida
+  - Mitsuo Akechi
+  - Isamu Kondo
+  - Hisanobu Sakamoto
+  - Yukie Sakamoto
+  - Yoshihisa Kira
+  - Makoto Isshiki
+  - Kuzuha Togashi
+  - Yuuta Togashi
+  - Nanase Tsukumo
+  - Mother Takanashi
+  - Mother Togashi
+  - Touka Takanashi
+  - Grandfather Takanashi
+  - Kumin Tsuyuri
+  - Sanae Dekomori
+  - Shinka Nibutani
+  - Rikka Takanashi
+  - Yumeha Togashi
+  - Grandmother Takanashi
+  - Kibaou
+  - Akihiko Kayaba
+  - Andrew Gilbert Mills
+  - Midori Kirigaya
+  - Alicia Rue
+  - Kuradeel
+  - Schmitt
+  - Grimlock
+  - Ryoutarou Tsuboi
+  - Rosalia
+  - Nobuyuki Sugou
+  - Godfrey
+  - Diabel
+  - Thinker
+  - Vassago Casals
+  - Sigurd
+  - Caynz
+  - Yuriel
+  - Sakuya
+  - Kagemune
+  - Kobatz
+  - Yui
+  - Sasamaru
+  - Keita
+  - Ryuji Gorihara
+  - Kurumi Minowa
+  - Ibuki
+  - Genjuroh Rindou
+  - Ichiko Sakura
+  - Yamabuki
+  - Shion Adenokouji
+  - Kuroyuri
+  - Momoo Inugami
+  - Bobby Statice
+  - Rika Tsuwabuki
+  - Ranmaru Rindou
+  - Kikunoshin Suwano
+  - Ryuuta Tsuwabuki
+  - Keita Tsuwabuki
+  - Momiji Binboda
+  - Tama-chan
+  - Nadeshiko Adenokouji
+  - Sorata Tsuwabuki
+  - Akane Tange
+  - Mika Tsuwabuki
+  - Atsushi Murasakibara
+  - Kagetora Aida
+  - Genta Takeuchi
+  - Yukio Kasamatsu
+  - Riko Aida
+  - Daiki Aomine
+  - Kousuke Wakamatsu
+  - Seijuro Akashi
+  - Shoichi Imayoshi
+  - Satsuki Momoi
+  - Shintarou Midorima
+  - Shun Izuki
+  - Yuusuke Tanimura
+  - Teppei Kiyoshi
+  - Tomoki Tsugawa
+  - Satoshi Tsuchida
+  - Kazunari Takao
+  - Tetsuya Kuroko
+  - Katsunori Harasawa
+  - Taiga Kagami
+  - Ryouta Kise
+  - Tsutomu Iwamura
+  - Masaaki Nakatani
+  - Junpei Hyuuga
+  - Ash Roller
+  - Blood Leopard
+  - Yellow Radio
+  - Fuuko Kurasaki
+  - Blue Knight
+  - Aqua Current
+  - Seiji Noumi
+  - Purple Thorn
+  - Black Vice
+  - Takumu Mayuzumi
+  - Rust Jigsaw
+  - Sulfur Pot
+  - Araya
+  - Tin Writer
+  - Sand Duct
+  - Chiyuri Kurashima
+  - Red Rider
+  - Haruyuki Arita
+  - Magnet avatar
+  - Megumi Wakamiya
+  - Ruka Asato
+  - Nickel Doll
+  - Yuniko Kouzuki
+  - Mana Itosu
+  - Akino
+  - Satsuki
+  - Baabu
+  - Chihiro Furuya
+  - Danichirou Sanka
+  - Ranko Saouji
+  - Aria Sanka
+  - Natsukawa
+  - Mero Furuya
+  - Mizuki Yamanouchi
+  - Jogorou Furuya
+  - Kaoru Saouji
+  - Ichie Shinoda
+  - Yuzuna Furuya
+  - Butler
+  - Tenchou
+  - Heren Shino
+  - Himuro
+  - Doon Furuya
+  - Cap no otoko
+  - Juri Nakadai
+  - Mogi
+  - Miko Yasaka
+  - Rea Sanka
+  - Yukari Sakuragi
+  - Tatsuji Chibiki
+  - Mei Misaki
+  - Naoya Teshigawara
+  - Yousuke Sakakibara
+  - Kouichi Sakakibara
+  - Izumi Akazawa
+  - Takako Sugiura
+  - Kubodera-sensei
+  - Ikuo Takabayashi
+  - Makoto Ouji
+  - San Watanabe
+  - Yuuya Mochizuki
+  - Tomohiko Kazami
+  - Sayuri Kakinuma
+  - Kazue Satou
+  - Ryouhei Mikami
+  - Sanae Mizuno
+  - Tamie Mikami
+  - Kirika
+  - Yumi Ogura
+  - Aya Ayano
+  - Misaki Fujioka
+  - Katsumi Matsunaga
+  - Susan
+  - Xuelan
+  - Yuuto Kiba
+  - Akeno Himejima
+  - Sirzechs Lucifer
+  - Riser Phenex
+  - Raynare
+  - Ddraig
+  - Kalawarner
+  - Tsubaki Shinra
+  - Issei Hyoudou
+  - Rias Gremory
+  - Yubelluna
+  - Isabela
+  - Asia Argento
+  - Grayfia Lucifuge
+  - Dohnaseek
+  - Koneko Toujou
+  - Mittelt
+  - Karlamine
+  - Mira
+  - Ni
+  - Shuriya
+  - Motohama
+  - Marco Ikusaba
+  - Aru Akise
+  - Takao Hiyama
+  - Kamado Ueshita
+  - Hinata Hino
+  - Deus Ex Machina
+  - Reisuke Houjou
+  - Ai Mikami
+  - Mao Nonosaka
+  - Kurou Amano
+  - Saika  Gasai
+  - Tarou Nanba
+  - Ouji Kousaka
+  - Ryuji  Kurosaki
+  - Yomotsu Hirasaka
+  - Karyuudo Tsukishima
+  - Tsubaki Kasugano
+  - Rea Amano
+  - Minene Uryuu
+  - Yuno Gasai
+  - Keigo Kurusu
+  - Orin Miyashiro
+  - Ushio  Gasai
+  - Mur Mur
+  - Yuriko Aoki
+  - Shinta Fukuda
+  - Gorou Miura
+  - Kouji Yoshida
+  - Koji Makaino
+  - Miyuki Azuki
+  - Kazuya Hiramaru
+  - Akito Takagi
+  - Aiko Iwase
+  - Hisashi Sasaki
+  - Eiji Niizuma
+  - Natsumi Katou
+  - Yujiro Hattori
+  - Hidemitsu Ishizawa
+  - Nobuhiro Mashiro
+  - Kaya Miyoshi
+  - Taiki Uchida
+  - Hiromi Yasuoka
+  - Yoshihisa Heishi
+  - Souichi Aida
+  - Shoyo Takahama
+  - Kayoko Mashiro
+  - Ibaraki
+  - Miho Azuki
+  - Iori Minase
+  - Chigusa Kisaragi
+  - Takao Kuroi
+  - Eri Mizutani
+  - Junjirou Takagi
+  - Ryou Akizuki
+  - Azusa Miura
+  - Makoto Kikuchi
+  - Ai Hidaka
+  - Yoshizawa
+  - Ritsuko Akizuki
+  - Shindou
+  - Ami Futami
+  - Mami Futami
+  - Yukiho Hagiwara
+  - Kasumi Takatsuki
+  - Producer
+  - Yuu Kisaragi
+  - Chihaya Kisaragi
+  - Takane Shijou
+  - Haruka Amami
+  - Hibiki Ganaha
+  - Kotori Otonashi
+  - Miki Hoshii
+  - Aoi Kogure
+  - Hideyoshi Kinoshita
+  - Yuuko Kinoshita
+  - Souichi Nishimura
+  - Minami Shimada
+  - Kouta Tsuchiya
+  - Akira Yoshii
+  - Genji Hiraga
+  - Youko Takahashi
+  - Fumihiro Fuse
+  - Akihisa Yoshii
+  - Yuusaku Tsunemura
+  - Toshimitsu Kubo
+  - Kaoru Todo
+  - Shin Fukuhara
+  - Yuuji Sakamoto
+  - Kyouji Nemoto
+  - Shouko Kirishima
+  - Shunpei Natsukawa
+  - Takeshi Ooshima
+  - Aiko Kudou
+  - Miharu Shimizu
+  - Mizuki Himeji
+  - Ryou Sugawa
+  - Yukio Okumura
+  - Yuri Egin
+  - Shura Kirigakure
+  - Shirou Fujimoto
+  - Satan
+  - Renzou Shima
+  - Rin Okumura
+  - Mephisto Pheles
+  - Ryuuji Suguro
+  - Amaimon
+  - Igor Neuhaus
+  - Shiemi Moriyama
+  - Arthur Auguste Angel
+  - Reiji Shiratori
+  - Konekomaru Miwa
+  - Michelle Neuhaus
+  - Kuro
+  - Izumo Kamiki
+  - Youhei
+  - Takara Nemu
+  - Noriko Paku
+  - Ernst Frederick Egin
+  - Kaoru Tsubaki
+  - Tatsuma Suguro
+  - Genkaku Azuma
+  - "Kiwako Fl\xFCgel Makina"
+  - Mimi
+  - Ganta Igarashi
+  - Bundo Rokuro
+  - Tsunenaga Tamaki
+  - Toto Sakigami
+  - Kiyomasa Senji
+  - Shiro
+  - Nagi Kengamine
+  - Yoh Takami
+  - Rinichirou Hagire
+  - Rei Takashima
+  - Minatsuki Takami
+  - Karako Koshio
+  - Kazumasa Kouzuji
+  - En
+  - Chan
+  - Kyoko Kasuga
+  - Hidetora Toujou
+  - Hajime Kanzaki
+  - Tatsumi Oga
+  - Lamia
+  - Kaiser de Emperana Beelzebub III
+  - Agiel
+  - Hildegard
+  - Kaiser de Emperana Beelzebub IV
+  - Alaindelon Bathin de Emuna
+  - Ichiro Shinjo
+  - Kazuya Yamamura
+  - Hecadoth
+  - Hisaya Miki
+  - Takayuki Furuichi
+  - Takeshi Shiroyama
+  - Naga
+  - Shizuka Nanami
+  - Shintarou Natsume
+  - Shouji Aizawa
+  - Reiji Kiriya
+  - Aoi Kunieda
+  - Kouta Kunieda
+  - Nene Oomori
+  - Isafuyu Kashino
+  - Jacqueline de Signore
+  - Anastasia
+  - Albert de Blois
+  - Harminia
+  - Simon Hunt
+  - Alan
+  - Ned Baxter
+  - The Orphan
+  - Queen Coco Rose
+  - Mildred Arbogast
+  - Cordelia Gallo
+  - Avril Bradley
+  - Mother Kujou
+  - Leviathan
+  - Kuiaran II
+  - Grevil de Blois
+  - Sophie
+  - Derek
+  - Brian Roscoe
+  - Julie Guile
+  - Gideon Lesglant
+  - Knight
+  - Sergius
+  - Jupiter Roger
+  - Agnese Sanctis
+  - Laura Stuart
+  - Aisa Himegami
+  - Orsola Aquinas
+  - Amata Kihara
+  - Vento of the Front
+  - Biagio Busoni
+  - Ouma Yamisaka
+  - Kaori Kanzaki
+  - Sherry Cromwell
+  - Saiji Tatemiya
+  - Kuroko Shirai
+  - Aleister Crowley
+  - Oriana Thomson
+  - Komoe Tsukuyomi
+  - Shiina Kamijou
+  - Stiyl Magnus
+  - Maika Tsuchimikado
+  - William Orwell
+  - Mikoto Misaka
+  - Shiage Hamazura
+  - Seiri Fukiyose
+  - Accelerator
+  - Touya Kamijou
+  - Yuriko Aoki
+  - Shinta Fukuda
+  - Gorou Miura
+  - Kouji Yoshida
+  - Koji Makaino
+  - Miyuki Azuki
+  - Kazuya Hiramaru
+  - Akito Takagi
+  - Aiko Iwase
+  - Hisashi Sasaki
+  - Eiji Niizuma
+  - Masahiro Mashiro
+  - Hidemitsu Ishizawa
+  - Yujiro Hattori
+  - Nobuhiro Mashiro
+  - Kaya Miyoshi
+  - Miho Azuki
+  - Taiki Uchida
+  - Yoshihisa Heishi
+  - Souichi Aida
+  - Kayoko Mashiro
+  - Akira Hattori
+  - Moritaka Mashiro
+  - Fumi Mashiro
+  - Rika Minami
+  - Hisashi Igou
+  - Souichiro Takagi
+  - Takashi Komuro
+  - Saeko Busujima
+  - Rei Miyamoto
+  - Shizuka Marikawa
+  - Toshimi Niki
+  - Kazu Ishi
+  - Yuriko Takagi
+  - Koichi Shidou
+  - Kouta Hirano
+  - Takuzou
+  - Saya Takagi
+  - Alice Maresato
+  - Tejima
+  - Naomi
+  - Kyoko Hayashi
+  - Misuzu Ichijou
+  - Ichirou Shidou
+  - Miku Yuuki
+  - Wakisaka
+  - Okada
+  - Naruko Yokoshima
+  - Kaede Igarashi
+  - Ranko Hata
+  - Takatoshi Tsuda
+  - Kenji Yanagimoto
+  - Suzu Hagimura
+  - Nene Todoroki
+  - Kotomi Tsuda
+  - Mutsumi Mitsuba
+  - Aria Shichijou
+  - Shino Amakusa
+  - Sayaka Dejima
+  - Chiri Nakazato
+  - Keita Suminoe
+  - Mother Suminoe
+  - Toda Edogawa
+  - Father Suminoe
+  - Ako Suminoe
+  - Riko Suminoe
+  - Mikazuki Kiryuu
+  - Yuuzuki Kiryuu
+  - Hideyoshi Kinoshita
+  - Yuuko Kinoshita
+  - Souichi Nishimura
+  - Minami Shimada
+  - Kouta Tsuchiya
+  - Akira Yoshii
+  - Genji Hiraga
+  - Youko Takahashi
+  - Akihisa Yoshii
+  - Toshimitsu Kubo
+  - Kaoru Todo
+  - Shin Fukuhara
+  - Ryota
+  - Yuuji Sakamoto
+  - Kyouji Nemoto
+  - Shouko Kirishima
+  - Aiko Kudou
+  - Miharu Shimizu
+  - Mizuki Himeji
+  - Ryou Sugawa
+  - Yuuka Koyama
+  - Hasegawa
+  - Miho Satou
+  - Hazuki Shimada
+  - Wataru Kurozuma
+  - Miho Juufuku
+  - Aisa Himegami
+  - Tsuduri Tessou
+  - Kounoe
+  - Woman Gang Boss
+  - Therestina Kihara Lifeline
+  - Harumi Kiyama
+  - Mii Konori
+  - Kuroko Shirai
+  - Index Librorum Prohibitorum
+  - Komoe Tsukuyomi
+  - Ryoukan
+  - Erii Haruue
+  - Banri Edasaki
+  - Maika Tsuchimikado
+  - Mikoto Misaka
+  - Daigo
+  - Aiho Yomikawa
+  - Kazari Uiharu
+  - Ruiko Saten
+  - Kinuho Wannai
+  - Mitsuko Kongo
+  - Touma Kamijou
+  - Saki Tenjouin
+  - Pikary
+  - Shizu Murasame
+  - Lacospo
+  - Yui Kotegawa
+  - Taizou Motemitsu
+  - Rito Yuuki
+  - Peke
+  - Akiho Sairenji
+  - Risa Momioka
+  - Aya Fujisaki
+  - Zastin
+  - Mikan Yuuki
+  - Konjiki no Yami
+  - Kenichi Saruyama
+  - Haruna Sairenji
+  - Principal
+  - Mio Sawada
+  - Kyouko Kirisaki
+  - Honekawa
+  - Lala Satalin Deviluke
+  - Run Elsie Jewelria
+  - Ren Elsie Jewelria
+  - Ryouko Mikado
+  - Lavi
+  - Tyki Mikk
+  - Samo Han Wong
+  - Komui Lee
+  - Bak Chang
+  - Anita
+  - Yu Kanda
+  - Mei-Ling
+  - Lala
+  - Chaoji Han
+  - Road Kamelot
+  - Sachiko
+  - Winters Sokaro
+  - Rikei
+  - Narain
+  - Lou Fa
+  - Lero
+  - Lenalee Lee
+  - Gozu
+  - Bookman
+  - Miranda Lotto
+  - Allen Walker
+  - Elda
+  - Lulu Bell
+  - Edo Phoenix
+  - Abidos the Third
+  - Daitokuji
+  - Fubuki Tenjouin
+  - Titan
+  - Asuka Tenjouin
+  - Takuma Saiou
+  - Emi Ayukawa
+  - Kagurazaka
+  - Yuugi Mutou
+  - Pharaoh Atem
+  - Sho Marufuji
+  - Yubel
+  - Ran Kochou
+  - Rei Saotome
+  - Mei
+  - Seto Kaiba
+  - Taigo Sorano
+  - Jun Manjoume
+  - Ryo Marufuji
+  - Kyuu
+  - Daichi Misawa
+  - Chousaku Manjoume
+  - Mitsuo
+  - Masakazu Tougou
+  - Kouriyama
+  - Eri Sawachika
+  - Pyotr
+  - Lala Gonzalez
+  - Yakumo Tsukamoto
+  - Junko Tonami
+  - Genkai Gotou
+  - Kouji Yakushamaru
+  - Kenji Harima
+  - Tenma Tsukamoto
+  - Tae Anegasaki
+  - Itoko Osakabe
+  - Akira Takano
+  - Kazuya Tanaka
+  - Mikoto Suou
+  - Tsumugi Yuuki
+  - Jirou Yoshidayama
+  - Kentaro Nara
+  - Harry McKenzie
+  - Fuyuki Takeichi
+  - Oji Karasuma
+  - Megumi Sagano
+  - Karen Ichijou
+  - Sagi
+  - Minato Namikaze
+  - Kimimaro Kaguya
+  - Genzou
+  - Genma Shiranui
+  - Shigure
+  - Shibire
+  - Orochimaru
+  - Sazanami
+  - Kuromaru
+  - Zabuza Momochi
+  - Akamaru
+  - Guruko
+  - Naruto Uzumaki
+  - Sasuke Uchiha
+  - Gaara
+  - Hiruzen Sarutobi
+  - Shibi Aburame
+  - Ebisu
+  - Itachi Uchiha
+  - Rasa
+  - Kakashi Hatake
+  - Mizuki Touji
+  - Seimei
+  - Ichirou Miyata
+  - Alexander Volg Zangief
+  - Tatsuya Kimura
+  - Kumiko Morita
+  - Reiko Mikami
+  - Mari Iimura
+  - Yusuke Oda
+  - Mamoru Takamura
+  - Keigo Okita
+  - Masaru Aoki
+  - Genji Kamogawa
+  - Kumi Mashiba
+  - Takeshi Sendo
+  - Takuma Saeki
+  - Commentator
+  - Masahiko Umezawa
+  - Naomichi Yamada
+  - Ippo Makunouchi
+  - Akira Shigeta
+  - Yoshio Fujiwara
+  - Kenta Kobashi
+  - Tomoko Yamaguchi
+  - Grandmother Sendo
+  - Ryo Mashiba
+  - Makoto Shishio
+  - Touma Sakaki
+  - Kamatari Honjo
+  - Shougo Amakusa
+  - Yumi Komagata
+  - Yahiko Myojin
+  - Sanosuke Sagara
+  - Tsubaki
+  - Yutaro Tsukayama
+  - Tae Sekihara
+  - Tsubame Sanjou
+  - Kenshin Himura
+  - Arundo Akamatsu
+  - Jinei Udoh
+  - Megumi Takani
+  - Gasuke
+  - Kanryu Takeda
+  - Jinpu
+  - Shirojo
+  - Iwanbou
+  - Soujiro Seta
+  - Hajime Saitou
+  - Daigoro Okuma
+  - Shura
+  - Tenshinhan
+  - Tommy
+  - Recoome
+  - Yajirobe
+  - Baba Uranai
+  - Kuririn
+  - Chico
+  - Cell
+  - Nobuyo Ookawa
+  - Paikuhan
+  - Trunks
+  - Zarbon
+  - Shenlong
+  - Kami
+  - Videl
+  - Pan
+  - Chi-Chi
+  - Erasa
+  - Dende
+  - Pui Pui
+  - Muten Roushi
+  - Raditz
+  - Majin Boo
+  - "Ana Mar\xEDa Caro"
+  - Osamu Mikumo
+  - Hyuse Cronin
+  - Yuuma Kuga
+  - Chika Amatori
+  - Yuuichi Jin
+  - Kirie  Konami
+  - Yuuko Kumagai
+  - Shun Midorikawa
+  - Masafumi Shinoda
+  - Yousuke Yoneya
+  - Rei Nasu
+  - Motokichi Kinuta
+  - Jun Arashiyama
+  - Ai Kitora
+  - Youtarou Rindou
+  - Koutarou Suwa
+  - Souya Kazama
+  - Kei Tachikawa
+  - Nozomi Kako
+  - Futaba Kuroe
+  - Hana Somei
+  - Yuuta Miura
+  - Gatlin
+  - Yomi
+  - Emma
+  - Ray
+  - Mujika
+  - Don
+  - Gilda
+  - Sonju
+  - Anna
+  - Nat
+  - Grandmother
+  - Thoma
+  - Phil
+  - Lannion
+  - Norman
+  - Yvette
+  - Christie
+  - Alicia
+  - Mark
+  - Dominic
+  - Jemima
+  - Rossi
+  - James Ratri
+  - Isabella
+  - Vincent
+  - Barbara
+  - Hakkekkyuu U-1196
+  - Sekkekkyuu AA2153
+  - Narrator
+  - Hakkekkyuu 1212
+  - Hakkekkyuu 8787
+  - Sekkekkyuu AC1677
+  - Kan Saibou
+  - Shu Saibou
+  - Sekkekkyuu AD6614
+  - Kesshouban
+  - Macrophage
+  - Sertoli Saibou
+  - Kesshouban
+  - Kesshouban
+  - Helper T Saibou
+  - Killer T Saibou
+  - Jujousaibou
+  - Steroids
+  - Shikyuutai
+  - Shikyuutai
+  - Kesshouban
+  - Kesshouban
+  - Hakkekkyuu U-1146
+  - Sekkekkyuu AE3803
+  - Killer T Saibou
+  - Kesshouban
+  - Macrophage
+  - Narrator
+  - B Saibou
+  - Mast Saibou
+  - Jujousaibou
+  - Helper T Saibou
+  - Kioku Saibou
+  - Seigyosei T Saibou
+  - Gan Saibou
+  - Ushiromae-chan
+  - Kyokakukkyuu
+  - Nyuusankin (Kuro)
+  - Nyuusankin (Aka)
+  - Nyuusankin (Panda)
+  - Nyuusankin (Buchi)
+  - Sekkekkyuu NT4201
+  - Campylobacter
+  - Mumps Virus
+  - Langerhans Saibou
+  - Kousankyuu
+  - Flare Arlgrande Jioral
+  - Setsuna
+  - Keyaru
+  - Kureha Crylet
+  - Norn Clatalissa Jioral
+  - Eve Reese
+  - Blade
+  - Bullet
+  - Hoshi no Seirei
+  - Rou majutsushi
+  - Proum Jioral
+  - Maid
+  - Murabito
+  - Anna
+  - Leonard
+  - Doreishou
+  - Ledra Goldman
+  - Goei
+  - Muruta
+  - Youhei Leader
+  - John
+  - Rifure
+  - Karman
+  - Taretoya
+  - Gundham Tanaka
+  - Kyouko Kirigiri
+  - Aoi Asahina
+  - Makoto Naegi
+  - Kyousuke Munakata
+  - Yasuhiro Hagakure
+  - Touko Fukawa
+  - Byakuya Togami
+  - Komaru Naegi
+  - Chiaki Nanami
+  - Nagito Komaeda
+  - Hajime Hinata
+  - Ryouta Mitarai
+  - Fuyuhiko Kuzuryuu
+  - Sonia Nevermind
+  - Hiyoko Saionji
+  - Kazuichi Souda
+  - Mahiru Koizumi
+  - Mikan Tsumiki
+  - Nekomaru Nidai
+  - Ibuki Mioda
+  - Teruteru Hanamura
+  - Peko Pekoyama
+  - Akane Owari
+  - Kaiman
+  - Nikaido
+  - Noi
+  - Shin
+  - Fujita
+  - Ebisu
+  - En
+  - Asu
+  - Chota
+  - Tanba
+  - Turkey
+  - Kikurage
+  - Risu
+  - Fukuyama
+  - Aitake
+  - Matsumura
+  - Maitake
+  - Nandemo Tokasu Mahoutsukai
+  - Mushi no Mahoutsukai
+  - Inochi wo Ataeru Mahoutsukai
+  - Vaux
+  - Thirteen
+  - Kasukabe
+  - Jonson
+  - Sawako Yamanaka
+  - Satoshi Tainaka
+  - Nodoka Manabe
+  - Yui Hirasawa
+  - Mio Akiyama
+  - Mother Hirasawa
+  - Ritsu Tainaka
+  - Tsumugi Kotobuki
+  - Father Hirasawa
+  - Azusa Nakano
+  - Ui Hirasawa
+  - Megumi Sokabe
+  - Jun Suzuki
+  - Youko Sasaki
+  - Azu-nyan 2
+  - Hitomi Hoshino
+  - Saitou
+  - Della
+  - Jane
+  - Occult Club Member 1
+  - Occult Club Members 2
+  - Fumie Kimura
+  - Estellise Sidos Heurassein
+  - Alexei Dinoia
+  - Chastel Aiheap
+  - Flynn Scifo
+  - Yuri Lowell
+  - Guradana
+  - Rita Mordio
+  - Niren Fedrok
+  - Merzhom Keida
+  - Raven
+  - Hisca Aiheap
+  - Repede
+  - Garista Luodur
+  - Aoi Hinami
+  - Fumiya Tomozaki
+  - Minami Nanami
+  - Fuuka Kikuchi
+  - Tsugumi Narita
+  - Yuzu Izumi
+  - Hanabi Natsubayashi
+  - Erika Konno
+  - Shuuji Nakamura
+  - Takahiro Mizusawa
+  - Norimi Kawaguchi
+  - Sawako Yamanaka
+  - Satoshi Tainaka
+  - Nodoka Manabe
+  - Mrs. Kawakami
+  - Yui Hirasawa
+  - Mio Akiyama
+  - Mother Hirasawa
+  - Himeko Tachibana
+  - Ritsu Tainaka
+  - Tsumugi Kotobuki
+  - Father Hirasawa
+  - Azusa Nakano
+  - Ui Hirasawa
+  - Megumi Sokabe
+  - Jun Suzuki
+  - Teacher Horigome
+  - Tomi Ichimonji
+  - Keisuke
+  - Haruko Chikada
+  - Ichigo Wakaouji
+  - Keiko Iida
+  - Youko Sasaki
+  - Nobuyo Nakajima
+  - Hazuki Katou
+  - Kumiko Oumae
+  - Sapphire Kawashima
+  - Reina Kousaka
+  - Asuka Tanaka
+  - Yuuko Yoshikawa
+  - Shuuichi Tsukamoto
+  - Noboru Taki
+  - Aoi Saitou
+  - Mamiko Oumae
+  - Haruka Ogasawara
+  - Kaori Nakaseko
+  - Natsuki Nakagawa
+  - Takuya Gotou
+  - Riko Nagase
+  - Kohaku Kawashima
+  - Nozomi Kasaki
+  - Lala Hitomi
+  - Akiko Oumae
+  - Narai Tanabe
+  - Azusa Sasaki
+  - Chikai Maki
+  - Miru Kishibe
+  - Hazuki Katou
+  - Kumiko Oumae
+  - Sapphire Kawashima
+  - Reina Kousaka
+  - Asuka Tanaka
+  - Yuuko Yoshikawa
+  - Shuuichi Tsukamoto
+  - Noboru Taki
+  - Aoi Saitou
+  - Mamiko Oumae
+  - Haruka Ogasawara
+  - Kaori Nakaseko
+  - Natsuki Nakagawa
+  - Takuya Gotou
+  - Riko Nagase
+  - Nozomi Kasaki
+  - Mizore Yoroizuka
+  - Akiko Oumae
+  - Masahiro Hashimoto
+  - Michie Matsumoto
+  - Kentarou Oumae
+  - Satomi Niiyama
+  - Noboru Taki
+  - Natsuki Nakagawa
+  - Yuuko Yoshikawa
+  - Reina Kousaka
+  - Sapphire Kawashima
+  - Mizore Yoroizuka
+  - Kumiko Oumae
+  - Nozomi Kasaki
+  - Ririka Kenzaki
+  - Riko Nagase
+  - Hazuki Katou
+  - Takuya Gotou
+  - Satomi Niiyama
+  - Masahiro Hashimoto
+  - Shoujo
+  - Liz
+  - Kanade Hisaishi
+  - Eru Kabutodani
+  - Kumiko Oumae
+  - Kanade Hisaishi
+  - Asuka Tanaka
+  - Natsuki Nakagawa
+  - Sapphire Kawashima
+  - Hazuki Katou
+  - Noboru Taki
+  - Takuya Gotou
+  - Riko Nagase
+  - Reina Kousaka
+  - Yuuko Yoshikawa
+  - Shuuichi Tsukamoto
+  - Mirei Suzuki
+  - Satsuki Suzuki
+  - Motomu Tsukinaga
+  - Ririka Kenzaki
+  - Masahiro Hashimoto
+  - Satomi Niiyama
+  - Tomoe Kabe
+  - Mizore Yoroizuka
+  - Nozomi Kasaki
+  - Azusa Sasaki
+  - Tadashi Endou
+  - Kyouko Ayukawa
+  - Hyakkimaru
+  - Dororo
+  - Biwamaru
+  - Kagemitsu Daigo
+  - Nuinokata
+  - Jukai
+  - Bandai
+  - Tahoumaru Daigo
+  - Denkichi
+  - Mio
+  - Osushi Niki
+  - Kaname
+  - Tanosuke Niki
+  - Takebo
+  - Kane-Kozou
+  - Ohagi
+  - Itachi
+  - Ojiya
+  - Hibukuro
+  - Yajiro
+  - Saru
+  - Mutsu
+  - Souryo
+  - Hyogo
+  - Obi
+  - Zen Wistaria
+  - Shirayuki
+  - Izana Wistaria
+  - Raji Shenazard
+  - Kiki Seiran
+  - Ryuu
+  - Garrack Gazelt
+  - Mihaya
+  - Mitsuhide Rouen
+  - Atri
+  - Kihal Toghrul
+  - Akari Hayasaka
+  - Saku Akechi
+  - Yuu Setoguchi
+  - Haruki Serizawa
+  - Natsuki Enomoto
+  - Miou Aida
+  - Souta Mochizuki
+  - Hina Setoguchi
+  - Sena Narumi
+  - Midori Hamanaka
+  - Kotarou Enomoto
+  - Naho Takamiya
+  - Azusa Murasaka
+  - Takako Chino
+  - Kakeru Naruse
+  - Hiroto Suwa
+  - Saku Hagita
+  - Rio Ueda
+  - Shirayuki
+  - Zen Wistaria
+  - Obi
+  - Kiki Seiran
+  - Mitsuhide Rouen
+  - Izana Wistaria
+  - Ryuu
+  - Raji Shenazard
+  - Mihaya
+  - Kotarou Enomoto
+  - Saku Akechi
+  - Hina Setoguchi
+  - Koyuki Ayase
+  - Akari Hayasaka
+  - Midori Hamanaka
+  - Miou Aida
+  - Haruki Serizawa
+  - Souta Mochizuki
+  - Yuu Setoguchi
+  - Natsuki Enomoto
+  - Sena Narumi
+  - Ken Shibasaki
+  - Koudai Yamamoto
+  - Arte
+  - Leo
+  - Veronica
+  - Darcia
+  - Yuri
+  - Katarina
+  - Angelo
+  - Ubertino
+  - Sofia
+  - Daphne
+  - Arte's Father
+  - Danilo
+  - Arte Haha
+  - Angelo no Chichioya
+  - Kazuto Kirigaya
+  - Asuna Yuuki
+  - Ryoutarou Tsuboi
+  - Keiko Ayano
+  - Rika Shinozaki
+  - Shino Asada
+  - Suguha Kirigaya
+  - Andrew Gilbert Mills
+  - Yui
+  - Akihiko Kayaba
+  - Yuuna Shigemura
+  - Eiji Nochizawa
+  - Sakuya
+  - Alicia Rue
+  - Dyne
+  - Shinichi Nagata
+  - Eugene
+  - Seijirou Kikuoka
+  - Tetsuhiro Shigemura
+  - Pina
+  - Siune
+  - Goblin Slayer
+  - Onna Shinkan
+  - Kouhito Doushi
+  - Uketsuke-jou
+  - Ushikai Musume
+  - Majo
+  - Yaritsukai
+  - Yousei Yunde
+  - Tokage Souryo
+  - Goblins
+  - Meliodas
+  - Elizabeth Liones
+  - Hawk
+  - Diane
+  - Ban
+  - King
+  - Gowther
+  - Merlin
+  - Escanor
+  - Dahaka
+  - Berlion
+  - Aterra
+  - Banes
+  - Gala
+  - Erlatte
+  - Derocchio
+  - Zoria
+  - Pump
+  - Solada
+  - Hawk Mama
+  - Suzu Hagimura
+  - Aria Shichijou
+  - Ranko Hata
+  - Shino Amakusa
+  - Takatoshi Tsuda
+  - Kotomi Tsuda
+  - Kaede Igarashi
+  - Naruko Yokoshima
+  - Sayaka Dejima
+  - Kaoru Toki
+  - Nene Todoroki
+  - Chiri Nakazato
+  - Chihiro Uomi
+  - Mutsumi Mitsuba
+  - Angela Balzac
+  - Hilde Thorwald
+  - Christine Gillum
+  - Frontier Setter
+  - Alonzo Percy
+  - Zarik Kajiwara
+  - Svetlana Belikova
+  - Alexander Kozachenko
+  - Leon Scott Kennedy
+  - Ada Wong
+  - Lucy Heartfilia
+  - Happy
+  - Laxus Dreyar
+  - Elfman Strauss
+  - "Charl\xE9s"
+  - Momon
+  - Juvia Lockser
+  - Eclair
+  - Erza Scarlet
+  - Freed Justine
+  - Gajeel Redfox
+  - Virgo
+  - Bisca Mulan
+  - Mirajane Strauss
+  - Natsu Dragneel
+  - Dist
+  - Pantherlily
+  - Loke
+  - Evergreen
+  - Lisanna Strauss
+  - Bickslow
+  - Cana Alberona
+  - Aquarius
+  - Wendy Marvell
+  - Shin Kamiya
+  - Alisa Bosconovitch
+  - Xiaoyu Ling
+  - Anna Williams
+  - Nina Williams
+  - Chaolan Lee
+  - Kazuya Mishima
+  - Jin Kazama
+  - Heihachi Mishima
+  - Yoruichi Shihouin
+  - Isshin Kurosaki
+  - Nemu Kurotsuchi
+  - Karin Kurosaki
+  - Ichigo Kurosaki
+  - Uryuu Ishida
+  - Sojiro Kusaka
+  - Shuuhei Hisagi
+  - Kisuke Urahara
+  - Yasutora Sado
+  - Hyourinmaru
+  - Zangetsu
+  - Ikkaku Madarame
+  - Soi Fon
+  - Orihime Inoue
+  - Izuru Kira
+  - Retsu Unohana
+  - Ying
+  - Toshiro Hitsugaya
+  - Rukia Kuchiki
+  - Yumichika Ayasegawa
+  - Masaki Kurosaki
+  - Isane Kotetsu
+  - Yang
+  - Isshin Kurosaki
+  - Karin Kurosaki
+  - Ichigo Kurosaki
+  - Uryuu Ishida
+  - Shuuhei Hisagi
+  - Kisuke Urahara
+  - Yasutora Sado
+  - Benin
+  - Jinta Hanakari
+  - Ururu Tsumugiya
+  - Ikkaku Madarame
+  - Mue
+  - Senna
+  - Rin Tsubokura
+  - Soi Fon
+  - Orihime Inoue
+  - Izuru Kira
+  - Retsu Unohana
+  - Toshiro Hitsugaya
+  - Rukia Kuchiki
+  - Yumichika Ayasegawa
+  - Jirou Souzousa Shunsui Kyoraku
+  - Byakuya Kuchiki
+  - Ganryu
+  - Setsuko
+  - Seita
+  - Yoshiko Hanabatake
+  - Akuru Akutsu
+  - Sayaka Sumino
+  - Yoshie Hanabatake
+  - Inu
+  - Ryuuichi Kurosaki
+  - Ruri Akutsu
+  - Atsuko Oshieda
+  - Akane Eimura
+  - Kii Hiragi
+  - Kuroko Shiina
+  - Fuki Iincho
+  - Nozomi
+  - Tadashi
+  - Ui Wakana
+  - Hayato Izumi
+  - Rin Misumi
+  - Karen Fujisaki
+  - Ayane Niikura
+  - Kei Misumi
+  - Makoto Sawatari
+  - Galko
+  - Otako
+  - Ojou
+  - Metako
+  - Abesen
+  - Okako
+  - Nikuko
+  - Charao
+  - Norisuke
+  - Ouji
+  - Supoo
+  - Fushigi-chan
+  - Agemi
+  - Iinchou
+  - Otao
+  - Bomuo
+  - Nihonshi Kyoushi
+  - Konta
+  - Taiiku Sensei
+  - Gyaruko Ane
+  - Kibami
+  - Kuseta Mama
+  - Yabana
+  - Kuseta
+  - Luvellia Sanctus
+  - Peter Grill
+  - Lisa Alpacas
+  - Vegan Eldoriel
+  - Piglette Pancetta
+  - Mimi Alpacas
+  - Narrator
+  - John Goodman
+  - Albatross Sanctus
+  - Tim Robinson
+  - Lucy Grill
+  - Worm Goblin
+  - Mitchie Peregrym
+  - Babe Roastpork
+  - Agape
+  - Maid
+  - Antonio Spartokos
+  - Zubabaro Dadadomu
+  - Ngapopo Upopotamas
+  - Hikari Hazakura
+  - Kana Kojima
+  - Rin Suzuki
+  - Takashi Takahashi
+  - Ichirou Satou
+  - Mayu Matsukaze
+  - Chizuru Tachibana
+  - Kou Tanaka
+  - Suzu Suzuki
+  - Rei Suzuki
+  - Ren Aikawa
+  - Yua Nakabeni
+  - Homi Moegi
+  - Yuiko Okuzumi
+  - Kazuto Kirigaya
+  - Andrew Gilbert Mills
+  - Alice Zuberg
+  - Asuna Yuuki
+  - Keiko Ayano
+  - Suguha Kirigaya
+  - Ronye Arabel
+  - Tiese Shtolienen
+  - Ryoutarou Tsuboi
+  - Fanatio
+  - Azurica
+  - Deusolbert
+  - Rika Shinozaki
+  - Seijirou Kikuoka
+  - Sortiliena Serlut
+  - Bercouli
+  - Shino Asada
+  - Natsuki Aki
+  - Takeru Higa
+  - Vassago Casals
+  - Gabriel Miller
+  - Selka Zuberg
+  - Yui
+  - Eldrie Woolsburg
+  - Anos Voldigoad
+  - Misha Necron
+  - Sasha Necron
+  - Emilia Ludowell
+  - Leorig Indu
+  - Zepes Indu
+  - Gusta Raizeo
+  - Izabella
+  - Dai Seirei Reno
+  - Ivis Necron
+  - Shin Reglia
+  - Fukurou
+  - Eugo La Raviaz
+  - Lay Glanzudlii
+  - Sheila Glanzudlii
+  - Misa Ilioroagu
+  - Eleonore Bianca
+  - Melheis Boran
+  - Gaios Anzem
+  - Ydol Anzeo
+  - Minsheng Xia
+  - Nono Inota
+  - Maia Zemut
+  - Elen Mihais
+  - Haru Nonaka
+  - Rikuo Uozumi
+  - Rou Hayakawa
+  - Shinako Morinome
+  - Kinoshita
+  - Chika Yuzuhara
+  - Youichi Minato
+  - Kyouko Sayama
+  - Managing Director
+  - 'Katsumi  Takishita '
+  - 'Morita '
+  - 'Azusa  Fukuda '
+  - 'Kansuke '
+  - Clair Aoki
+  - Shuichi Kagaya
+  - Elena Aoki
+  - Uchuujin
+  - Chihiro Yoshioka
+  - Nana Mifune
+  - Subaru
+  - Sayaka Koyanagi
+  - Hikawa
+  - Tadanori Sanbe
+  - Ikeuchi
+  - Abukawa
+  - Madoka
+  - Youta Murakami
+  - Kaito
+  - Iwao
+  - Izumi
+  - Haruta
+  - Isao Kasuga
+  - Miku Aihara
+  - Naoto
+  - Sudou
+  - Honoka
+  - Taguchi
+  - Shuka  Karino
+  - Kaname Sudou
+  - Ryuuji Maesaka
+  - Sui
+  - Rein Kashiwagi
+  - Banda-kun
+  - Hiroyuki Kyouda
+  - Youta Shinozuka
+  - Keiichi Katsura
+  - Souta
+  - Wang
+  - Hamada
+  - Ichirou Hiiragi
+  - Inukai
+  - Kondou
+  - Xue Lan Liu
+  - Danjou
+  - Themis
+  - Ximing
+  - Akane Shidou
+  - Sig
+  - Hideaki Kanehira
+  - Takonaka
+  - Shinji
+  - Kazuto Kirigaya
+  - Asuna Yuuki
+  - Alice Zuberg
+  - Bercouli
+  - Suguha Kirigaya
+  - Shino Asada
+  - Selka Zuberg
+  - Fanatio
+  - Ryoutarou Tsuboi
+  - Deusolbert
+  - Rika Shinozaki
+  - Sortiliena Serlut
+  - Linel
+  - Fizel
+  - Yui
+  - Andrew Gilbert Mills
+  - Tiese Shtolienen
+  - Eldrie Woolsburg
+  - Sister Azariya
+  - Seijirou Kikuoka
+  - Azurica
+  - Vassago Casals
+  - Keiko Ayano
+  - Ronye Arabel
+  - Sakura Akino
+  - Sumireko Sanshokuin
+  - Aoi Hinata
+  - Amatsuyu Kisaragi
+  - Taiyou Ooga
+  - Hina Hanetachi
+  - Keiki Kisaragi
+  - Asaka Mayama
+  - Chiharu Youki
+  - Momo Sakurabara
+  - Luna Kusami
+  - Kimie Kamata
+  - Yasuo Hazuki
+  - ' Charisma-gun D-ko'
+  - Charisma-gun B-ko
+  - Charisma-gun C-ko
+  - Bell Cranel
+  - Hestia
+  - Ais Wallenstein
+  - Riveria Ljos Alf
+  - Ryuu  Lion
+  - Liliruca Arde
+  - Eina Tulle
+  - Syr Flova
+  - Bete Loga
+  - Welf Crozzo
+  - Tione Hiryute
+  - Lefiya Viridis
+  - Freya
+  - Ottarl
+  - Tiona Hiryute
+  - Uranus
+  - Hermes
+  - Loki
+  - Takemikazuchi
+  - Cassandra Ilion
+  - Finn Deimne
+  - Ganesha
+  - Hephaestus
+  - Gareth Landrock
+  - Niina Sugawara
+  - Izumi Norimoto
+  - Hisashi Saegusa
+  - Momoko Sudou
+  - Shun Amagi
+  - Rika Sonezaki
+  - Hitoha Hongou
+  - Tomoaki Yamagishi
+  - Satoru Sugimoto
+  - Kazusa Onodera
+  - Sonoe Juujou
+  - Fujimoto
+  - Yuuko Takeyama
+  - Emi Asada
+  - Emi Tomita
+  - Kayama
+  - Female Editor
+  - Kazusa's Father
+  - Vice Principal
+  - Tomoaki's Father
+  - Tomoaki's Mother
+  - Hitoha's Sister
+  - Saiki
+  - Akemi Souryuuin
+  - Hibiki Sakura
+  - Ayaka Uehara
+  - Zina Void
+  - Naruzou Machio
+  - Satomi Tachibana
+  - Nana Uehara
+  - Comrade  Poutine
+  - Rumika Aina
+  - Yakusha Kure
+  - Narrator
+  - Shion Soryuuin
+  - Kristal Garson
+  - 'Hikari Tsutsui '
+  - Arisa Ishino
+  - Sumie Ayado
+  - Iroha Igarashi
+  - Yuuto Itou
+  - Ken Kaneki
+  - Saiko Yonebayashi
+  - Tooru Mutsuki
+  - Kuki Urie
+  - Akira Mado
+  - Nimura Furuta
+  - Nishiki Nishio
+  - Ayato Kirishima
+  - Juuzou Suzuya
+  - Uta
+  - Tatara
+  - Shuu Tsukiyama
+  - Kishou Arima
+  - Eto
+  - Seidou Takizawa
+  - Hinami Fueguchi
+  - Touka Kirishima
+  - Nico
+  - Hideyoshi Nagachika
+  - Ui Koori
+  - Itsuki Marude
+  - Hikari Kirishima
+  - Rize Kamishiro
+  - Ginshi Shirazu
+  - Touko Nanami
+  - Yuu Koito
+  - Koyomi Kanou
+  - Sayaka Saeki
+  - Seiji Maki
+  - Akari Hyuuga
+  - Riko Hakozaki
+  - Rei Koito
+  - Suguru Doujima
+  - Miyako Kodama
+  - Serizawa
+  - Kuze
+  - Yuu no Chichi
+  - Yuu no Haha
+  - Touko no Chichi
+  - Basuke-bu no Senpai
+  - Touko no Haha
+  - 'Natsuki  Sonomura '
+  - 'Manaka  Yoshida '
+  - Yuu no Sobo
+  - Chie Yuzuki
+  - Mio  Nanami
+  - Hiro
+  - 'Midori  Igarashi '
+  - Biagio Busoni
+  - Index Librorum Prohibitorum
+  - Touma Kamijou
+  - Mikoto Misaka
+  - Accelerator
+  - Angelene
+  - Kuroko Shirai
+  - Maika Tsuchimikado
+  - Motoharu Tsuchimikado
+  - Stiyl Magnus
+  - Last Order
+  - Lucia
+  - Lidvia Lorenzetti
+  - Oriana Thomson
+  - Vasilisa
+  - Aiho Yomikawa
+  - MISAKA 10032
+  - Kaori Kanzaki
+  - Shiage Hamazura
+  - Itsuwa
+  - Etzali
+  - William Orwell
+  - Heaven Canceler
+  - Kazari Uiharu
+  - Ayano Hanesaki
+  - Nagisa Aragaki
+  - Kaoruko Serigaya
+  - Tachibana Kentarou
+  - Riko Izumi
+  - Yuika Shiwahime
+  - Nozomi Ishizawa
+  - Elena Fujisawa
+  - Connie Christensen
+  - Yuuto Kiba
+  - Koneko Toujou
+  - Rias Gremory
+  - Akeno Himejima
+  - Asia Argento
+  - Xenovia Quarta
+  - Gasper Vladi
+  - Issei Hyoudou
+  - Azazel
+  - Yasaka
+  - Kunou
+  - Rossweisse
+  - Irina Shidou
+  - Ravel Phenex
+  - Serafall Leviathan
+  - Venelana Gremory
+  - Murayama
+  - Katase
+  - Riser Phenex
+  - Ddraig
+  - Sirzechs Lucifer
+  - Grayfia Lucifuge
+  - Cao Cao
+  - Aika Kiryuu
+  - Mitsuyoshi Tada
+  - Teresa Wagner
+  - Hinako Hasegawa
+  - Kaoru Ijuuin
+  - Alexandra Magritte
+  - Hajime Sugimoto
+  - Yui Tada
+  - Kentarou Yamashita
+  - Charles de Loire
+  - Ginko Kuroi
+  - Sensei
+  - Nozomi Takamagahara
+  - Souya Kuroi
+  - Takashi Ryuuzouji
+  - Kogane Shiraishi
+  - Hideo Torai
+  - Miu Inaba
+  - Harumi Kumashiro
+  - Kakka
+  - Judgment Nezuya
+  - Benika Takatori
+  - Takezou Ryuuzouji
+  - Hiroko Oka
+  - Sumie Ayado
+  - Iroha Igarashi
+  - 'Hikari Tsutsui '
+  - Arisa Ishino
+  - Yuuto Itou
+  - Yuzu Aihara
+  - Mei Aihara
+  - Harumi Taniguchi
+  - Himeko Momokino
+  - Matsuri Mizusawa
+  - Kayo Maruta
+  - Sara Tachibana
+  - Nina Tachibana
+  - Shou Aihara
+  - Mari Inuyashiki
+  - Naoyuki Andou
+  - Hiro Shishigami
+  - Ichirou Inuyashiki
+  - Shion Watanabe
+  - Donald Trump
+  - Takeshi Inuyashiki
+  - Satoru Hamada
+  - Marie Inuyashiki
+  - Fumino Inoue
+  - Samejima
+  - Yuuko Shishigami
+  - Hanako
+  - Nakao
+  - Susumu Iwata
+  - Nayuta Kani
+  - Chihiro Hashima
+  - Itsuki Hashima
+  - Miyako Shirakawa
+  - Setsuna Ena
+  - Ashley Oono
+  - Haruto Fuwa
+  - Kenjirou Toki
+  - Karen Tendou
+  - Chiaki Hoshinomori
+  - Keita Amano
+  - Aguri
+  - Tasuku Uehara
+  - Eiichi Misumi
+  - Konoha Hoshinomori
+  - Gakuto Kase
+  - Mikasa Ackerman
+  - Armin Arlert
+  - Eren Yeager
+  - Levi
+  - Ymir
+  - Reiner Braun
+  - Bertolt Hoover
+  - Krista Lenz
+  - Nifa
+  - Nick
+  - Mike Zacharias
+  - Annie Leonhart
+  - Hitch Dreyse
+  - Marlo Freudenberg
+  - Zeke
+  - Hannes
+  - Erwin Smith
+  - Anka Rheinberger
+  - Nanaba
+  - Rene
+  - Gerger
+  - Kitts Verman
+  - Dot Pixis
+  - Henning
+  - Rin Okumura
+  - Yukio Okumura
+  - Shiemi Moriyama
+  - Ryuuji Suguro
+  - Izumo Kamiki
+  - Shura Kirigakure
+  - Renzou Shima
+  - Konekomaru Miwa
+  - Mephisto Pheles
+  - Tatsuma Suguro
+  - Kuro
+  - Kaoru Tsubaki
+  - Miketsu
+  - Torako Suguro
+  - Mamushi Houjou
+  - Juuzou Shima
+  - Takara Nemu
+  - Nii-chan
+  - Kinzou Shima
+  - Uwabami Houjou
+  - Kinoshita
+  - Saburouta Toudou
+  - Nishiki Houjou
+  - Yaozou Shima
+  - Gilthunder
+  - Meliodas
+  - Elizabeth Liones
+  - Hawk
+  - Diane
+  - Ban
+  - King
+  - Hawk Mama
+  - Howzer
+  - Merlin
+  - Griamor
+  - Jericho
+  - Gustav
+  - Gowther
+  - Vivian
+  - Dreyfus
+  - Marmas
+  - Bartra Liones
+  - Hendricksen
+  - Simon
+  - Slader
+  - Guila
+  - Narrator
+  - Veronica Liones
+  - Sorey
+  - Mikleo
+  - Alisha Diphda
+  - Lailah
+  - Edna
+  - Rose
+  - Dezel
+  - Zaveid
+  - Velvet Crowe
+  - Magilou
+  - Rokurou Rangetsu
+  - Seres
+  - Sergei Strelka
+  - Symonne
+  - Heldalf
+  - Lunarre
+  - Maltran
+  - Bartlow
+  - Sirel
+  - Ian
+  - Landon
+  - Zenrus
+  - Atakk
+  - Chika Takami
+  - Riko Sakurauchi
+  - Kanan Matsuura
+  - Dia Kurosawa
+  - You Watanabe
+  - Yoshiko Tsushima
+  - Hanamaru Kunikida
+  - Mari Ohara
+  - Ruby Kurosawa
+  - Shima Takami
+  - Ria Kazuno
+  - Seira Kazuno
+  - Mito Takami
+  - Ikoma
+  - Mumei
+  - Ayame Yomogawa
+  - Kurusu
+  - Takumi
+  - Kajika
+  - Yukina
+  - Sukari
+  - Kibito
+  - Biba Amatori
+  - Ayato Amagiri
+  - Julis Alexia von Riessfeld
+  - Kirin Toudou
+  - Claudia Enfield
+  - Saya Sasamiya
+  - Xinglou Fan
+  - Flora Klemm
+  - Eishiro Yabuki
+  - Haruka Amagiri
+  - Ernesta Kuhne
+  - Camilla Pareto
+  - AR-D
+  - RM-C
+  - Dirk Eberwein
+  - Korona Kashimaru
+  - Irene Urzaiz
+  - Priscilla Urzaiz
+  - Sylvia Lyyneheym
+  - Shenyun Li
+  - Shenhua Li
+  - Satou
+  - Ritsu Nagai
+  - Hirasawa
+  - Izumi Shimomura
+  - Kei Nagai
+  - Kaito
+  - Kou Nakano
+  - Masumi Okuyama
+  - Yuu Tosaki
+  - Watanabe
+  - Araki
+  - Haruhiko Ichijou
+  - Mai Kawakami
+  - Reina Izumi
+  - Koito Minase
+  - Kurumi Kumamakura
+  - Ruru
+  - Enigma
+  - Claudia Enfield
+  - Saya Sasamiya
+  - Kirin Toudou
+  - Ayato Amagiri
+  - Julis Alexia von Riessfeld
+  - Haruka Amagiri
+  - Eishiro Yabuki
+  - Xinglou Fan
+  - Ernesta Kuhne
+  - Camilla Pareto
+  - Dirk Eberwein
+  - Korona Kashimaru
+  - Irene Urzaiz
+  - Stella  Vermillion
+  - Ikki Kurogane
+  - Shizuku Kurogane
+  - Ayase Ayatsuji
+  - Nagi Arisuin
+  - Touka Toudou
+  - Kimihito Kurusu
+  - Miia
+  - Papi
+  - Centorea Shianus
+  - Meroune Lorelei
+  - Rachnera Arachnera
+  - Manako
+  - Zombina
+  - Doppel
+  - Tionishia
+  - Suu
+  - Ms. Smith
+  - Lala
+  - Draco
+  - Lilith
+  - Kii
+  - Kasegi
+  - Yuki Takeya
+  - Kurumi Ebisuzawa
+  - Yuuri Wakasa
+  - Miki Naoki
+  - Megumi Sakura
+  - Kei Shidou
+  - Taroumaru
+  - Takae Yuzumura
+  - Nashetania Loei Piena Augustra
+  - Flamie Speeddraw
+  - Adlet Mayer
+  - Mora Chester
+  - Hans Humpty
+  - Goldof Auora
+  - Junichirou Kagami
+  - Koutarou Araki
+  - Sachiko Tanaka
+  - Kiriko Shikishima
+  - Kanan Chinami
+  - Makina Momozono
+  - Koyomi Hiiragi
+  - Minako Kanou
+  - Kazuya Momozono
+  - Nagare Komiya
+  - Suzune Kagami
+  - Matome Nishikujou
+  - Hell Gates
+  - Tim Bernards Lynn
+  - Seijuurou Nanami
+  - Madoka Kuramochi
+  - Yamato Toune
+  - Reiko Mukyou
+  - Moemi Kushinada
+  - Inaho Kaizuka
+  - Slaine Troyard
+  - Eddelrittuo
+  - Rayet Areash
+  - Darzana Magbaredge
+  - Kouichirou Marito
+  - Saazbaum
+  - Asseylum Vers Allusia
+  - Calm Craftman
+  - Yuki  Kaizuka
+  - Inko Amifumi
+  - Klancain
+  - Harklight
+  - Mazuurek
+  - Nina Klein
+  - Barouhcruz
+  - Lemrina Vers Envers
+  - Ken Kaneki
+  - Touka Kirishima
+  - Koutarou Amon
+  - Shuu Tsukiyama
+  - Juuzou Suzuya
+  - Nishiki Nishio
+  - Hinami Fueguchi
+  - Hideyoshi Nagachika
+  - Ayato Kirishima
+  - Akira Mado
+  - Kishou Arima
+  - Eto
+  - Naki
+  - Kurona Yasuhisa
+  - Nashiro Yasuhisa
+  - Noro
+  - Yukinori Shinohara
+  - Kimi Nishino
+  - Uta
+  - Koma
+  - Seidou Takizawa
+  - Nico
+  - Tatara
+  - Take Hirako
+  - Kongou
+  - Haruna
+  - Atago
+  - Hiei
+  - Kirishima
+  - Fubuki
+  - Yuudachi
+  - Mutsuki
+  - Tone
+  - Hibiki
+  - Kaga
+  - Shimakaze
+  - Yamato
+  - Naka
+  - Nagato
+  - Zuikaku
+  - Akagi
+  - Akatsuki
+  - Narrator
+  - Takao
+  - Basara Toujou
+  - Mio Naruse
+  - Yuki Nonaka
+  - Maria Naruse
+  - Kurumi Nonaka
+  - Zest
+  - Chisato Hasegawa
+  - Yahiro Takigawa
+  - Isuzu Sento
+  - Seiya Kanie
+  - Latifa Fleuranza
+  - Moffle
+  - Macaron
+  - Tiramie
+  - Muse
+  - Sylphy
+  - Kobori
+  - Salama
+  - Wanipi
+  - Dornell
+  - Triken
+  - Genjurou
+  - Eiko Adachi
+  - Ashe
+  - Biino Bandou
+  - Shiina Chuujou
+  - Enchou
+  - Okuro
+  - Codain
+  - Takaya Kurisu
+  - Terano Mutsumi
+  - Nick
+  - Yuu Narukami
+  - Yousuke Hanamura
+  - Chie Satonaka
+  - Yukiko Amagi
+  - Kanji Tatsumi
+  - Rise Kujikawa
+  - Kuma
+  - Naoto Shirogane
+  - Ryotaro Dojima
+  - Nanako Dojima
+  - Tohru Adachi
+  - Margaret
+  - Marie
+  - Nine
+  - Lisa Mishima
+  - Twelve
+  - Five
+  - Shibasaki Kenjirou
+  - Souta Aoki
+  - Mukasa
+  - Kurahashi
+  - Clarence
+  - Hamada
+  - Kinoshita
+  - Hamura
+  - Okano
+  - Haruka
+  - Mobuko
+  - Shunzou Mamiya
+  - Shimada
+  - Kawai
+  - Ichirou Fujikara
+  - Nice
+  - Murasaki
+  - Art
+  - Hajime
+  - Honey
+  - Birthday
+  - Three
+  - Koneko
+  - Mao
+  - Ratio
+  - Gasquet
+  - Shintaro Kisaragi
+  - Takane Enomoto
+  - Tsubomi Kido
+  - Haruka Kokonose
+  - Shuuya Kano
+  - Momo Kisaragi
+  - Kousuke Seto
+  - Mary Kozakura
+  - Hibiya Amamiya
+  - Hiyori Asahina
+  - Azami
+  - Shion Kozakura
+  - Ayano Tateyama
+  - Kenjiirou Tateyama
+  - Reine Murasame
+  - Kurumi Tokisaki
+  - Tohka Yatogami
+  - Kyouhei Kannazuki
+  - Hiroto Tonomachi
+  - Kotori Itsuka
+  - Origami Tobiichi
+  - Yoshino Himekawa
+  - Shidou Itsuka
+  - Tamae Okamine
+  - Mana Takamiya
+  - Kaguya Yamai
+  - Yuzuru Yamai
+  - Miku Izayoi
+  - Sir Isaac Ray Peram Westcott
+  - Ellen Mira Mathers
+  - Mildred F. Fujimura
+  - Munechika Nakatsugawa
+  - Mikie Okamine
+  - Masaomi Mikimoto
+  - Kyouji Kawagoe
+  - Kozue Minowa
+  - Mii Fujibakama
+  - Hinako Shiizaki
+  - Tensai Ikkyuu
+  - Nanana Ryuugajou
+  - Juugo Yama
+  - Yukihime Fugi
+  - Daruku Hoshino
+  - Yuu Ibara
+  - Shizuka Kisaragi
+  - Kasumi Konjou
+  - Sansa Kurosu
+  - Shiki Maporo
+  - Shuu Todomatsu
+  - Tetsunoshin Tsujimi
+  - Kagetora  Tsurezure
+  - Saki Yoshino
+  - Isshin Yuiga
+  - Yurika Yumeji
+  - Enju Aihara
+  - Rentaro Satomi
+  - Kagetane Hiruko
+  - Kisara Tendo
+  - Tina Sprout
+  - Seitenshi
+  - Midori Fuse
+  - Kohina Hiruko
+  - Yuzuki Katagiri
+  - Tamaki Katagiri
+  - Takuto Yasuwaki
+  - Kayo Senju
+  - Blind Girl
+  - Dende
+  - Ginyu
+  - King Cold
+  - Burter
+  - Yajirobe
+  - Baba Uranai
+  - Kuririn
+  - Cell
+  - Nobuyo Ookawa
+  - Tenshinhan
+  - Trunks
+  - Shenlong
+  - Kami
+  - Bulma
+  - Freeza
+  - Guldo
+  - Dodoria
+  - Farmer
+  - Muten Roushi
+  - Raditz
+  - "Ana Mar\xEDa Caro"
+  - Gregory
+  - Gohan Son
+  - Porunga
+  - Ryouta Murakami
+  - Neko Kuroha
+  - Kana Tachibana
+  - Nanami Tokou
+  - Kazumi Schlierenzauer
+  - Kotori Takatori
+  - Akane
+  - Kurofuku
+  - Mako Fujisaki
+  - Chisato Ichijiku
+  - Hatsuna Wakabayashi
+  - Miki
+  - Kogorou Hashiratani
+  - Kate Hoshimiya
+  - Asuta Jimon
+  - Natasha
+  - Roboko
+  - Yasu
+  - Itsuka Shikabane
+  - Gorou Shikabane
+  - Kuru Kuru
+  - Natsume Tsuchimikado
+  - Tenma Momoe
+  - Kyouko Kurahashi
+  - Kon
+  - Touji Ato
+  - Hokuto
+  - Suzuka Dairenji
+  - Harutora Tsuchimikado
+  - Jin Ootomo
+  - Douman Ashiya
+  - Miyo Kurahashi
+  - Atsune Hirata
+  - Zenjirou Kogure
+  - Reiji Kagami
+  - Douman Ashida
+  - Charlotte Belew
+  - Sigmund
+  - Loki
+  - Raishin Akabane
+  - Frey
+  - Yaya
+  - Irori
+  - 'Kojou Akatsuki '
+  - 'Yukina Himeragi '
+  - Asagi Aiba
+  - Astarte
+  - Sayaka Kirasaka
+  - Kanon Kanase
+  - La Folia Rihavein
+  - Yuuma Tokoyogi
+  - Nagisa  Akatsuki
+  - Natsuki Minamiya
+  - Motoki Yaze
+  - Avrora Florestina
+  - Paper Noise
+  - Dimitrie Vatler
+  - Rin Tsukishima
+  - Mogwai
+  - Misaki Sasasaki
+  - Rudolf Eustach
+  - Christoph Gardos
+  - Beatrice Basler
+  - Lowe Kirishima
+  - Ghirardi Gigliola
+  - Nepgear
+  - Histoire
+  - Compa
+  - Neptune
+  - IF
+  - Pururut
+  - Vert
+  - Uni
+  - Magiquone
+  - Warechu
+  - Blanc
+  - Noire
+  - Ram
+  - Rom
+  - Rei Kiseijou
+  - 5pb
+  - Linda
+  - CFW Trick
+  - Abnes
+  - Peashy
+  - Chika Hakozaki
+  - Tsukushi Tsutsukakushi
+  - Ponta
+  - Mother Azuki
+  - Youto Yokodera
+  - Tsukasa Tsutsukakushi
+  - Azusa Azuki
+  - Tsukiko Tsutsukakushi
+  - Mai Maimaki
+  - Emanuela Pollarola
+  - Moriya
+  - Rion Nanami
+  - H-neun
+  - Kriemhild
+  - A-drei
+  - Satomi Renbokouji
+  - Takumi Kibukawa
+  - Marie Nobi
+  - Cain
+  - Yuusuke Otamaya
+  - Raizou Yamada
+  - Liselotte
+  - Q-vier
+  - Saki Rukino
+  - Kyuuma Inuzuka
+  - L-ELF Karlstein
+  - X-eins
+  - Takahi Ninomiya
+  - Akira Renbokouji
+  - Aina Sakurai
+  - Shouko Sashinami
+  - Haruto Tokishima
+  - Deilus Wartenberg
+  - Pino
+  - Hasta
+  - Yoriko Yasaka
+  - Takehiko Yoichi
+  - Shantak-kun
+  - Isuka
+  - Cthune
+  - Luhy Jistone
+  - Cthuko
+  - Mahiro Yasaka
+  - Nyaruko
+  - Tamao Kurei
+  - Hinako Kujou
+  - Ureu Mono
+  - Jungo Torii
+  - Yamato Houtsuin
+  - Makoto Sako
+  - Ronaldo Kuriki
+  - Hibiki Kuze
+  - Tico (Female)
+  - Daichi Shijima
+  - Yuzuru Akie
+  - Bifrons
+  - Airi Ban
+  - Otome Yanagiya
+  - Io Nitta
+  - Keita Wakui
+  - Tico (Male)
+  - Aki Muroto
+  - Momoko Ootani
+  - Nonoka Masaki
+  - Tomoe Misumi
+  - Hiromichi Kudou
+  - Hikari Sanehara
+  - Itta Nakagawa
+  - Takashi Azuma
+  - Katsumi Kurebayashi
+  - Kanon Maeda
+  - Haruka Niimi
+  - Yuuko Uchida
+  - Misa Kitagawa
+  - Rina Yunoki
+  - Mai Sakura
+  - Ruu Narita
+  - Mother Kosaka
+  - Mother Minami
+  - Mother Nishikino
+  - Grandmother Ayase
+  - Eli Ayase
+  - Anju Yuuki
+  - Kotori Minami
+  - Yukiho Kosaka
+  - Umi Sonoda
+  - Nico Yazawa
+  - Arisa Ayase
+  - Erina Toudou
+  - Mika
+  - Fumika
+  - Hideko
+  - Honoka Kousaka
+  - Rin Hoshizora
+  - Hanayo Koizumi
+  - Maki Nishikino
+  - Nozomi Tojo
+  - Tsubasa Kira
+  - Yataro
+  - Kuniharu Ogino
+  - Masashi Mori
+  - Kei Nozaki
+  - Hiroshi Inaba
+  - Yuzuki Ogata
+  - Soumei
+  - Wakaba Ogino
+  - Akiyoshi
+  - Haruka Inaba
+  - Lorenzo
+  - Valentino
+  - Iori Hamada
+  - Thomas
+  - Kazuomi Kenmochi
+  - Kaoru Joujima
+  - Yuuta Sasaki
+  - Azusa Ogino
+  - Noah
+  - Gabriella
+  - Natsuki
+  - Torayasu Kurami
+  - Leon
+  - Gustave
+  - Lieutenant Konitan
+  - Miranda
+  - Emilia
+  - Commander Ulberion
+  - Nabokov Jugglaburk
+  - Mariandale
+  - Erekpyle Dukakis
+  - Sainglain
+  - Gabriella Dascas
+  - KT
+  - Middle Brother
+  - Almaflora
+  - Variation
+  - Older Brother
+  - Pet
+  - Kon Hokaze
+  - Joseph Joestar
+  - Erina Pendleton
+  - Kars
+  - ACDC
+  - Lisa Lisa
+  - Wamuu
+  - Straits
+  - Dio Brando
+  - Rudol von Stroheim
+  - Suzie Q
+  - Santana
+  - Tarkus
+  - Bruford
+  - Jack
+  - Dario Brando
+  - Tompetty
+  - Robert E. O. Speedwagon
+  - Wang Chung
+  - Will A. Zeppeli
+  - Dire
+  - George Joestar I
+  - Jonathan Joestar
+  - Caesar Anthonio Zeppeli
+  - Smokey Brown
+  - Toki Fujiwara
+  - Hitomi
+  - Sagashimono
+  - Fujiwara
+  - Nenene Fujiwara
+  - Rui Hachiouji
+  - Rei Oogami
+  - Goutoku Sakurakouji
+  - Miyuki Kanda
+  - Aoba Takatsu
+  - Yukihina
+  - Yuuki Tenpouin
+  - Nyanmaru
+  - Yuki Sakurakouji
+  - Puppy
+  - Sakura Sakurakouji
+  - Hajime Uesugi
+  - Phil Barnett
+  - Baram Dy Alon Disdia
+  - Loutier Trum
+  - Kyouya Hikami
+  - Chikage Izumi
+  - Haruka Nanase
+  - Kuzuha Doumoto
+  - Listy El Da Sherfied
+  - Ryouhei Uesaki
+  - Akatsuki Ousawa
+  - Zechs Doltrake
+  - Miranda Quenti
+  - Motoharu Kaitou
+  - Volk Rem Aleclasta IV
+  - Minami Aihara
+  - Dalnia Earhart
+  - Lisara Restall
+  - Almeia Restall
+  - Iria Fukumune
+  - Ryosuke Kaga
+  - Satomi Kaga
+  - Urs
+  - Mina Okura
+  - Muneo Meshiyori
+  - Quele Sellier
+  - Hikaru Tamano
+  - Hasta
+  - Yoriko Yasaka
+  - Takehiko Yoichi
+  - Shantak-kun
+  - Isuka
+  - Nyaruo
+  - Luhy Jistone
+  - Cthuko
+  - Mahiro Yasaka
+  - Nyaruko
+  - Ghutatan
+  - Eucliwood Hellscythe
+  - Naegleria Nebiros
+  - Ariel
+  - Kyoko
+  - Chris
+  - Orito
+  - Sarasvati
+  - Yuki Yoshida
+  - Ayumu Aikawa
+  - Shimomura
+  - Haruna
+  - Seraphim
+  - Kanami Mihara
+  - Remon Yamano
+  - Emika Takatsuki
+  - Nanami Kirishima
+  - Satoshi Ogura
+  - Mio Kitahara
+  - Chiharu Arisawa
+  - Ichika Takatsuki
+  - Manami Ogura
+  - Tetsurou Ishigaki
+  - Rinon
+  - Kanna Tanigawa
+  - Kaori Kinoshita
+  - Kanji Tatsumi
+  - Daisuke Nagase
+  - Rise Kujikawa
+  - Yuu Narukami
+  - Tohru Adachi
+  - Chie Satonaka
+  - Sayoko Uehara
+  - Kou Ichijo
+  - Kuma
+  - Ai Ebihara
+  - Yukiko Amagi
+  - Naoto Shirogane
+  - Margaret
+  - Eri Minami
+  - Yousuke Hanamura
+  - Noriko Kashiwagi
+  - Kinshiro Morooka
+  - Nanako Dojima
+  - Ameno-sagiri
+  - Ryotaro Dojima
+  - Mitsuo Kubo
+  - Naoki Konishi
+  - Mayumi Yamano
+  - Chihiro Fushimi
+  - Jun Inoue
+  - Takuya Morooka
+  - Shoichi Kazama
+  - Gyoubu Shakado
+  - Ikuro Fukumoto
+  - Touma Aoi
+  - Motosouri
+  - Cookie
+  - Christiane Friedrich
+  - Tadakatsu Minamoto
+  - Yukie Mayuzumi
+  - Yamato Naoe
+  - Momoyo Kawakami
+  - Gakuto Shimazu
+  - Kokoro Fushikawa
+  - Suguru Oogushi
+  - Saki Mimori
+  - Ageha Kuki
+  - Tesshin Kawakami
+  - Maro Ayanokouji
+  - Father Naoe
+  - Kuroko Haguro
+  - Ryuuhei Itagaki
+  - Miyako Shiina
+  - Kinjirou Sakamachi
+  - Ichigo Saotome
+  - Nagare Konoe
+  - Kosame Samejima
+  - Kureha Sakamachi
+  - Kanade Suzutsuki
+  - Masamune Usami
+  - Jirou Sakamachi
+  - Nakuru Narumi
+  - Subaru Konoe
+  - Yamato Kurose
+  - Choco
+  - Milk
+  - Perin-Chan
+  - Waga Michi o Going
+  - Soujirou Agata
+  - Kazuyoshi Usui
+  - Kobayashi
+  - Michinori Magata
+  - Kikuno Asahina
+  - Teruko
+  - Koma Morishita
+  - Mimori Unyuu
+  - Yoshihiko
+  - Daigorou Megumi
+  - Father Onizuka
+  - Shinba Michiru
+  - Haru Kirishima
+  - Kaoru Yagi
+  - Dodon-don-dodon's Wife
+  - Mother Onizuka
+  - Kamei
+  - Tetsuji Chuuma
+  - Akane Fujisaki
+  - Kuroda
+  - Himiko Minakami
+  - Luigiana
+  - Azukina Matcha
+  - Eucliwood Hellscythe
+  - Kerberos Wansard
+  - Yoru no Ou
+  - Ariel
+  - Kyoko
+  - Orito
+  - Sarasvati
+  - Yuki Yoshida
+  - Ayumu Aikawa
+  - Shimomura
+  - Haruna
+  - Seraphim
+  - Kanami Mihara
+  - Kyouko Sakura
+  - Kyuubey
+  - Homura Akemi
+  - Junko Kaname
+  - Mami Tomoe
+  - Tatsuya Kaname
+  - Walpurgis Night
+  - Kazuko Saotome
+  - Hitomi Shizuki
+  - Tomohisa Kaname
+  - Sayaka Miki
+  - Kyousuke Kamijou
+  - Pantsurobo
+  - Minos
+  - Tomoki Sakurai
+  - Astraea
+  - Daedalus
+  - Man of Judas
+  - Eishirou Sugata
+  - Chaos
+  - Ikaros
+  - Hiyori Kazane
+  - Nymph
+  - Mikako Satsukitane
+  - Sohara Mitsuki
+  - Tomozo Sakurai
+  - Harpy 1
+  - Lucile Eris
+  - Lieral Lieutolu
+  - Tiir Rumibul
+  - Ryner Lute
+  - Fiole Folkal
+  - Miran Froaude
+  - Calne Kaiwel
+  - Mother Eris
+  - Riphal Edea
+  - Noa Ehn
+  - Arua
+  - Iris Eris
+  - Father Eris
+  - Ferris Eris
+  - Claugh Klom
+  - Sion Astal
+  - Luke Stokkart
+  - Sui Orla
+  - Rahel Miller
+  - Lear Rinkal
+  - Milk Callaud
+  - Kuu Orla
+  - Kiefer Knolles
+  - Lir Orla
+  - Lucky
+  - Layla Heartfilia
+  - Lucy Ashley
+  - Lucy Heartfilia
+  - Rogue Cheney
+  - Happy
+  - Marl
+  - Zeref
+  - Igneel
+  - Laxus Dreyar
+  - Gildarts Clive
+  - Elfman (Edolas)
+  - Elfman Strauss
+  - "Charl\xE9s"
+  - Shagotte
+  - Juvia Lockser
+  - Juvia (Edolas)
+  - Daphne
+  - Mavis Vermillion
+  - Ren Akatsuki
+  - Mato
+  - Toma E. Fiore
+  - Jenny Realight
+  - Sting Eucliffe
+  - Minos
+  - Tomoki Sakurai
+  - Daedalus
+  - Man of Judas
+  - Eishirou Sugata
+  - Yoshitsune Hououin
+  - Ikaros
+  - Nymph
+  - Mikako Satsukitane
+  - Tsukino Hououin
+  - Sohara Mitsuki
+  - Tomozo Sakurai
+  - Harpy 1
+  - Dende
+  - Ginyu
+  - King Cold
+  - Burter
+  - Yajirobe
+  - Baba Uranai
+  - Kuririn
+  - Cell
+  - Nobuyo Ookawa
+  - Tenshinhan
+  - Trunks
+  - Shenlong
+  - Kami
+  - Bulma
+  - Freeza
+  - Guldo
+  - Dodoria
+  - Farmer
+  - Muten Roushi
+  - Raditz
+  - "Ana Mar\xEDa Caro"
+  - Gregory
+  - Gohan Son
+  - Porunga
+  - Aureolus Izzard
+  - Laura Stuart
+  - Aisa Himegami
+  - Kaori Kanzaki
+  - Sherry Cromwell
+  - Kuroko Shirai
+  - Aleister Crowley
+  - Index Librorum Prohibitorum
+  - Komoe Tsukuyomi
+  - Shiina Kamijou
+  - Stiyl Magnus
+  - Hitotsui Hajime
+  - Maika Tsuchimikado
+  - Mikoto Misaka
+  - Touya Kamijou
+  - Accelerator
+  - Kikyou Yoshikawa
+  - Pierce Aogami
+  - Last Order
+  - Aiho Yomikawa
+  - Etzali
+  - Mitsuki Unabara
+  - Sasha Kreuzhev
+  - Ao Amai
+  - Aoi Ogata
+  - Chitose Saiga
+  - Kei Takishima
+  - Sumire Karino
+  - Hikari Hanazono
+  - Yui Oikawa
+  - Sakura Ushikubo
+  - Sui Takishima
+  - Akira Toudou
+  - Yahiro Saiga
+  - Hajime Kakei
+  - Satoru Takishima
+  - Tadashi Karino
+  - Ryuu Tsuji
+  - Jun Yamamoto
+  - Megumi Yamamoto
+  - Kaname Takishima
+  - Nora Arendt
+  - Holo
+  - Chloe
+  - Kraft Lawrence
+  - Zheren
+  - Marhait Liechten
+  - "Louise Fran\xE7oise Le Blanc de La Valli\xE8re"
+  - Henrietta de Tristain
+  - Siesta
+  - Guiche de Gramont
+  - "Montmorency Margarita la F\xE8re de Montmorency"
+  - Osmond
+  - Saito Hiraga
+  - "Charlotte Helene Orl\xE9ans"
+  - Miss Longueville
+  - Kirche Augusta Frederica von Anhalt-Zerbst
+  - Malicorne de Grandple
+  - Scarron
+  - Derflinger
+  - Jean-Jacques Francis de Wardes
+  - Katie
+  - Jean Colbert
+  - Wales Tudor
+  - Chevreuse
+  - Jessica
+  - Perisson
+  - Jules de Mott
+  - Turenne
+  - Siesta no Chichi
+  - Marteau
+  - Yoshitsune
+  - Magaki Kouji
+  - Sora Takeuchi
+  - Simca
+  - Akira Udou
+  - Nue
+  - Kaito Wanijima
+  - Mari Tomita
+  - Ryo Mimasaka
+  - Yasuyoshi Sano
+  - Shiraume Noyamano
+  - Emily Adachi
+  - Ringo Noyamano
+  - Itsuki Minami
+  - DJ Plugman
+  - Onigiri
+  - Mikan Noyamano
+  - Mitsuru Bando
+  - Agito Wanijima
+  - Natsumi Iriya
+  - Inuyama
+  - Gonzou Tokudawara
+  - Benkei
+  - Rika Noyamano
+  - Tetsu Nemoto
+  - Kei Kurono
+  - Masanobu Hojo
+  - Mika Kanda
+  - Sadayo Suzumura
+  - Kei Kishimoto
+  - Ayumu Katou
+  - Hajime Muroto
+  - Naozumi Saito
+  - Kiyoshi Miyafuji
+  - Masaru Katou
+  - Ryuuji Kajiura
+  - Juzo Togo
+  - Sei Sakuraoka
+  - Daichi Nozaki
+  - Giichi Furuta
+  - Magicman
+  - Mr. Match
+  - Blues.EXE
+  - Tamako Shiraizuki
+  - Higure Yamitaro
+  - Numberman.EXE
+  - Shun Obihiro
+  - Meijin Eguchi
+  - Princess Pride
+  - Searchman.EXE
+  - Romeda Andou
+  - Meiru Sakurai
+  - Raoul
+  - Torakichi Aragoma
+  - Daisuke Hayami
+  - Mariko Ozono
+  - Enzan Ijuuin
+  - Aki
+  - Tohru Hikawa
+  - Iceman.exe
+  - Maddy
+  - Tomahawkman.EXE
+  - Medi.EXE
+  - Forte
+  - Tsukishiro
+  - Kagerou
+  - Fuuko Kirisawa
+  - Yanagi Sakoshita
+  - Tokiya Mikagami
+  - Domon Ishijima
+  - Kurei
+  - Kondo
+  - Saicho
+  - Joker
+  - Recca Hanabishi
+  - Neon
+  - Ganko Morikawa
+  - Kaoru Koganei
+  - Kashamura
+  - Mokuren
+  - Sekiou
+  - Shigeo Hanabishi
+  - Narrator
+  - Kiyota Nobunaga
+  - Yohei Mito
+  - Toki Kuwata
+  - Kazuo Araki
+  - Haruko Akagi
+  - Mitsuru Nagano
+  - Kentarou Ishii
+  - Tetsushi Shiozaki
+  - Soichiro Jin
+  - Yuji Ookusu
+  - Ryoji Ikegami
+  - Kaede Rukawa
+  - Hanamichi Sakuragi
+  - Yasuharu Yasuda
+  - Hikoichi Aida
+  - Hisashi Mitsui
+  - Kiminobu Kogure
+  - Kouichirou Nangou
+  - Youko Shimamura
+  - Akira Sendou
+  - Norio Hotta
+  - Moichi Taoka
+  - Kicchou Fukuda
+  - Teruo Ookawa
+  - Lloyd Belladonna
+  - Alka
+  - Phyllo Kinon
+  - Marie
+  - Riho Flavin
+  - Selen Hemein
+  - Cholin
+  - Shouma
+  - Merthophan
+  - Allan Toin Lidocaine
+  - Chrome
+  - Mena Kinon
+  - Suu
+  - Rol Calcife
+  - Threonine Toin Lidocaine
+  - Minoki
+  - Coba Lamin
+  - Kikyou
+  - Holo
+  - Fleur Boland
+  - Kraft Lawrence
+  - Dian Rubens
+  - Mark
+  - Fermi Amarty
+  - Merta
+  - Helena
+  - Kei Nagai
+  - Izumi Shimomura
+  - Kaito
+  - Kou Nakano
+  - Masumi Okuyama
+  - Satou
+  - Yuu Tosaki
+  - Natsu Dragneel
+  - Lucy Heartfilia
+  - Zeref
+  - Acnologia
+  - Capricorn
+  - "Charl\xE9s"
+  - Hisui E. Fiore
+  - Happy
+  - Juvia Lockser
+  - Igneel
+  - Pantherlily
+  - Plue
+  - Gajeel Redfox
+  - Sagittarius
+  - Scorpio
+  - Elfman Strauss
+  - Mirajane Strauss
+  - Lisanna Strauss
+  - Virgo
+  - Gray Fullbuster
+  - Wendy Marvell
+  - Erza Scarlet
+  - Invel Yura
+  - "Brandish \u03BC"
+  - Julia Douglas
+  - Goemon Ishikawa XIII
+  - Daisuke Jigen
+  - "Ars\xE8ne Lupin III"
+  - Chris
+  - Kouichi Zenigata
+  - Fujiko Mine
+  - Mario
+  - Douglas
+  - Rhisley
+  - Philipp
+  - Maria Douglas
+  - Natsuki Enomoto
+  - Yuu Setoguchi
+  - Akari Hayasaka
+  - Haruki Serizawa
+  - Souta Mochizuki
+  - Maihime  Shirayuki
+  - Momoka  Momozono
+  - Sora  Tenkuuji
+  - Retto Enjou
+  - Anno Jou
+  - Kirara  Hoshino
+  - Miyo Sasaki
+  - Kento Hinode
+  - Kusugi
+  - Nekoten Shuyaku
+  - Yoriko Fukase
+  - Tomoya Sakaguchi
+  - Masamichi Isami
+  - Youji Sasaki
+  - Kaoru Mizutani
+  - Miki Saitou
+  - Kinako
+  - Tamaki
+  - Kakinuma
+  - Hajime
+  - Sugita
+  - Ayumu Niibori
+  - Sachiko Hinode
+  - Shouta Bannai
+  - Kenzou Hinode
+  - Suzu Hagimura
+  - Shino Amakusa
+  - Takatoshi Tsuda
+  - Aria Shichijou
+  - Kenji Yanagimoto
+  - Goku Son
+  - Bulma
+  - Mai
+  - Freeza
+  - Android 18
+  - Vegeta
+  - Tenshinhan
+  - Whis
+  - Pilaf
+  - Shu
+  - Muten Roushi
+  - Shenlong
+  - Trunks
+  - Piccolo
+  - Gohan Son
+  - Kuririn
+  - Beerus
+  - Jaco Teirimentenpibosshi
+  - Sorbet
+  - Shisami
+  - Tagoma
+  - Videl
+  - Oracle Fish
+  - Greg Glenn
+  - Frederic Downing
+  - Rani Chawla
+  - Curtis Miller
+  - Angela Miller
+  - Claire Redfield
+  - Ron Davis
+  - Chisato Mizusawa
+  - Sora Mizusawa
+  - Koharu Sakurai
+  - Luciela R. Sourcream
+  - Edward Grenore
+  - Scar
+  - Ciel
+  - Ara Haan
+  - Aisha Landar
+  - Chung Seiker
+  - Eve
+  - Rena Erindel
+  - Raven Cronwell
+  - Elesis
+  - Kyuubey
+  - Iroha Tamaki
+  - Kaede Akino
+  - Tsuruno Yui
+  - Momoko Togame
+  - Felicia Mitsuki
+  - Rena Minami
+  - Sana Futaba
+  - Yachiyo Nanami
+  - Kuroe
+  - Mami Tomoe
+  - Nemu Hiiragi
+  - Touka Satomi
+  - Mitama Yakumo
+  - Kyouko Sakura
+  - Alina Gray
+  - Ai
+  - Tsukasa Amane
+  - Mifuyu Azusa
+  - Uwasa
+  - Tsukuyo Amane
+  - Mayu Kozue
+  - Ui Tamaki
+  - Kako Natsume
+  - Meliodas
+  - Merlin
+  - Ban
+  - Elizabeth Liones
+  - Hawk
+  - Gowther
+  - Escanor
+  - King
+  - Diane
+  - Gloxinia
+  - Matrona
+  - Gerheade
+  - Drole
+  - Monspeet
+  - Derieri
+  - Melascula
+  - Elaine
+  - Zeldris
+  - Nerobasta
+  - Fraudrin
+  - Liz
+  - Estarossa
+  - Hendricksen
+  - Griamor
+  - Yue
+  - Hajime Nagumo
+  - Kaori Shirasaki
+  - Shia Haulia
+  - Myuu
+  - Tio Klarus
+  - Shizuku Yaegashi
+  - Nia
+  - Taeko Sugawara
+  - Ken Kaneki
+  - Kuki Urie
+  - Ginshi Shirazu
+  - Tooru Mutsuki
+  - Saiko Yonebayashi
+  - Shuu Tsukiyama
+  - Kanae von Rosewald
+  - Seidou Takizawa
+  - Eto
+  - Touka Kirishima
+  - Akira Mado
+  - Nishiki Nishio
+  - Ayato Kirishima
+  - Juuzou Suzuya
+  - Uta
+  - Nico
+  - Tatara
+  - Kishou Arima
+  - Hinami Fueguchi
+  - Nimura Furuta
+  - Hairu Ihei
+  - Ui Koori
+  - Chie Hori
+  - Itsuki Marude
+  - Pochi
+  - Tama
+  - Zena Marientail
+  - Liza
+  - Arisa
+  - Lulu
+  - Mia
+  - Nana
+  - Ichiro Suzuki
+  - Nadi
+  - Martha
+  - Yusaratoya Bolenan
+  - Mosa
+  - Iona
+  - Lenmaris
+  - Urs
+  - Inenimaana
+  - Witch of the Forest of Illusions
+  - Birkinz
+  - Count Kuhanou
+  - Jin Belton
+  - Nidoren
+  - Somar
+  - Yuni
+  - Yukana Yame
+  - Junichi Hashiba
+  - Yui Kashii
+  - Ranko Honjou
+  - Keigo Ishida
+  - Minoru Kobayakawa
+  - Shizune Fujinoki
+  - Ayumi Uesaka
+  - Dai Mitarai
+  - Shinpei Sakamoto
+  - Mitarai`s Friend A
+  - Ais Wallenstein
+  - Tiona Hiryute
+  - Bete Loga
+  - Aria
+  - Lefiya Viridis
+  - Tione Hiryute
+  - Uranus
+  - Loki
+  - Lulune Louie
+  - Bell Cranel
+  - Riveria Ljos Alf
+  - Tsubaki Collbrande
+  - Riine Arshe
+  - Royman  Mardeel
+  - Dionysus
+  - Filvis Challia
+  - Bors Elder
+  - Hestia
+  - Demeter
+  - Allen Fromel
+  - Hermes
+  - Ryuu  Lion
+  - Finn Deimne
+  - Asfi  Al Andromeda
+  - Zero
+  - Youhei
+  - Albus
+  - Thirteen
+  - Holdem
+  - Furugiya no Tenshu
+  - Roshell
+  - Airi Arcadia
+  - Krulcifer Einfolk
+  - Philphie Aingram
+  - Celistia Ralgris
+  - Lisesharte Atismata
+  - Lux Arcadia
+  - Hayes Arcadia
+  - Matoi
+  - Aika  Suzuki
+  - Rina Izumi
+  - Arata Kasuga
+  - Akio Fudou
+  - Arin Kannazuki
+  - Lilith Asami
+  - Levi Kazama
+  - Yui Kurata
+  - Mira Yamana
+  - Selina Sherlock
+  - Lieselotte Sherlock
+  - Sora
+  - Ilias Fragment
+  - Hijiri Kasuga
+  - Biblia Gakuenchou
+  - Lugh
+  - Akari Hizamaru
+  - Michelle K. Davis
+  - Marcos E. Garcia
+  - Alex K. Stewart
+  - Adolph Reinhardt
+  - Joseph Gustav Newton
+  - Sheila Levitt
+  - Eva Frost
+  - Shokichi Komachi
+  - Ivan Perepelkin
+  - Keiji Onizuka
+  - Liu  Yiwu
+  - Sylvester Asimov
+  - Yuriko Minamoto
+  - Alexander Asimov
+  - Isabella R. Leon
+  - Ichiro Himura
+  - Elena Perepelkina
+  - Nina Yujik
+  - Kanako Sanjou
+  - Jared Anderson
+  - Chun-Li Xi
+  - 'Bao Zhilan '
+  - Hong
+  - Andrew Gilbert Mills
+  - Alicia Rue
+  - Ryoutarou Tsuboi
+  - Vassago Casals
+  - Sigurd
+  - Sakuya
+  - Yui
+  - Eugene
+  - Kazuto Kirigaya
+  - Rika Shinozaki
+  - Asuna Yuuki
+  - Keiko Ayano
+  - Suguha Kirigaya
+  - Atsushi Kanemoto
+  - Shino Asada
+  - Yuuki Konno
+  - Shoichi Shinkawa
+  - Kyouji Shinkawa
+  - Dyne
+  - Pale Rider
+  - Behemoth
+  - Nori
+  - Freyja
+  - Kyouko Yuuki
+  - Naoto Takayama
+  - Aoi Sakurai
+  - Haruka Koumi
+  - Shou Iwaizumi
+  - Noa Kashima
+  - Nana Iida
+  - Bernina
+  - Kaori
+  - Yamada
+  - Junichi Wakayama
+  - Mari Sasshou
+  - Osamu Oominato
+  - Tetsuya Narita
+  - Tomomi Ooito
+  - Alice Kuji
+  - Hitomi Gonou
+  - Haruko Amaya
+  - Kodama Himegami
+  - Takeru Ohyama
+  - Inaho Kushiya
+  - Aki Nijou
+  - Minori Rokujo
+  - Azuki Shinatsu
+  - Kengo Usui
+  - Furan Takaki
+  - Kimi Satou
+  - Yuuka Amado
+  - Chacha Akaza
+  - Nice
+  - Murasaki
+  - Hajime
+  - Art
+  - Koneko
+  - Ratio
+  - Birthday
+  - Honey
+  - Three
+  - Master
+  - Gasquet
+  - Mao
+  - Theo
+  - Rei
+  - Azusa
+  - Moral
+  - Kenji Kazama
+  - Roka Shibasaki
+  - Takao
+  - Chitose Karasuyama
+  - Sakura Mizukami
+  - Minami Oosawa
+  - Ataru Kawahara
+  - Yokoshima
+  - Hiroshi Nagayama
+  - Tsutsumi Inada
+  - Shinsen
+  - Sakuragaoka
+  - Funabori
+  - Hachi Shiou
+  - Tama Sakai
+  - Noe Kazama
+  - Haijima
+  - Takao's 2nd Sister
+  - Takao's Eldest Sister
+  - Mother Takao
+  - Shawn  Conecone
+  - Azuma  Matsubara
+  - Naganuma
+  - Tennouzu
+  - Ragna the Bloodedge
+  - Taokaka
+  - Rachel Alucard
+  - Jin Kisaragi
+  - Iron Tager
+  - Hazama
+  - Litchi Faye-Ling
+  - Kokonoe
+  - Noel Vermillion
+  - Tsubaki Yayoi
+  - Makoto Nanaya
+  - Hakumen
+  - Arakune
+  - 'Lambda-11 '
+  - Nu-13
+  - Trinity Glassfille
+  - Mitsunori Kugayama
+  - Manabu Kuchiki
+  - Kanako Ohno
+  - Saki Kasukabe
+  - Souichiro Tanaka
+  - Makoto Kousaka
+  - Angela Burton
+  - Kumiko Yabusaki
+  - Harunobu Madarame
+  - Kenjirou Hato
+  - Keiko Sasahara
+  - Mirei Yajima
+  - Chika Ogiue
+  - Rika Yoshitake
+  - Susanna Hopkins
+  - Kanata Kurusu
+  - Kirara Hoshino
+  - Kanako Kurusu
+  - Meruru
+  - Kaori Makishima
+  - Yoshino Kousaka
+  - Shinya Sanada
+  - Misaki Fujima
+  - Saori Makishima
+  - Ruri Gokou
+  - Hinata Gokou
+  - Daisuke Kousaka
+  - Comet-kun
+  - Kyousuke Kousaka
+  - Gennosuke Miura
+  - Sena Akagi
+  - Kouhei Akagi
+  - Ayase Aragaki
+  - Manami Tamura
+  - Kirino Kousaka
+  - Kouki Mikagami
+  - Tamaki Gokou
+  - Bridget Evans
+  - Kaede Makabe
+  - Murasame
+  - Katsuragi
+  - Kiriya
+  - Daidouji
+  - Haruka
+  - Yagyuu
+  - Mirai
+  - Dougen
+  - Hikage
+  - Homura
+  - Hibari
+  - Ikaruga's father
+  - Asuka
+  - Ikaruga
+  - Yomi
+  - Suzune
+  - "Black\u2605Gold Saw"
+  - Saya Irino
+  - Dead Master
+  - Yomi Takanashi
+  - "Black\u2605Rock Shooter"
+  - Mato Kuroi
+  - Chariot
+  - Kagari Izuriha
+  - Mother Takanashi
+  - Strength
+  - Yuu Koutari
+  - Mother Kuroi
+  - Arata Kohata
+  - The Club of Hercules
+  - Tadaaki Endou
+  - Kyou Sawagi
+  - Kyou Sawagi
+  - Ayame Shaga
+  - Yuu Kaneshiro
+  - Kiku Matsuba
+  - Tomoaki Yamahara
+  - Ooinoshishi
+  - You Satou
+  - Sen Yarizui
+  - Jiji-sama
+  - Kenji Dandou
+  - Hana Oshiroi
+  - Asebi Inoue
+  - Bouzu
+  - Ren Nikaidou
+  - Chapatsu
+  - Abura Kami
+  - Hiroaki Uchimoto
+  - Ume Shiraume
+  - Midea Demitora
+  - Tomika Amado
+  - Haruko Amaya
+  - Gen Tagayashi
+  - Minerva Martha
+  - Biyo Tanaka
+  - Kodama Himegami
+  - Celia Ootsuka
+  - Yang Ming
+  - Akaya Kodai
+  - Takeru Ohyama
+  - Airiru Finnian
+  - Riru Finnian
+  - Kengo Usui
+  - Kagutsuchi
+  - Aki Nijou
+  - Chacha Akaza
+  - Azuki Shinatsu
+  - Furan Takaki
+  - Minori Rokujo
+  - Inaho Kushiya
+  - Yuuka Amado
+  - Uruchi Minaya
+  - Tabane Shinonono
+  - Honne Nohotoke
+  - Maya Yamada
+  - Cecilia Alcott
+  - Chifuyu Orimura
+  - Laura Bodewig
+  - Lingyin Huang
+  - Houki Shinonono
+  - Charlotte Dunois
+  - Ran Gotanda
+  - Dan Gotanda
+  - Ichika Orimura
+  - Kiyoka Aikawa
+  - Kaoruko Mayuzumi
+  - Kirara Hoshino
+  - Kanako Kurusu
+  - Meruru
+  - Iori Setsuna
+  - Yoshino Kousaka
+  - Saori Makishima
+  - Ruri Gokou
+  - Hinata Gokou
+  - Daisuke Kousaka
+  - Kyousuke Kousaka
+  - Kouhei Akagi
+  - Ayase Aragaki
+  - Grandfather Tamura
+  - Miyabi
+  - Manami Tamura
+  - Kirino Kousaka
+  - Iwao Tamura
+  - Rinko
+  - Tamaki Gokou
+  - Grandmother Tamura
+  - Bridget Evans
+  - Kurara Hoshino
+  - Kaoru Seo
+  - Akitsu
+  - Matsu
+  - Karasuba
+  - Hayato Mikogami
+  - Miya Asama
+  - Benitsubasa
+  - Izumi Higa
+  - Natsuo Ichinomi
+  - Takami Sahashi
+  - Hiroto Minaka
+  - Kazehana
+  - Tsukiumi
+  - Hibiki
+  - Uzume
+  - Kusano
+  - Katsuragi
+  - Nishi Sanada
+  - Haihane
+  - Namiji
+  - Takehito Asama
+  - Kakizaki
+  - Hikari
+  - Kochou
+  - Ekaterina Kurae
+  - Miyuri Tsujidou
+  - Eva-R
+  - Eva-Q
+  - Joshua Phrygianos
+  - Teresa Beria
+  - Georg Tanner
+  - Elizabeth
+  - Urara Oikawa
+  - Eva Silver
+  - Fumika Mitarai
+  - Aoi Kuchiba
+  - Yuu Kuchiba
+  - Jackal
+  - Yumie Hiiragi
+  - Shinichiro Ootori
+  - Mafuyu Oribe
+  - Yuri Noda
+  - Nikuma
+  - Wan Chen
+  - Croa
+  - Alexander Nikolaevich Hell
+  - Tomo Yamanobe
+  - Mutsumi Sendou
+  - Gilgamesh
+  - Artoria Pendragon
+  - Shirou Emiya
+  - Kojirou Sasaki
+  - Bedivere
+  - Ayako Mitsuzuri
+  - Mordred Pendragon
+  - Taiga Fujimura
+  - Kirei Kotomine
+  - Archer
+  - "C\xFA  Chulainn"
+  - Medea
+  - Kiritsugu Emiya
+  - Rin Tohsaka
+  - Illyasviel von Einzbern
+  - Shinji Matou
+  - Medusa
+  - Sakura Matou
+  - Soichirou Kuzuki
+  - Issei Ryuudou
+  - Heracles
+  - Tetsu Nemoto
+  - Kei Kurono
+  - Masanobu Hojo
+  - Yuuta Kondou
+  - Mika Kanda
+  - Ryouta Sugimoto
+  - Sadayo Suzumura
+  - Kei Kishimoto
+  - Ayumu Katou
+  - Joichiro Nishi
+  - Masaru Katou
+  - Kiyoshi Yoshioka
+  - Takashi Inamori
+  - Chiaki Onizuka
+  - Shiroi Kishimoto
+  - Sei Sakuraoka
+  - Musou Tokugawa
+  - Tachibana Yonekura
+  - Masashi Yamada
+  - Kosuke Nakajima
+  - Jay Jay
+  - Gorou Suzuki
+  - Hiroshi Hatanaka
+  - Haruya Numata
+  - Yi Xing Long
+  - Kuririn
+  - Cell
+  - Poperu
+  - Trunks
+  - Videl
+  - Pan
+  - Baby
+  - Muten Roushi
+  - Dende
+  - Pilaf
+  - "Ana Mar\xEDa Caro"
+  - Tenshinhan
+  - Freeza
+  - Umigame
+  - Yamcha
+  - Vegeta
+  - Mr. Popo
+  - Shenlong
+  - Piccolo
+  - Karin
+  - Tenkaichi Budokai Announcer
+  - Pack
+  - Gohan Son
+  - Shiroe
+  - Akatsuki
+  - Naotsugu
+  - Marielle
+  - Nyanta
+  - Henrietta
+  - Krusty
+  - Isaac
+  - Serara
+  - Touya
+  - Isuzu
+  - Rundelhaus Kode
+  - Minori
+  - Tetora
+  - Kanami
+  - Misa Takayama
+  - Lenessia Eruarte Cowen
+  - William Massachusetts
+  - Soujirou Seta
+  - Eins
+  - Elissa
+  - Rieze
+  - Karashin
+  - Michitaka
+  - Hitomi Tsukishiro
+  - Chigusa Fukazawa
+  - Kohaku Tsukishiro
+  - Asagi Kazano
+  - Kurumi Kawai
+  - Yuito Aoi
+  - Shou Yamabuki
+  - Fukushima-sensei
+  - Miyuki Konno
+  - Kousuke Tsuda
+  - Chiaki Mamiya
+  - Makoto Konno
+  - Sojiro Takase
+  - Yuri Hayakawa
+  - Kaho Fujitani
+  - Maihime  Shirayuki
+  - Sora  Tenkuuji
+  - Kirara  Hoshino
+  - Momoka  Momozono
+  - Retto Enjou
+  - Narrator
+  - Chacha
+  - Anno Jou
+  - Runba Luseine III
+  - Hakkou Chuu
+  - Kisei Chuu X
+  - Taran Chuu
+  - Jiko Chuu
+  - Kaiko Chuu
+  - Mihari Chuu
+  - Gitai Chuu
+  - Shiko Murasame
+  - Keikai Chuu
+  - Pan Chuu
+  - Shimi Chuu
+  - Shoku Chuu
+  - Moena Wakakusa
+  - Minori Gakesaka
+  - Kanan Misenai
+  - Suwaru Doge
+  - Ten no Koe
+  - Akari Oosaka
+  - Rei Shioya
+  - Yua Aneha
+  - Urara Toyofusa
+  - Ayame Omoi
+  - Tama Kyan
+  - Rui Sukiyabashi
+  - Sanami Murakami
+  - Sannose Ninose
+  - Lilith Asami
+  - Arata Kasuga
+  - Mira Yamana
+  - Arin Kannazuki
+  - Levi Kazama
+  - Yui Kurata
+  - Akio Fudou
+  - Selina Sherlock
+  - Lieselotte Sherlock
+  - Sora
+  - Biblia Gakuenchou
+  - Hijiri Kasuga
+  - Ilias Fragment
+  - Dae-Wi Han
+  - Mo-Ri Jin
+  - Mi-Ra Yu
+  - Ju-Gok Jeon
+  - Je-Gal Taek
+  - Il-Pyo Park
+  - Mu-Jin Park
+  - Man-Suk Kang
+  - Commissioner P
+  - Announcer T
+  - Commissioner O
+  - Commissioner R
+  - Commissioner Q
+  - Mi-Sun Ma
+  - Seung-Chul Baek
+  - Gam-Do Go
+  - Su-Mi Yu
+  - Sung-Jin Oh
+  - Jang-Mi Jang
+  - Drake McDonald
+  - Axley
+  - Saturn
+  - Tae-Jin Jin
+  - Seung-Ah Park
+  - Queen Elizabeth
+  - Belfast
+  - Warspite
+  - Hood
+  - Unicorn
+  - Hornet
+  - Yorktown
+  - Enterprise
+  - Z1
+  - Z23
+  - Prinz Eugen
+  - Ayanami
+  - Akagi
+  - Laffey
+  - Javelin
+  - Kaga
+  - Shoukaku
+  - Zuikaku
+  - Cleveland
+  - Prince of Wales
+  - Bailey
+  - Illustrious
+  - San Diego
+  - Bulldog
+  - Sagiri Izumi
+  - Masamune Izumi
+  - Megumi Jinno
+  - Ayame Kagurazaka
+  - Elf Yamada
+  - Kunimitsu Shidou
+  - Muramasa Senju
+  - Tomoe Takasago
+  - Ryuuki Kusunagi
+  - Kirino Kousaka
+  - Ruri Gokou
+  - Kyousuke Kousaka
+  - Saori Makishima
+  - Hinata Gokou
+  - Chris Yamada
+  - Kotetsu Izumi
+  - Sagiri no Haha
+  - Kazuto Kirigaya
+  - Tatsuya Shiba
+  - Holo
+  - Taiga Aisaka
+  - Blitz Talker
+  - "Meteora \xD6sterreich"
+  - Souta Mizushino
+  - Selesia Upitiria
+  - Altair
+  - Magane Chikujouin
+  - Mamika Kirameki
+  - Yuuya Mirokuji
+  - Rui Kanoya
+  - Alicetaria February
+  - Setsuna Shimazaki
+  - Aki Kikuchihara
+  - Shunma Suruga
+  - Erina Talker
+  - Mikako Komatsu
+  - Nishio Oonishi
+  - Charon Seiga
+  - Sora Amamiya
+  - Marine
+  - Hikayu Hoshikawa
+  - Ryuusuke
+  - Masaaki Nakanogane
+  - Shou Hakua
+  - Ryou Yatouji
+  - Akari Hizamaru
+  - Michelle K. Davis
+  - Marcos E. Garcia
+  - Alex K. Stewart
+  - Shokichi Komachi
+  - Keiji Onizuka
+  - Sylvester Asimov
+  - Jared Anderson
+  - Alexander Asimov
+  - Gina S. Asimov
+  - Ivan Perepelkin
+  - Eva Frost
+  - Ichiro Himura
+  - Liu  Yiwu
+  - Joseph Gustav Newton
+  - Erika Nakanojou
+  - Kanako Sanjou
+  - Chun-Li Xi
+  - Ryuichi Robson
+  - Nina Yujik
+  - Tatsuhiro Someya
+  - Aaron  Yujik
+  - Anastasia Andreevna Politkovskaya
+  - Jet
+  - Mary Macbeth
+  - Leonardo Watch
+  - Klaus von Reinherz
+  - Zapp Renfro
+  - William Macbeth
+  - K.K.
+  - Femt
+  - Aligura
+  - Blitz T. Abrams
+  - Chain Sumeragi
+  - Steven A. Starphase
+  - Deldro Brody
+  - Dog Hummer
+  - Zed O'Brien
+  - Gilbert F. Altstein
+  - Daniel Law
+  - Michella Watch
+  - Neyka
+  - Patrick
+  - Sonic
+  - Rajuu Juugee  Shizuyoshi
+  - Nej
+  - Girika
+  - Guabara
+  - Takeshi Nanase
+  - Mui Aiba
+  - Kurumi Isoshima
+  - Ida Kazumi
+  - Aiba Tsuganashi
+  - Shijou  Momoka
+  - Washidzu Keppei
+  - Violet North
+  - Sakura Hagiwara
+  - Elena Miyazawa
+  - Hornet
+  - Kaichou
+  - Kanae Fujishita
+  - Moe Fukuoka
+  - "Nanami\r\n Kanno"
+  - Rio Kazama
+  - Makoto Kirishima
+  - Kurea Komiyama
+  - "Yuho\r\n Mochidzuki"
+  - Juri Sanada
+  - "Chinatsu\r\n Suzumoto"
+  - "Jackal\r\n Toujou"
+  - "Misaki\r\n Toyoda"
+  - Aika Hayase
+  - Cecilia Alcott
+  - Laura Bodewig
+  - Charlotte Dunois
+  - Lingyin Huang
+  - Ichika Orimura
+  - Houki Shinonono
+  - Tatenashi Sarashiki
+  - Maya Yamada
+  - Chifuyu Orimura
+  - Kanzashi Sarashiki
+  - Honne Nohotoke
+  - Kiyoka Aikawa
+  - Tabane Shinonono
+  - Reiko Makigami
+  - Madoka Orimura
+  - Hayato Hasegawa
+  - Kate Takayama
+  - Stella Redfield
+  - Yozora Mikazuki
+  - Pegasus Kashiwazaki
+  - Kobato Hasegawa
+  - Rika Shiguma
+  - Fumio Kusakabe
+  - Aoi Yusa
+  - Koyomi Fujioka
+  - Sena Kashiwazaki
+  - Maria Takayama
+  - Lace van Dracula Shikabane
+  - Misao Asakura
+  - Kodaka Hasegawa
+  - Hinata Hidaka
+  - Guernica Banfield
+  - Miki
+  - Takeo
+  - Yukimura Kusunoki
+  - Verethragna
+  - Perseus
+  - Lucretia Zola
+  - Yuri Mariya
+  - Susanoo
+  - Sasha Dejanstahl Voban
+  - "Liliana Kranj\u010Dar"
+  - Melqart
+  - Ama no Murakumo no Tsurugi
+  - Shizuka Kusanagi
+  - Pandora
+  - Erica Blandelli
+  - Arianna Hayama Agliardi
+  - Salvatore Doni
+  - Ena Seishuuin
+  - Metis
+  - Athena
+  - Godou Kusanagi
+  - Touma Amakasu
+  - Karen Jankulovski
+  - Hikari Mariya
+  - Akari Fujibayashi
+  - Stella Redfield
+  - Yozora Mikazuki
+  - Pegasus Kashiwazaki
+  - Kobato Hasegawa
+  - Masaru Suzuki
+  - Rika Shiguma
+  - Kodaka Hasegawa
+  - Yukiko Nagata
+  - Sena Kashiwazaki
+  - Maria Takayama
+  - Guernica Banfield
+  - Lace van Dracula Shikabane
+  - Asada
+  - Yukimura Kusunoki
+  - Ruri Gokou
+  - Kyousuke Kousaka
+  - Saori Makishima
+  - Nao Yorihime
+  - Haruka Kasugano
+  - Sora Kasugano
+  - Motoka Nogisaka
+  - Mother Yorihime
+  - Yahiro Ifukube
+  - Mother Migiwa
+  - Kazuha Migiwa
+  - Father Migiwa
+  - Akira Amatsume
+  - Ryouhei Nakazato
+  - Seika Houjouin
+  - Yuu Fujikura
+  - Isshin Arima
+  - Josephine
+  - Charlotte Hazelrink
+  - Sylvia van Hossen
+  - Vincent van Hossen
+  - Hartmann Bezelheim
+  - Haruhiko Nezu
+  - Teppei Arima
+  - Erika Takezono
+  - Ayano Kaneko
+  - Maria van Hossen
+  - Alfred
+  - Kanae Kobayashi
+  - Father Kobayashi
+  - Hibiki Higoromo
+  - Kurumi Tokisaki
+  - White Queen
+  - Isami Hijikata
+  - Yui Sagakure
+  - Tsang
+  - Suzuka Nagami
+  - Yuu Nagami
+  - Ahegao W Peace-sensei
+  - Esaka
+  - Mai Himuro
+  - Akino Kanzaka
+  - Sakura Minazuki
+  - Reika Shinozaki
+  - Hayato Kisaragi
+  - Emile Crossfode
+  - Claire Harvey
+  - Sakura Kirishima
+  - Karen Kisaragi
+  - Fritz Glanz
+  - "Reitia Saint-\xC9milion"
+  - Liddy Steinberg
+  - Charlotte Dimandius
+  - Noa Sheldon
+  - Liza Harvey
+  - Meimei
+  - Alphonse Brewstat
+  - Souffle Clearrail
+  - Claudia Roetti
+  - Miharu Kashiwagi
+  - Chris Steinbelt
+  - Shumei Liu
+  - Nesatto Olfred
+  - Krovanh Olfred
+  - Judal Harvey
+  - Erika Candle
+  - Nakuri Olfred
+  - Aly Harlech
+  - Chizuru Minamoto
+  - Kouta Oyamada
+  - Akane Asahina
+  - Ren Nanao
+  - Iku Sahara
+  - Omi Kiriyama
+  - Yukihana
+  - Tamamo
+  - Ryuusei Kumada
+  - Kiriko Takana
+  - Saku Ezomori
+  - Tayura Minamoto
+  - Takao Yatsuka
+  - Minori Mitama
+  - Yuki Sasamori
+  - Ai Nanao
+  - Nozomu Ezomori
+  - Mio Osakabe
+  - Kurumi Tokisaki
+  - Hibiki Higoromo
+  - White Queen
+  - Panie Ibusuki
+  - Yui Sagakure
+  - Tsang
+  - Lilith Asami
+  - Arata Kasuga
+  - Yui Kurata
+  - Mira Yamana
+  - Arin Kannazuki
+  - Selina Sherlock
+  - Akio Fudou
+  - Levi Kazama
+  - Lieselotte Sherlock
+  - Hijiri Kasuga
+  - Sora
+  - Ilias Fragment
+  - Lugh
+  - Biblia Gakuenchou
+  - Anastasia-L
+  - 'Master Liber '
+  - Akarsha
+  - 'Lilim '
   currentQuestionData:
   - 
   - 
@@ -1705,6 +12088,8 @@ MonoBehaviour:
   - {fileID: 1736687998}
   - {fileID: 1136687645}
   - {fileID: 1112838811}
+  gameState: 0
+  rc: {fileID: 413024438}
 --- !u!4 &390173046
 Transform:
   m_ObjectHideFlags: 0
@@ -1734,7 +12119,7 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 1
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents: []
@@ -3564,7 +13949,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 0}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -3603,7 +13988,7 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 1
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
@@ -4831,7 +15216,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 0}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -4862,7 +15247,7 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 1
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
@@ -6519,8 +16904,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 0}
+  m_AnchoredPosition: {x: 11.532013, y: 0}
+  m_SizeDelta: {x: -28.532, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1743979062
 MonoBehaviour:
@@ -6637,7 +17022,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 0}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -6676,7 +17061,7 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 1
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
@@ -7256,7 +17641,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 0}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -7295,7 +17680,7 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 1
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
@@ -7668,7 +18053,7 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 1
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
@@ -7704,7 +18089,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ef0071a8ed6857744af911f2e1bbfb40, type: 3}
   - {fileID: 21300000, guid: 0a386aa5feb51524387a5ede21d9fd3e, type: 3}
   - {fileID: 21300000, guid: e187992bb77329e4a943cc21c69c84b2, type: 3}
-  isUpdating: 0
   color:
   - {r: 1, g: 1, b: 1, a: 0.16862746}
   - {r: 1, g: 0.3647059, b: 0.29803923, a: 0.16862746}

@@ -13,7 +13,7 @@ public class RoomController : MonoBehaviourPunCallbacks
     public GameObject chatPanel, textObject;
     public GameObject playerPanel, playerObject;
     public InputField chatBox;
-    PhotonView photonView;
+    PhotonView photonViewRef;
     public GameObject startButton;
     public Sprite[] images;
 
@@ -30,7 +30,7 @@ public class RoomController : MonoBehaviourPunCallbacks
     {
         roomName.text = PhotonNetwork.CurrentRoom.Name;
         username = PhotonNetwork.NickName;
-        photonView = PhotonView.Get(this);
+        photonViewRef = PhotonView.Get(this);
 
 
         if (PhotonNetwork.IsMasterClient)
@@ -39,7 +39,7 @@ public class RoomController : MonoBehaviourPunCallbacks
             
         }else startButton.SetActive(false);
 
-        photonView.RPC("LoadPlayerList", RpcTarget.AllBuffered, username);
+        photonViewRef.RPC("LoadPlayerList", RpcTarget.AllBuffered, username);
     }
     [PunRPC]
     void LoadPlayerList(string nname)
@@ -57,7 +57,7 @@ public class RoomController : MonoBehaviourPunCallbacks
 
     public void ChangeImage()
     {
-        photonView.RPC("changePlayerImage", RpcTarget.AllBuffered, username);
+        photonViewRef.RPC("changePlayerImage", RpcTarget.AllBuffered, username);
     }
     [PunRPC]
     void changePlayerImage(string user)
@@ -99,7 +99,7 @@ public class RoomController : MonoBehaviourPunCallbacks
 
     public void SendMessageToChat(string text,Message.MessageType messageType)
     {
-        photonView.RPC("LoadChat", RpcTarget.AllBuffered, messageType,text);
+        photonViewRef.RPC("LoadChat", RpcTarget.AllBuffered, messageType,text);
     }
 
     Color MessageTypeColor(Message.MessageType messagetype)
@@ -129,14 +129,14 @@ public class RoomController : MonoBehaviourPunCallbacks
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
         if(PhotonNetwork.IsMasterClient)
-        SendMessageToChat("  "+newPlayer.NickName+" has entered the room",Message.MessageType.info);
+        SendMessageToChat(" "+newPlayer.NickName+" has entered the room",Message.MessageType.info);
     }
 
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
         if (PhotonNetwork.IsMasterClient)
         {
-            SendMessageToChat("  " + otherPlayer.NickName + " has left the room", Message.MessageType.info);
+            SendMessageToChat(" " + otherPlayer.NickName + " has left the room", Message.MessageType.info);
             foreach(Transform child in playerPanel.transform)
             {
                 if (child.GetChild(1).GetComponent<Text>().text.Equals(otherPlayer.NickName))
