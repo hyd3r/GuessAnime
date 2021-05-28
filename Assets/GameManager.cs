@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     public InputField syncInput;
     public GraphApi aniListAPI;
     public List<AnimeList> animelist = new List<AnimeList>();
-    public List<AnimeList> charaList;
+    public List<string> charaList = new List<string>();
     public string[] currentQuestionData = new string[8];
     //public Root myDeserializedClass = new Root();
     public List<Root> parseList = new List<Root>();
@@ -29,9 +29,18 @@ public class GameManager : MonoBehaviourPunCallbacks
     private float currentTime = 10f;
     private bool playTimer = false;
     public int questions=10;
-    public int currentQuestion = 1;
+    public int currentQuestion = 0;
     public Image gameImage;
-
+    public Text[] answerButtonTexts = new Text[4];
+    public int correctAnsIndex;
+    private string[] answerList = new string[4];
+    public GameObject pash;
+    public List<PlayerAns> playerAns = new List<PlayerAns>();
+    private bool isWaitingforNextRound = false;
+    public Color[] colors;
+    private bool answered = false;
+    private int selectedIndex;
+    public GameObject[] answerButtons;
 
 
     enum MediaType
@@ -86,7 +95,7 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     void Start()
     {
-        photonView = PhotonView.Get(this); 
+        photonView = PhotonView.Get(this);
         //PhotonNetwork.OfflineMode = true;
     }
 
@@ -96,11 +105,71 @@ public class GameManager : MonoBehaviourPunCallbacks
         {
             currentTime -= Time.deltaTime;
             timer.value = currentTime / gameTime;
+            if (timer.value <= 0f)
+            {
+                SelectAnswer(99);
+                playTimer = false;
+                answered = true;
+            }
+        }
+        if (answered)
+        {
+            for (int l = 0; l <answerButtons.Length;l++)
+            {
+                answerButtons[l].GetComponent<Button>().interactable = false;
+                if (l == selectedIndex)
+                {
+                    answerButtons[l].GetComponent<Image>().color = colors[3];
+                }
+            }
+        }
+        if (isWaitingforNextRound)
+        {
+            currentTime += Time.deltaTime;
+            timer.value = currentTime / 5;
+
+            if (selectedIndex == correctAnsIndex)
+            {
+                answerButtons[selectedIndex].GetComponent<Image>().color = colors[2];
+            }
+            else
+            {
+                answerButtons[correctAnsIndex].GetComponent<Image>().color = colors[2];
+                if (selectedIndex != 99) 
+                {
+                    answerButtons[selectedIndex].GetComponent<Image>().color = colors[1];
+                }
+            }
+
+            if (timer.value >= 1)
+            {
+                isWaitingforNextRound = false;
+                if (PhotonNetwork.IsMasterClient)
+                {
+                    currentQuestion++;
+                    if (currentQuestion != questions)
+                    {
+                        this.currentQuestionData = new string[8];
+                        this.answerList = new string[4];
+                        AddQuestionData();
+                        correctAnsIndex = Random.Range(0, 3);
+                        answerList[correctAnsIndex] = currentQuestionData[5];
+                        for (int i = 0; i < 4; i++)
+                        {
+                            if (i != correctAnsIndex)
+                            {
+                                answerList[i] = charaList[Random.Range(0, charaList.Count - 1)];
+                            }
+                        }
+                    }
+                    photonView.RPC("StartNextRound", RpcTarget.AllBuffered,currentQuestion, currentQuestionData, answerList);
+                }
+            }
         }
     }
     public void SyncAnilist()
     {
-        if (syncInput.text.Length == 0) animelist.Clear();
+        if (syncInput.text.Length == 0) parseList.Clear();
         else
         {
             syncButton.interactable = false;
@@ -121,13 +190,14 @@ public class GameManager : MonoBehaviourPunCallbacks
         {
             if (PhotonNetwork.PlayerList[i].NickName.Equals(playernn))
             {
+                Debug.Log(PhotonNetwork.PlayerList[i].NickName);
                 index = i;
             }
         }
         if (request.responseCode == 200)
         {
             photonView.RPC("SyncFin", PhotonNetwork.PlayerList[index], true);
-            //for (int i = 0; i < myDeserializedClass.Data.MediaListCollection.Lists[0].Entries.Count; i++)
+            AddtoCharaList(parseList.Count-1);
             
         }
         else photonView.RPC("SyncFin", PhotonNetwork.PlayerList[index], false);
@@ -153,6 +223,17 @@ public class GameManager : MonoBehaviourPunCallbacks
         else
         {
             syncButtonText.text = "Clear";
+        }
+    }
+
+    public void AddtoCharaList(int index)
+    {
+        for(int i=0; i < parseList[index].Data.MediaListCollection.Lists[0].Entries.Count-1; i++)
+        {
+            for (int w = 0; w < parseList[index].Data.MediaListCollection.Lists[0].Entries[i].Media.Characters.Nodes.Count-1; w++)
+            {
+                charaList.Add(parseList[index].Data.MediaListCollection.Lists[0].Entries[i].Media.Characters.Nodes[w].Name.Full);
+            }
         }
     }
     
@@ -185,47 +266,66 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     public void StartButton()
     {
-        charaList = new List<AnimeList>(questions);
+        animelist = new List<AnimeList>(questions);
         for (int i = 0; i < questions; i++)
         {
-            int randomNum1 = Random.Range(0, parseList.Count);
+            int randomNum1 = Random.Range(0, parseList.Count-1);
             MediaListCollection mediacol = parseList[randomNum1].Data.MediaListCollection;
-            int randomNum2 = Random.Range(0, mediacol.Lists[0].Entries.Count);
+            int randomNum2 = Random.Range(0, mediacol.Lists[0].Entries.Count-1);
             Media parse = mediacol.Lists[0].Entries[randomNum2].Media;
-            int randomCharacter = Random.Range(0, parse.Characters.Nodes.Count);
-            while (parse.Characters.Nodes[randomCharacter].Description == null|| parse.BannerImage == null)
+            int randomCharacter = Random.Range(0, parse.Characters.Nodes.Count-1);
+            if(parse.Characters.Nodes[randomCharacter].Description == null|| parse.BannerImage == null) 
             {
-                randomCharacter = Random.Range(0, parse.Characters.Nodes.Count);
+                i--;
             }
-            charaList.Add(new AnimeList(parse.Title.English, parse.Description, parse.CoverImage.Large, parse.BannerImage, parse.Genres, parse.Characters.Nodes[randomCharacter].Name.Full, parse.Characters.Nodes[randomCharacter].Description, parse.Characters.Nodes[randomCharacter].Image.Large));
+            else { 
+            animelist.Add(new AnimeList(parse.Title.English, parse.Description, parse.CoverImage.Large, parse.BannerImage, parse.Genres, parse.Characters.Nodes[randomCharacter].Name.Full, parse.Characters.Nodes[randomCharacter].Description, parse.Characters.Nodes[randomCharacter].Image.Large));
+            }
         }
         AddQuestionData();
-        photonView.RPC("StartGame", RpcTarget.All, currentQuestionData);
+        correctAnsIndex = Random.Range(0, 3);
+        answerList[correctAnsIndex] = currentQuestionData[5];
+        for (int i = 0; i < 4; i++)
+        {
+            if (i != correctAnsIndex)
+            {
+                answerList[i] = charaList[Random.Range(0, charaList.Count - 1)];
+            }
+        }
+        photonView.RPC("StartGame", RpcTarget.AllBuffered, currentQuestionData,answerList);
     }
 
     public void AddQuestionData()
     {
         currentQuestionData = new string[8];
-        currentQuestionData[0] = charaList[currentQuestion].title;
-        currentQuestionData[1] = charaList[currentQuestion].description;
-        currentQuestionData[2] = charaList[currentQuestion].coverImage;
-        currentQuestionData[3] = charaList[currentQuestion].bannerImage;
-        currentQuestionData[4] = charaList[currentQuestion].genre;
-        currentQuestionData[5] = charaList[currentQuestion].charaName;
-        currentQuestionData[6] = charaList[currentQuestion].charaDescription;
-        currentQuestionData[7] = charaList[currentQuestion].charaImage;
+        currentQuestionData[0] = animelist[currentQuestion].title;
+        currentQuestionData[1] = animelist[currentQuestion].description;
+        currentQuestionData[2] = animelist[currentQuestion].coverImage;
+        currentQuestionData[3] = animelist[currentQuestion].bannerImage;
+        currentQuestionData[4] = animelist[currentQuestion].genre;
+        currentQuestionData[5] = animelist[currentQuestion].charaName;
+        currentQuestionData[6] = animelist[currentQuestion].charaDescription;
+        currentQuestionData[7] = animelist[currentQuestion].charaImage;
     }
 
 
     [PunRPC]
-    public void StartGame(string[] currentQuestionData)
+    public void StartGame(string[] currentQuestionData,string[] answerList)
     {
         this.currentQuestionData = new string[8];
         this.currentQuestionData = currentQuestionData;
+        this.answerList = new string[4];
+        this.answerList = answerList;
         StartCoroutine(DownloadImage(currentQuestionData[7]));
+        for(int x = 0; x < 4; x++)
+        {
+            answerButtonTexts[x].text = answerList[x];
+        }
+        
         gameScreen.SetActive(true);
         currentTime = gameTime;
         playTimer = true;
+        pash.SetActive(true);
     }
 
     IEnumerator DownloadImage(string MediaUrl)
@@ -245,6 +345,69 @@ public class GameManager : MonoBehaviourPunCallbacks
         }
     }
 
+    public void SelectAnswer(int buttonIndex)
+    {
+        if (playTimer)
+        {
+            selectedIndex = buttonIndex;
+            answered = true;
+            photonView.RPC("SendAnsToPASH", RpcTarget.MasterClient, PhotonNetwork.NickName, buttonIndex);
+        }
+    }
+
+    [PunRPC]
+    void SendAnsToPASH(string user, int buttonIndex)
+    {
+        if (correctAnsIndex == buttonIndex) playerAns.Add(new PlayerAns(user, true));
+        else playerAns.Add(new PlayerAns(user, false));
+
+        if (PhotonNetwork.PlayerList.Length == playerAns.Count)
+        {
+            pash.GetComponent<PlayerAndScoreHandler>().UpdateScoreboard(playerAns);
+            playerAns.Clear();
+            photonView.RPC("WaitforNextRound", RpcTarget.AllBuffered,correctAnsIndex);
+        }
+    }
+    [PunRPC]
+    void WaitforNextRound(int correctAns)
+    {
+        timer.value = 0;
+        currentTime = 0;
+        isWaitingforNextRound = true;
+        playTimer = false;
+        answered = false;
+        this.correctAnsIndex = correctAns;
+    }
+
+    [PunRPC]
+    void StartNextRound(int currentQuestionNum, string[] currentQuestionData, string[] answerList)
+    {
+        currentQuestion = currentQuestionNum;
+        if (currentQuestionNum == questions)
+        {
+            gameScreen.SetActive(false);
+            playTimer = false;
+            pash.SetActive(false);
+            isWaitingforNextRound = false;
+            currentQuestion = 0;
+        }
+        else
+        {
+            this.currentQuestionData = new string[8];
+            this.currentQuestionData = currentQuestionData;
+            this.answerList = new string[4];
+            this.answerList = answerList;
+            StartCoroutine(DownloadImage(currentQuestionData[7]));
+            for (int t = 0; t < answerButtons.Length; t++)
+            {
+                answerButtons[t].GetComponent<Button>().interactable = true;
+                answerButtons[t].GetComponent<Image>().color = colors[0];
+                answerButtonTexts[t].text = answerList[t];
+            }
+            playTimer = true;
+            currentTime = gameTime;
+        }
+    }
 
 }
 ///////////////////////////////
