@@ -16,6 +16,9 @@ public class RoomController : MonoBehaviourPunCallbacks
     PhotonView photonViewRef;
     public GameObject startButton;
     public Sprite[] images;
+    public Vector3 chatShowPos, chatHidePos;
+    public GameObject[] chatButtons;
+    public GameObject wholeChatPanel;
 
 
     public Color playerMessage, info;
@@ -40,6 +43,7 @@ public class RoomController : MonoBehaviourPunCallbacks
         }else startButton.SetActive(false);
 
         photonViewRef.RPC("LoadPlayerList", RpcTarget.AllBuffered, username);
+        showChat(true);
     }
     [PunRPC]
     void LoadPlayerList(string nname)
@@ -162,6 +166,36 @@ public class RoomController : MonoBehaviourPunCallbacks
     public void StartGame()
     {
         PhotonNetwork.CurrentRoom.IsOpen = false;
+    }
+
+    public void showChat(bool shouldShow)
+    {
+        if (shouldShow) { 
+            StartCoroutine(LerpPosition(chatShowPos, 0.7f));
+            chatButtons[0].SetActive(false);
+            chatButtons[1].SetActive(true);
+        }
+        else { 
+            StartCoroutine(LerpPosition(chatHidePos, 0.7f));
+            chatButtons[0].SetActive(true);
+            chatButtons[1].SetActive(false);
+        }
+
+    }
+    IEnumerator LerpPosition(Vector3 targetPosition, float duration)
+    {
+        float time = 0;
+        Vector3 startPosition = wholeChatPanel.transform.localPosition;
+
+        while (time < duration)
+        {
+            float t = time / duration;
+            t = t * t * (3f - 2f * t);
+            wholeChatPanel.transform.localPosition = Vector3.Lerp(startPosition, targetPosition, t);
+            time += Time.deltaTime;
+            yield return null;
+        }
+        wholeChatPanel.transform.localPosition = targetPosition;
     }
 
 }

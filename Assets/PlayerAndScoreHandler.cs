@@ -13,11 +13,11 @@ public class PlayerAndScoreHandler : MonoBehaviourPun, IPunObservable
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
+        Debug.Log(stream.IsWriting+""+stream.IsReading+"");
         if (stream.IsWriting)
         {
             for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
             {
-                Debug.Log(playerScoreBoard[i].activeInHierarchy);
                 if (!playerScoreBoard[i].activeInHierarchy)
                 {
                     playerScoreBoard[i].SetActive(true);
@@ -79,9 +79,37 @@ public class PlayerAndScoreHandler : MonoBehaviourPun, IPunObservable
             playerScoreBoard[i].transform.GetChild(0).GetComponent<Image>().sprite = null;
             playerScoreBoard[i].transform.GetChild(2).GetComponent<Text>().text = "";
         }
+        if (PhotonNetwork.PlayerList.Length == 1)
+        {
+            playerScoreBoard[0].SetActive(true);
+            playerScoreBoard[0].transform.GetChild(1).GetComponent<Text>().text = PhotonNetwork.PlayerList[0].NickName;
+            playerScoreBoard[0].transform.GetChild(0).GetComponent<Image>().sprite = images[playerList.transform.GetChild(0).GetComponent<playerInit>().imageIndex];
+            playerScoreBoard[0].transform.GetChild(2).GetComponent<Text>().text = "0";
+        }
     }
 
-    public void IsWaitingforNextRound()
+    public void GetPlayerWhoAnswered(string username)
+    {
+        photonView.RPC("ChangePlayerWhoAnswered", RpcTarget.AllBuffered,username);
+    }
+    [PunRPC]
+    public void ChangePlayerWhoAnswered(string user)
+    {
+        for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
+        {
+            if (playerScoreBoard[i].transform.GetChild(1).GetComponent<Text>().text.Equals(user))
+            {
+                playerScoreBoard[i].GetComponent<Image>().color = color[3];
+            }
+        }
+    }
+
+    public void PreNextRoundStart()
+    {
+        photonView.RPC("NextRoundStart", RpcTarget.AllBuffered);
+    }
+    [PunRPC]
+    public void NextRoundStart()
     {
         for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
         {

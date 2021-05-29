@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     public GameObject gameScreen;
     public Text guessTimeText;
     public Text questionAmountText;
+    public Text trapTimeText;
     public Slider timer;
     public float gameTime;
     private float currentTime = 10f;
@@ -39,6 +40,9 @@ public class GameManager : MonoBehaviourPunCallbacks
     public GameObject[] answerButtons;
     public gameStateType gameState = gameStateType.stop;
     public RoomController rc;
+    public Text questionLeft;
+    public int trapPhaseTime = 5;
+    public PowerupManager pm;
     
     public enum gameStateType
     {
@@ -135,7 +139,7 @@ public class GameManager : MonoBehaviourPunCallbacks
                 break;
             case gameStateType.waiting:
                 currentTime += Time.deltaTime;
-                timer.value = currentTime / 5;
+                timer.value = currentTime / trapPhaseTime;
 
                 if (selectedIndex == correctAnsIndex)
                 {
@@ -276,6 +280,12 @@ public class GameManager : MonoBehaviourPunCallbacks
         else questions--;
         photonViewRef.RPC("changeQuestionAmount", RpcTarget.AllBuffered, questions);
     }
+    public void IncDecTrapTime(bool toInc)
+    {
+        if (toInc) trapPhaseTime++;
+        else trapPhaseTime--;
+        photonViewRef.RPC("changeTrapTime", RpcTarget.AllBuffered, trapPhaseTime);
+    }
 
     [PunRPC]
     public void changeGuessTime(float newTime)
@@ -289,6 +299,12 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         questions = newQuestionAmount;
         questionAmountText.text = newQuestionAmount.ToString();
+    }
+    [PunRPC]
+    public void changeTrapTime(int newTrapTime)
+    {
+        trapPhaseTime = newTrapTime;
+        trapTimeText.text = newTrapTime.ToString();
     }
 
     public void StartButton()
@@ -348,7 +364,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         {
             answerButtonTexts[x].text = answerList[x];
         }
-        
+        questionLeft.text = currentQuestion + " / " + questions;
         gameScreen.SetActive(true);
         currentTime = gameTime;
         gameState = gameStateType.playing;
@@ -358,6 +374,7 @@ public class GameManager : MonoBehaviourPunCallbacks
             answerButtons[f].GetComponent<Button>().interactable = true;
             answerButtons[f].GetComponent<Image>().color = colors[0];
         }
+        rc.showChat(false);
     }
 
     IEnumerator DownloadImage(string MediaUrl)
@@ -390,6 +407,8 @@ public class GameManager : MonoBehaviourPunCallbacks
         if (correctAnsIndex == buttonIndex) playerAns.Add(new PlayerAns(user, true));
         else playerAns.Add(new PlayerAns(user, false));
 
+        pash.GetComponent<PlayerAndScoreHandler>().GetPlayerWhoAnswered(user);
+
         if (PhotonNetwork.PlayerList.Length == playerAns.Count)
         {
             StartCoroutine(SendDelay());
@@ -398,6 +417,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     IEnumerator SendDelay()
     {
         yield return new WaitForSeconds(1);
+        pm.dropLoot(playerAns);
         pash.GetComponent<PlayerAndScoreHandler>().PreUpdateScoreboard(playerAns);
         playerAns.Clear();
         photonViewRef.RPC("WaitforNextRound", RpcTarget.AllBuffered, correctAnsIndex);
@@ -423,7 +443,7 @@ public class GameManager : MonoBehaviourPunCallbacks
             currentQuestion = 0;
             if (PhotonNetwork.IsMasterClient)
             {
-                rc.SendMessageToChat(" " + pash.GetComponent<PlayerAndScoreHandler>().playerScoreBoard[0].name + " wins the game!", Message.MessageType.info);
+                rc.SendMessageToChat(" " + pash.GetComponent<PlayerAndScoreHandler>().playerScoreBoard[0].transform.GetChild(1).GetComponent<Text>().text + " wins the game!", Message.MessageType.info);
             }
             pash.SetActive(false);
         }
@@ -440,6 +460,8 @@ public class GameManager : MonoBehaviourPunCallbacks
                 answerButtons[t].GetComponent<Image>().color = colors[0];
                 answerButtonTexts[t].text = answerList[t];
             }
+            pash.GetComponent<PlayerAndScoreHandler>().PreNextRoundStart();
+            questionLeft.text = currentQuestion + " / " + questions;
             gameState = gameStateType.playing;
             currentTime = gameTime;
         }
