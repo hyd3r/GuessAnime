@@ -19,6 +19,8 @@ public class RoomController : MonoBehaviourPunCallbacks
     public Vector3 chatShowPos, chatHidePos;
     public GameObject[] chatButtons;
     public GameObject wholeChatPanel;
+    public Color[] chatNotification;
+    public Image showButtonImage;
 
 
     public Color playerMessage, info;
@@ -161,6 +163,10 @@ public class RoomController : MonoBehaviourPunCallbacks
         newchat.GetComponent<Text>().color = MessageTypeColor(msg);
         newchat.GetComponent<Text>().text = txt;
         newchat.transform.localScale = new Vector3(1, 1, 1);
+        if (showButtonImage.gameObject.activeInHierarchy == true)
+        {
+            showButtonImage.color = chatNotification[1];
+        }
     }
 
     public void StartGame()
@@ -174,6 +180,7 @@ public class RoomController : MonoBehaviourPunCallbacks
             StartCoroutine(LerpPosition(chatShowPos, 0.7f));
             chatButtons[0].SetActive(false);
             chatButtons[1].SetActive(true);
+            showButtonImage.color = chatNotification[0];
         }
         else { 
             StartCoroutine(LerpPosition(chatHidePos, 0.7f));

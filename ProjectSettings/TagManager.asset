@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Chat
   - PlayerList
+  - PowerupDetailsTab
   layers:
   - Default
   - TransparentFX

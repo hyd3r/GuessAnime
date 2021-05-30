@@ -68,11 +68,19 @@ public class MenuController : MonoBehaviourPunCallbacks
 
     public void JoinGame()
     {
-        RoomOptions roomOptions = new RoomOptions();
-        roomOptions.MaxPlayers = 5;
-        roomOptions.PublishUserId = true;
-        roomOptions.CleanupCacheOnLeave = false;
-        PhotonNetwork.JoinOrCreateRoom(joinGameInput.text, roomOptions, TypedLobby.Default);
+        if (joinGameInput.text.Equals(""))
+        {
+            info.text = "Join input field empty.";
+        }
+        else
+        {
+            RoomOptions roomOptions = new RoomOptions();
+            roomOptions.MaxPlayers = 5;
+            roomOptions.PublishUserId = true;
+            roomOptions.CleanupCacheOnLeave = false;
+            PhotonNetwork.JoinOrCreateRoom(joinGameInput.text, roomOptions, TypedLobby.Default);
+        }
+
     }
 
     public override void OnJoinedRoom()

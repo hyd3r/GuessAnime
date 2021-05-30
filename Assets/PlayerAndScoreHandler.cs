@@ -13,7 +13,6 @@ public class PlayerAndScoreHandler : MonoBehaviourPun, IPunObservable
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
-        Debug.Log(stream.IsWriting+""+stream.IsReading+"");
         if (stream.IsWriting)
         {
             for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)

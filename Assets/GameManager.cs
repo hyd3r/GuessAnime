@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     public Text trapTimeText;
     public Slider timer;
     public float gameTime;
-    private float currentTime = 10f;
+    public float currentTime = 10f;
     public int questions=10;
     public int currentQuestion = 0;
     public Image gameImage;
@@ -36,20 +36,24 @@ public class GameManager : MonoBehaviourPunCallbacks
     public GameObject pash;
     public List<PlayerAns> playerAns = new List<PlayerAns>();
     public Color[] colors;
-    private int selectedIndex;
+    public int selectedIndex =-1;
     public GameObject[] answerButtons;
     public gameStateType gameState = gameStateType.stop;
     public RoomController rc;
     public Text questionLeft;
     public int trapPhaseTime = 5;
     public PowerupManager pm;
+    public Text phaseText;
+    public bool usedSkip = false;
+    public bool blurNextRound = false;
+    public bool corruptNextRound = false;
     
     public enum gameStateType
     {
         stop,
-        playing,
+        guessing,
         answered,
-        waiting
+        trap
     }
 
     enum MediaType
@@ -113,12 +117,20 @@ public class GameManager : MonoBehaviourPunCallbacks
         {
             case gameStateType.stop:
                 break;
-            case gameStateType.playing:
+            case gameStateType.guessing:
                 currentTime -= Time.deltaTime;
                 timer.value = currentTime / gameTime;
                 if (timer.value <= 0f)
                 {
-                    SelectAnswer(99);
+                    if (usedSkip)
+                    {
+                        SelectAnswer(100);
+                        usedSkip = false;
+                    }
+                    else
+                    {
+                        SelectAnswer(99);
+                    }
                 }
                 break;
             case gameStateType.answered:
@@ -137,7 +149,7 @@ public class GameManager : MonoBehaviourPunCallbacks
                     }
                 }
                 break;
-            case gameStateType.waiting:
+            case gameStateType.trap:
                 currentTime += Time.deltaTime;
                 timer.value = currentTime / trapPhaseTime;
 
@@ -216,7 +228,6 @@ public class GameManager : MonoBehaviourPunCallbacks
         {
             if (PhotonNetwork.PlayerList[i].NickName.Equals(playernn))
             {
-                Debug.Log(PhotonNetwork.PlayerList[i].NickName);
                 index = i;
             }
         }
@@ -367,7 +378,8 @@ public class GameManager : MonoBehaviourPunCallbacks
         questionLeft.text = currentQuestion + " / " + questions;
         gameScreen.SetActive(true);
         currentTime = gameTime;
-        gameState = gameStateType.playing;
+        gameState = gameStateType.guessing;
+        phaseText.text = "Guessing Phase";
         pash.SetActive(true);
         for(int f = 0; f < 4; f++)
         {
@@ -375,6 +387,11 @@ public class GameManager : MonoBehaviourPunCallbacks
             answerButtons[f].GetComponent<Image>().color = colors[0];
         }
         rc.showChat(false);
+        for(int g = 0; g < pm.inventory.transform.childCount; g++)
+        {
+            Destroy(pm.inventory.transform.GetChild(g).gameObject);
+        }
+
     }
 
     IEnumerator DownloadImage(string MediaUrl)
@@ -404,7 +421,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     [PunRPC]
     public void SendAnsToPASH(string user, int buttonIndex)
     {
-        if (correctAnsIndex == buttonIndex) playerAns.Add(new PlayerAns(user, true));
+        if (correctAnsIndex == buttonIndex|| buttonIndex == 100) playerAns.Add(new PlayerAns(user, true));
         else playerAns.Add(new PlayerAns(user, false));
 
         pash.GetComponent<PlayerAndScoreHandler>().GetPlayerWhoAnswered(user);
@@ -428,8 +445,13 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         timer.value = 0;
         currentTime = 0;
-        gameState = gameStateType.waiting;
+        gameState = gameStateType.trap;
+        pm.powerupLimit = 1;
+        phaseText.text = "Standby Phase";
         correctAnsIndex = correctAns;
+        pm.hasBarrier = false;
+        pm.hasReverse = false;
+        pm.isBoosted = false;
     }
 
     [PunRPC]
@@ -462,9 +484,55 @@ public class GameManager : MonoBehaviourPunCallbacks
             }
             pash.GetComponent<PlayerAndScoreHandler>().PreNextRoundStart();
             questionLeft.text = currentQuestion + " / " + questions;
-            gameState = gameStateType.playing;
+            gameState = gameStateType.guessing;
+            pm.powerupLimit = 1;
+            selectedIndex = -1;
+            phaseText.text = "Guessing Phase";
             currentTime = gameTime;
+            if (blurNextRound)
+            {
+                blurNextRound = false;
+                StartCoroutine(pm.blurimage(gameTime));
+            }
+            if (corruptNextRound)
+            {
+                corruptNextRound = false;
+                pm.Corrupt();
+            }
         }
+    }
+    public void ReturnToLobbyButton()
+    {
+        if (PhotonNetwork.IsMasterClient)
+        {
+            photonViewRef.RPC("ReturnToLobby", RpcTarget.AllBuffered);
+        }
+        else
+        {
+            rc.SendMessageToChat(PhotonNetwork.NickName+" wanted to return to lobby", Message.MessageType.info);
+        }
+
+    }
+    [PunRPC]
+    public void ReturnToLobby()
+    {
+        gameScreen.SetActive(false);
+        gameState = gameStateType.stop;
+        currentQuestion = 0;
+        if (PhotonNetwork.IsMasterClient)
+        {
+            rc.SendMessageToChat(" " + pash.GetComponent<PlayerAndScoreHandler>().playerScoreBoard[0].transform.GetChild(1).GetComponent<Text>().text + " wins the game!", Message.MessageType.info);
+        }
+        pash.SetActive(false);
+    }
+    public void use5050(string user)
+    {
+        photonViewRef.RPC("send5050", RpcTarget.MasterClient,user);
+    }
+    [PunRPC]
+    public void send5050(string usern)
+    {
+        pm.use5050(usern,correctAnsIndex);
     }
 
 }
