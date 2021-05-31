@@ -2,6 +2,7 @@ using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class PowerupManager : MonoBehaviourPun
@@ -31,12 +32,13 @@ public class PowerupManager : MonoBehaviourPun
     public GameObject blurPanel;
     public Image blackPanel;
     public char[] symbols;
+    public GameObject bannerPanel;
 
     void Start()
     {
         powerup[0] = new string[1] { "Skip" };
-        powerup[1] = new string[3] { "50/50", "Reverse", "Boost" };
-        powerup[2] = new string[3] { "Anime Name", "More Time", "Barrier" };
+        powerup[1] = new string[4] { "50/50", "Reverse", "Boost","Anime Description" };
+        powerup[2] = new string[5] { "Anime Name", "More Time", "Barrier","Genre","Banner Image" };
 
         attack[0] = new string[2] { "Steal Skip", "Steal Powerup" };
         attack[1] = new string[3] { "Negate", "Reveal Powerups", "Reveal Answer" };
@@ -51,7 +53,9 @@ public class PowerupManager : MonoBehaviourPun
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            GetPowerup("", "Corrupt Choices");
+            GetPowerup("", "Anime Description");
+            GetPowerup("", "Genre");
+            GetPowerup("", "Banner Image");
         }
     }
 
@@ -185,6 +189,10 @@ public class PowerupManager : MonoBehaviourPun
             {
                 isBoosted = true;
             }
+            else if (currentItemName.Equals("Anime Description"))
+            {
+                changeItemPanel(gm.currentQuestionData[1]);
+            }
             else if (currentItemName.Equals("Anime Name"))
             {
                 changeItemPanel(gm.currentQuestionData[0]);
@@ -204,6 +212,14 @@ public class PowerupManager : MonoBehaviourPun
             else if (currentItemName.Equals("Barrier"))
             {
                 hasBarrier = true;
+            }
+            else if (currentItemName.Equals("Genre"))
+            {
+                changeItemPanel(gm.currentQuestionData[4]);
+            }
+            else if (currentItemName.Equals("Banner Image"))
+            {
+                StartCoroutine(DownloadBannerImage(gm.currentQuestionData[3]));
             }
             else if (currentItemName.Equals("Steal Skip"))
             {
@@ -1099,11 +1115,27 @@ public class PowerupManager : MonoBehaviourPun
         }
         else if (i <= 3)
         {
-            return (powerup[1][Random.Range(0, 2)]);
+            if (gm.gameMode == GameManager.GameMode.character)
+            {
+                return (powerup[1][Random.Range(0, 2)]);
+            }
+            else
+            {
+                return (powerup[1][Random.Range(0, 3)]);
+            }
+
         }
         else if (i <= 10)
         {
-            return (powerup[2][Random.Range(0, 2)]);
+            if (gm.gameMode == GameManager.GameMode.character)
+            {
+                return (powerup[2][Random.Range(0, 2)]);
+            }
+            else
+            {
+                return (powerup[2][Random.Range(1, 4)]);
+            }
+
         }
         else return "";
     }
@@ -1168,6 +1200,30 @@ public class PowerupManager : MonoBehaviourPun
                 temp.GetComponent<targetPlayerScript>().setTargetPlayer(pash.playerScoreBoard[i].transform.GetChild(1).GetComponent<Text>().text, pash.playerScoreBoard[i].transform.GetChild(0).GetComponent<Image>().sprite);
             }
         }
+    }
+
+    IEnumerator DownloadBannerImage(string MediaUrl)
+    {
+        UnityWebRequest request = UnityWebRequestTexture.GetTexture(MediaUrl);
+        yield return request.SendWebRequest();
+        if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
+            Debug.Log(request.error);
+        else
+        {
+            // ImageComponent.texture = ((DownloadHandlerTexture) request.downloadHandler).texture;
+
+            Texture2D tex = ((DownloadHandlerTexture)request.downloadHandler).texture;
+            Sprite sprite = Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), new Vector2(tex.width / 2, tex.height / 2));
+            bannerPanel.transform.GetChild(0).GetComponent<Image>().SetNativeSize();
+            bannerPanel.transform.GetChild(0).GetComponent<Image>().overrideSprite = sprite;
+            bannerPanel.SetActive(true);
+        }
+    }
+
+    public void CloseBannerImage()
+    {
+        bannerPanel.SetActive(false);
+        bannerPanel.transform.GetChild(0).GetComponent<Image>().overrideSprite = null;
     }
 }
 [System.Serializable]

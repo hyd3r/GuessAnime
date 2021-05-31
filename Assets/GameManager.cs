@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     public GraphApi aniListAPI;
     public List<AnimeList> animelist = new List<AnimeList>();
     public List<string> charaList = new List<string>();
+    public List<string> animeNameList = new List<string>();
     public string[] currentQuestionData = new string[8];
     public List<Root> parseList = new List<Root>();
     PhotonView photonViewRef;
@@ -47,7 +48,16 @@ public class GameManager : MonoBehaviourPunCallbacks
     public bool usedSkip = false;
     public bool blurNextRound = false;
     public bool corruptNextRound = false;
-    
+    public Image slider;
+    public GameMode gameMode = GameMode.character;
+    public Button[] gameModeButtons;
+
+    public enum GameMode
+    {
+        character,
+        anime
+    }
+
     public enum gameStateType
     {
         stop,
@@ -187,12 +197,30 @@ public class GameManager : MonoBehaviourPunCallbacks
                             this.answerList = new string[4];
                             AddQuestionData();
                             correctAnsIndex = Random.Range(0, 3);
-                            answerList[correctAnsIndex] = currentQuestionData[5];
+
                             for (int i = 0; i < 4; i++)
                             {
                                 if (i != correctAnsIndex)
                                 {
-                                    answerList[i] = charaList[Random.Range(0, charaList.Count - 1)];
+                                    if (gameMode == GameMode.character)
+                                    {
+                                        answerList[i] = charaList[Random.Range(0, charaList.Count - 1)];
+                                    }
+                                    else if (gameMode == GameMode.anime)
+                                    {
+                                        answerList[i] = animeNameList[Random.Range(0, animeNameList.Count - 1)];
+                                    }
+                                }
+                                else
+                                {
+                                    if (gameMode == GameMode.character)
+                                    {
+                                        answerList[correctAnsIndex] = currentQuestionData[5];
+                                    }
+                                    else if (gameMode == GameMode.anime)
+                                    {
+                                        answerList[correctAnsIndex] = currentQuestionData[0];
+                                    }
                                 }
                             }
                         }
@@ -235,7 +263,8 @@ public class GameManager : MonoBehaviourPunCallbacks
         {
             photonViewRef.RPC("SyncFin", PhotonNetwork.PlayerList[index], true);
             AddtoCharaList(parseList.Count-1);
-            
+            AddtoAnimeNameList(parseList.Count - 1);
+
         }
         else photonViewRef.RPC("SyncFin", PhotonNetwork.PlayerList[index], false);
     }
@@ -278,7 +307,15 @@ public class GameManager : MonoBehaviourPunCallbacks
             }
         }
     }
-    
+
+    public void AddtoAnimeNameList(int index)
+    {
+        for (int i = 0; i < parseList[index].Data.MediaListCollection.Lists[0].Entries.Count - 1; i++)
+        {
+              animeNameList.Add(parseList[index].Data.MediaListCollection.Lists[0].Entries[i].Media.Title.English);
+        }
+    }
+
     public void IncDecGuessTime(bool toInc)
     {
         if (toInc) gameTime++;
@@ -338,12 +375,29 @@ public class GameManager : MonoBehaviourPunCallbacks
         }
         AddQuestionData();
         correctAnsIndex = Random.Range(0, 3);
-        answerList[correctAnsIndex] = currentQuestionData[5];
         for (int i = 0; i < 4; i++)
         {
             if (i != correctAnsIndex)
             {
-                answerList[i] = charaList[Random.Range(0, charaList.Count - 1)];
+                if (gameMode == GameMode.character)
+                {
+                    answerList[i] = charaList[Random.Range(0, charaList.Count - 1)];
+                }
+                else if (gameMode == GameMode.anime)
+                {
+                    answerList[i] = animeNameList[Random.Range(0, animeNameList.Count - 1)];
+                }
+            }
+            else
+            {
+                if (gameMode == GameMode.character)
+                {
+                    answerList[correctAnsIndex] = currentQuestionData[5];
+                }
+                else if (gameMode == GameMode.anime)
+                {
+                    answerList[correctAnsIndex] = currentQuestionData[0];
+                }
             }
         }
         photonViewRef.RPC("StartGame", RpcTarget.AllBuffered, currentQuestionData,answerList);
@@ -370,7 +424,16 @@ public class GameManager : MonoBehaviourPunCallbacks
         this.currentQuestionData = currentQuestionData;
         this.answerList = new string[4];
         this.answerList = answerList;
-        StartCoroutine(DownloadImage(currentQuestionData[7]));
+
+        if (gameMode == GameMode.character)
+        {
+            StartCoroutine(DownloadImage(currentQuestionData[7]));
+        }
+        else if (gameMode == GameMode.anime)
+        {
+            StartCoroutine(DownloadImage(currentQuestionData[2]));
+        }
+
         for(int x = 0; x < 4; x++)
         {
             answerButtonTexts[x].text = answerList[x];
@@ -452,6 +515,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         pm.hasBarrier = false;
         pm.hasReverse = false;
         pm.isBoosted = false;
+        slider.color = colors[3];
     }
 
     [PunRPC]
@@ -475,7 +539,16 @@ public class GameManager : MonoBehaviourPunCallbacks
             this.currentQuestionData = currentQuestionData;
             this.answerList = new string[4];
             this.answerList = answerList;
-            StartCoroutine(DownloadImage(currentQuestionData[7]));
+
+            if (gameMode == GameMode.character)
+            {
+                StartCoroutine(DownloadImage(currentQuestionData[7]));
+            }
+            else if (gameMode == GameMode.anime)
+            {
+                StartCoroutine(DownloadImage(currentQuestionData[2]));
+            }
+
             for (int t = 0; t < 4; t++)
             {
                 answerButtons[t].GetComponent<Button>().interactable = true;
@@ -486,6 +559,7 @@ public class GameManager : MonoBehaviourPunCallbacks
             questionLeft.text = currentQuestion + " / " + questions;
             gameState = gameStateType.guessing;
             pm.powerupLimit = 1;
+            slider.color = colors[2];
             selectedIndex = -1;
             phaseText.text = "Guessing Phase";
             currentTime = gameTime;
@@ -533,6 +607,28 @@ public class GameManager : MonoBehaviourPunCallbacks
     public void send5050(string usern)
     {
         pm.use5050(usern,correctAnsIndex);
+    }
+
+    public void ChangeGameModeButton(bool isCharaName)
+    {
+        photonViewRef.RPC("ChangeGameMode", RpcTarget.AllBuffered,isCharaName);
+    }
+
+    [PunRPC]
+    public void ChangeGameMode(bool isCharaName)
+    {
+        if (isCharaName)
+        {
+            gameMode = GameMode.character;
+            gameModeButtons[0].interactable = false;
+            gameModeButtons[1].interactable = true;
+        }
+        else
+        {
+            gameMode = GameMode.anime;
+            gameModeButtons[0].interactable = true;
+            gameModeButtons[1].interactable = false;
+        }
     }
 
 }

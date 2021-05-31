@@ -18,11 +18,13 @@ public class MenuController : MonoBehaviourPunCallbacks
     [SerializeField] private Text info;
 
     [SerializeField] private GameObject startButton;
+    public GameObject soloButton;
+    public Button[] joinCreateButtons;
 
 
     private void Awake()
     {
-        PhotonNetwork.ConnectUsingSettings();
+ 
     }
 
     void Start()
@@ -35,6 +37,8 @@ public class MenuController : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.JoinLobby(TypedLobby.Default);
         info.text = "Connected to the Server";
+        joinCreateButtons[0].interactable = true;
+        joinCreateButtons[1].interactable = true;
     }
 
     public override void OnCreateRoomFailed(short returnCode, string message)
@@ -48,18 +52,32 @@ public class MenuController : MonoBehaviourPunCallbacks
         if(usernameInput.text.Length >= 3)
         {
             startButton.SetActive(true);
+            soloButton.SetActive(true);
         }
         else
         {
             startButton.SetActive(false);
+            soloButton.SetActive(false);
         }
     }
 
-    public void SetUserName()
+    public void SetUserName(bool isOnlineMode)
     {
-        usernameMenu.SetActive(false);
         PhotonNetwork.NickName = usernameInput.text;
+        if (isOnlineMode)
+        {
+            PhotonNetwork.OfflineMode = false;
+            PhotonNetwork.ConnectUsingSettings();
+            usernameMenu.SetActive(false);
+        }
+        else
+        {
+            PhotonNetwork.OfflineMode = true;
+            PhotonNetwork.CreateRoom("Single Player");
+        }
+
     }
+
 
     public void CreateGame()
     {

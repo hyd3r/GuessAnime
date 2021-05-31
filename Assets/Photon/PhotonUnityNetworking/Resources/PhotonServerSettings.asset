@@ -16,9 +16,9 @@ MonoBehaviour:
     AppIdRealtime: 7d6a8e76-eb10-43a5-a18a-0fd17f4c68ee
     AppIdChat: 
     AppIdVoice: 
-    AppVersion: 0.1
+    AppVersion: 1
     UseNameServer: 1
-    FixedRegion: asia
+    FixedRegion: jp
     Server: 
     Port: 0
     ProxyServer: 
