@@ -4,6 +4,7 @@ An anime quiz game with multiple modes, powerups. Mainly designed for multiplaye
 Powerup images is still under development alongside the UI. This version is still using the basic UI that unity provides
 Chat functions are working for rooms
 Still doesn't have matchmaking functions and the same room name/id is needed to enter a room with your friends
+Only made in a few days for a fun few hours with friends so the code needs to be optimized alot in the future.
 
 ## Modes
 ### Character Name
